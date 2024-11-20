@@ -1,0 +1,11 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CATKIN_INSTALL_INTO_PREFIX_ROOT
+
+[0m
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find "/home/dia/ros2_ws/src/my_robot_control/launch":
+  No such file or directory.
+
+[0m

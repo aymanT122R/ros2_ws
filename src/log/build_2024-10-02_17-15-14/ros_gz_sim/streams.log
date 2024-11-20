@@ -1,0 +1,47 @@
+[0.063s] Invoking command in '/home/dia/ros2_ws/src/build/ros_gz_sim': CMAKE_PREFIX_PATH=/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron /usr/bin/cmake /home/dia/ros2_ws/src/ros_gz/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/src/install/ros_gz_sim
+[2.280s] -- The C compiler identification is GNU 11.4.0
+[3.873s] -- The CXX compiler identification is GNU 11.4.0
+[3.901s] -- Detecting C compiler ABI info
+[4.056s] -- Detecting C compiler ABI info - done
+[4.076s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.089s] -- Detecting C compile features
+[4.092s] -- Detecting C compile features - done
+[4.102s] -- Detecting CXX compiler ABI info
+[4.325s] -- Detecting CXX compiler ABI info - done
+[4.351s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.353s] -- Detecting CXX compile features
+[4.355s] -- Detecting CXX compile features - done
+[4.373s] -- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)
+[5.285s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.515s] -- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)
+[5.608s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[5.633s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[5.667s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.706s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.025s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[6.031s] -- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)
+[6.288s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.349s] -- Found FastRTPS: /opt/ros/iron/include  
+[6.447s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.782s] -- Found rclcpp_components: 21.0.7 (/opt/ros/iron/share/rclcpp_components/cmake)
+[6.981s] -- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)
+[7.061s] [31mCMake Error at CMakeLists.txt:18 (find_package):
+[7.061s]   By not providing "Findgz_math_vendor.cmake" in CMAKE_MODULE_PATH this
+[7.062s]   project has asked CMake to find a package configuration file provided by
+[7.062s]   "gz_math_vendor", but CMake did not find one.
+[7.062s] 
+[7.062s]   Could not find a package configuration file provided by "gz_math_vendor"
+[7.062s]   with any of the following names:
+[7.062s] 
+[7.062s]     gz_math_vendorConfig.cmake
+[7.062s]     gz_math_vendor-config.cmake
+[7.063s] 
+[7.063s]   Add the installation prefix of "gz_math_vendor" to CMAKE_PREFIX_PATH or set
+[7.063s]   "gz_math_vendor_DIR" to a directory containing one of the above files.  If
+[7.063s]   "gz_math_vendor" provides a separate development package or SDK, be sure it
+[7.063s]   has been installed.
+[7.063s] 
+[7.063s] [0m
+[7.222s] -- Configuring incomplete, errors occurred!
+[7.222s] See also "/home/dia/ros2_ws/src/build/ros_gz_sim/CMakeFiles/CMakeOutput.log".
+[7.257s] Invoked command in '/home/dia/ros2_ws/src/build/ros_gz_sim' returned '1': CMAKE_PREFIX_PATH=/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron /usr/bin/cmake /home/dia/ros2_ws/src/ros_gz/ros_gz_sim -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/src/install/ros_gz_sim

@@ -1,0 +1,15 @@
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_box_bot_gazebo
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_box_bot_gazebo
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.sh
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.dsv
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.sh
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.dsv
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.bash
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.sh
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.zsh
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.dsv
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/ament_index/resource_index/packages/my_box_bot_gazebo
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig.cmake
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig-version.cmake
+/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.xml

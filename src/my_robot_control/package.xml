@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>my_robot_control</name>
+  <version>0.0.1</version>
+  <description>The my_robot_control package</description>
+  <maintainer email="your-email@example.com">Your Name</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+
+  <!-- Remove any build_type tag, as it's not needed in ROS 2 -->
+</package>
+

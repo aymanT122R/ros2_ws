@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: esp32-motor-control
+Version: 0.0.0
+Summary: ROS 2 package to control motors on an ESP32 robot over Wi-Fi
+Home-page: UNKNOWN
+Maintainer: dia
+Maintainer-email: dia@todo.todo
+License: TODO: License declaration
+Platform: UNKNOWN
+
+UNKNOWN
+

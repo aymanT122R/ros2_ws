@@ -1,0 +1,7 @@
+[1.157s] Invoking command in '/home/dia/ros2_ws/src/result_publisher': AMENT_PREFIX_PATH=/home/dia/ros2_ws/src/install/result_publisher:${AMENT_PREFIX_PATH} PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m unittest -v
+[2.256s] 
+[2.256s] ----------------------------------------------------------------------
+[2.256s] Ran 0 tests in 0.000s
+[2.256s] 
+[2.256s] OK
+[2.259s] Invoked command in '/home/dia/ros2_ws/src/result_publisher' returned '0': AMENT_PREFIX_PATH=/home/dia/ros2_ws/src/install/result_publisher:${AMENT_PREFIX_PATH} PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=/home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -m unittest -v

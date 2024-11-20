@@ -1,0 +1,13 @@
+[31mCMake Error at CMakeLists.txt:153 (find_package):
+  Could not find a configuration file for package "fastcdr" that is
+  compatible with requested version "2".
+
+  The following configuration files were considered but not accepted:
+
+    /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.24
+
+
+[0m
+gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:93: agent/src/xrceagent-stamp/xrceagent-configure] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

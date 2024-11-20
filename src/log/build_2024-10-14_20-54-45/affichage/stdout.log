@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/affichage/affichage.egg-info
+writing ../build/affichage/affichage.egg-info/PKG-INFO
+writing dependency_links to ../build/affichage/affichage.egg-info/dependency_links.txt
+writing entry points to ../build/affichage/affichage.egg-info/entry_points.txt
+writing requirements to ../build/affichage/affichage.egg-info/requires.txt
+writing top-level names to ../build/affichage/affichage.egg-info/top_level.txt
+writing manifest file '../build/affichage/affichage.egg-info/SOURCES.txt'
+reading manifest file '../build/affichage/affichage.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/affichage/affichage.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dia/ros2_ws/src/build/affichage/build
+creating /home/dia/ros2_ws/src/build/affichage/build/lib
+creating /home/dia/ros2_ws/src/build/affichage/build/lib/affichage
+copying affichage/__init__.py -> /home/dia/ros2_ws/src/build/affichage/build/lib/affichage
+copying affichage/esp32_cam_node.py -> /home/dia/ros2_ws/src/build/affichage/build/lib/affichage
+running install
+running install_lib
+creating /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage
+copying /home/dia/ros2_ws/src/build/affichage/build/lib/affichage/__init__.py -> /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage
+copying /home/dia/ros2_ws/src/build/affichage/build/lib/affichage/esp32_cam_node.py -> /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage
+byte-compiling /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage/esp32_cam_node.py to esp32_cam_node.cpython-310.pyc
+running install_data
+creating /home/dia/ros2_ws/src/install/affichage/share/ament_index
+creating /home/dia/ros2_ws/src/install/affichage/share/ament_index/resource_index
+creating /home/dia/ros2_ws/src/install/affichage/share/ament_index/resource_index/packages
+copying resource/affichage -> /home/dia/ros2_ws/src/install/affichage/share/ament_index/resource_index/packages
+copying package.xml -> /home/dia/ros2_ws/src/install/affichage/share/affichage
+running install_egg_info
+Copying ../build/affichage/affichage.egg-info to /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage-0.0.0-py3.10.egg-info
+running install_scripts
+Installing esp32_cam_node script to /home/dia/ros2_ws/src/install/affichage/lib/affichage
+writing list of installed files to '/home/dia/ros2_ws/src/build/affichage/install.log'

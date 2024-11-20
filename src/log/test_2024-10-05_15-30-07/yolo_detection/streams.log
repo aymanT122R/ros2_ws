@@ -1,0 +1,22 @@
+[3.897s] Invoking command in '/home/dia/ros2_ws/src/yolo_detection': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v
+[17.042s] yolo_detection.utils.loggers (unittest.loader._FailedTest) ... ERROR
+[17.043s] 
+[17.043s] ======================================================================
+[17.043s] ERROR: yolo_detection.utils.loggers (unittest.loader._FailedTest)
+[17.043s] ----------------------------------------------------------------------
+[17.043s] ImportError: Failed to import test module: yolo_detection.utils.loggers
+[17.043s] Traceback (most recent call last):
+[17.043s]   File "/usr/lib/python3.10/unittest/loader.py", line 470, in _find_test_path
+[17.044s]     package = self._get_module_from_name(name)
+[17.044s]   File "/usr/lib/python3.10/unittest/loader.py", line 377, in _get_module_from_name
+[17.044s]     __import__(name)
+[17.044s]   File "/home/dia/ros2_ws/src/yolo_detection/yolo_detection/utils/loggers/__init__.py", line 12, in <module>
+[17.044s]     from utils.general import LOGGER, colorstr, cv2
+[17.044s] ModuleNotFoundError: No module named 'utils'
+[17.044s] 
+[17.044s] 
+[17.044s] ----------------------------------------------------------------------
+[17.045s] Ran 1 test in 0.000s
+[17.045s] 
+[17.045s] FAILED (errors=1)
+[17.711s] Invoked command in '/home/dia/ros2_ws/src/yolo_detection' returned '1': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v

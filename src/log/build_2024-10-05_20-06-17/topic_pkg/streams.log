@@ -1,0 +1,30 @@
+[4.552s] Invoking command in '/home/dia/ros2_ws/src/topic_pkg': PYTHONPATH=/home/dia/ros2_ws/src/build/topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/topic_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/topic_pkg build --build-base /home/dia/ros2_ws/src/build/topic_pkg/build install --record /home/dia/ros2_ws/src/build/topic_pkg/install.log --single-version-externally-managed install_data
+[4.942s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.942s]   warnings.warn(msg)
+[5.259s] running egg_info
+[5.310s] writing ../build/topic_pkg/topic_pkg.egg-info/PKG-INFO
+[5.311s] writing dependency_links to ../build/topic_pkg/topic_pkg.egg-info/dependency_links.txt
+[5.312s] writing entry points to ../build/topic_pkg/topic_pkg.egg-info/entry_points.txt
+[5.312s] writing requirements to ../build/topic_pkg/topic_pkg.egg-info/requires.txt
+[5.312s] writing top-level names to ../build/topic_pkg/topic_pkg.egg-info/top_level.txt
+[5.717s] reading manifest file '../build/topic_pkg/topic_pkg.egg-info/SOURCES.txt'
+[5.720s] writing manifest file '../build/topic_pkg/topic_pkg.egg-info/SOURCES.txt'
+[5.722s] running build
+[5.722s] running build_py
+[5.722s] copying topic_pkg/publisher_demo.py -> /home/dia/ros2_ws/src/build/topic_pkg/build/lib/topic_pkg
+[5.722s] copying topic_pkg/__init__.py -> /home/dia/ros2_ws/src/build/topic_pkg/build/lib/topic_pkg
+[5.722s] copying topic_pkg/subscriber_demo.py -> /home/dia/ros2_ws/src/build/topic_pkg/build/lib/topic_pkg
+[5.723s] running install
+[5.733s] running install_lib
+[5.788s] running install_data
+[5.789s] copying resource/topic_pkg -> /home/dia/ros2_ws/src/install/topic_pkg/share/ament_index/resource_index/packages
+[5.789s] copying package.xml -> /home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg
+[5.790s] copying launch/single_node_launch.py -> /home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/launch
+[5.790s] running install_egg_info
+[5.846s] removing '/home/dia/ros2_ws/src/install/topic_pkg/lib/python3.10/site-packages/topic_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.846s] Copying ../build/topic_pkg/topic_pkg.egg-info to /home/dia/ros2_ws/src/install/topic_pkg/lib/python3.10/site-packages/topic_pkg-0.0.0-py3.10.egg-info
+[5.851s] running install_scripts
+[5.975s] Installing publisher_demo script to /home/dia/ros2_ws/src/install/topic_pkg/lib/topic_pkg
+[5.976s] Installing subscriber_demo script to /home/dia/ros2_ws/src/install/topic_pkg/lib/topic_pkg
+[5.977s] writing list of installed files to '/home/dia/ros2_ws/src/build/topic_pkg/install.log'
+[6.081s] Invoked command in '/home/dia/ros2_ws/src/topic_pkg' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/topic_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/topic_pkg build --build-base /home/dia/ros2_ws/src/build/topic_pkg/build install --record /home/dia/ros2_ws/src/build/topic_pkg/install.log --single-version-externally-managed install_data

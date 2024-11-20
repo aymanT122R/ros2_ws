@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/cam_yolo/cam_yolo.egg-info/PKG-INFO
+writing dependency_links to ../build/cam_yolo/cam_yolo.egg-info/dependency_links.txt
+writing entry points to ../build/cam_yolo/cam_yolo.egg-info/entry_points.txt
+writing requirements to ../build/cam_yolo/cam_yolo.egg-info/requires.txt
+writing top-level names to ../build/cam_yolo/cam_yolo.egg-info/top_level.txt
+reading manifest file '../build/cam_yolo/cam_yolo.egg-info/SOURCES.txt'
+writing manifest file '../build/cam_yolo/cam_yolo.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cam_yolo/__init__.py -> /home/dia/ros2_ws/src/build/cam_yolo/build/lib/cam_yolo
+copying cam_yolo/cam_yolo_node.py -> /home/dia/ros2_ws/src/build/cam_yolo/build/lib/cam_yolo
+running install
+running install_lib
+running install_data
+copying resource/cam_yolo -> /home/dia/ros2_ws/src/install/cam_yolo/share/ament_index/resource_index/packages
+copying package.xml -> /home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo
+running install_egg_info
+removing '/home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages/cam_yolo-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/cam_yolo/cam_yolo.egg-info to /home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages/cam_yolo-0.0.0-py3.10.egg-info
+running install_scripts
+Installing cam_yolo script to /home/dia/ros2_ws/src/install/cam_yolo/lib/cam_yolo
+writing list of installed files to '/home/dia/ros2_ws/src/build/cam_yolo/install.log'

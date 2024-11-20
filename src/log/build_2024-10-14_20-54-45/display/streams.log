@@ -1,0 +1,39 @@
+[4.262s] Invoking command in '/home/dia/ros2_ws/src/display': PYTHONPATH=/home/dia/ros2_ws/src/build/display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/display build --build-base /home/dia/ros2_ws/src/build/display/build install --record /home/dia/ros2_ws/src/build/display/install.log --single-version-externally-managed install_data
+[4.837s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.838s]   warnings.warn(msg)
+[5.001s] running egg_info
+[5.002s] creating ../build/display/display.egg-info
+[5.054s] writing ../build/display/display.egg-info/PKG-INFO
+[5.055s] writing dependency_links to ../build/display/display.egg-info/dependency_links.txt
+[5.056s] writing entry points to ../build/display/display.egg-info/entry_points.txt
+[5.056s] writing requirements to ../build/display/display.egg-info/requires.txt
+[5.057s] writing top-level names to ../build/display/display.egg-info/top_level.txt
+[5.369s] writing manifest file '../build/display/display.egg-info/SOURCES.txt'
+[5.479s] reading manifest file '../build/display/display.egg-info/SOURCES.txt'
+[5.480s] adding license file 'LICENSE'
+[5.482s] writing manifest file '../build/display/display.egg-info/SOURCES.txt'
+[5.482s] running build
+[5.482s] running build_py
+[5.483s] creating /home/dia/ros2_ws/src/build/display/build
+[5.483s] creating /home/dia/ros2_ws/src/build/display/build/lib
+[5.483s] creating /home/dia/ros2_ws/src/build/display/build/lib/display
+[5.484s] copying display/__init__.py -> /home/dia/ros2_ws/src/build/display/build/lib/display
+[5.484s] copying display/display_node.py -> /home/dia/ros2_ws/src/build/display/build/lib/display
+[5.484s] running install
+[5.495s] running install_lib
+[5.551s] creating /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display
+[5.551s] copying /home/dia/ros2_ws/src/build/display/build/lib/display/__init__.py -> /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display
+[5.552s] copying /home/dia/ros2_ws/src/build/display/build/lib/display/display_node.py -> /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display
+[5.552s] byte-compiling /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display/__init__.py to __init__.cpython-310.pyc
+[5.552s] byte-compiling /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display/display_node.py to display_node.cpython-310.pyc
+[5.552s] running install_data
+[5.553s] creating /home/dia/ros2_ws/src/install/display/share/ament_index
+[5.553s] creating /home/dia/ros2_ws/src/install/display/share/ament_index/resource_index
+[5.553s] creating /home/dia/ros2_ws/src/install/display/share/ament_index/resource_index/packages
+[5.554s] copying resource/display -> /home/dia/ros2_ws/src/install/display/share/ament_index/resource_index/packages
+[5.554s] copying package.xml -> /home/dia/ros2_ws/src/install/display/share/display
+[5.555s] running install_egg_info
+[5.613s] Copying ../build/display/display.egg-info to /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display-0.0.0-py3.10.egg-info
+[5.615s] running install_scripts
+[5.747s] Installing display_node script to /home/dia/ros2_ws/src/install/display/lib/display
+[5.748s] writing list of installed files to '/home/dia/ros2_ws/src/build/display/install.log'

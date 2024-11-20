@@ -1,0 +1,28 @@
+{
+  "package_name": "ros_gz_interfaces",
+  "non_idl_tuples": [
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/Altimeter.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/Contact.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/Contacts.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/Dataframe.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/Entity.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/EntityFactory.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/EntityWrench.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/Float32Array.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/GuiCamera.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/JointWrench.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/Light.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/MaterialColor.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/ParamVec.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/SensorNoise.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/StringVec.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/TrackVisual.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/VideoRecord.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/WorldControl.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:msg/WorldReset.msg",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:srv/ControlWorld.srv",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:srv/DeleteEntity.srv",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:srv/SetEntityPose.srv",
+    "/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces:srv/SpawnEntity.srv"
+  ]
+}

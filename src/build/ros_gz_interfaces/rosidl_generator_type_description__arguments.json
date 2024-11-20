@@ -1,0 +1,36 @@
+{
+  "package_name": "ros_gz_interfaces",
+  "output_dir": "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_generator_type_description/ros_gz_interfaces",
+  "idl_tuples": [
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/Altimeter.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/Contact.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/Contacts.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/Dataframe.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/Entity.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/EntityFactory.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/EntityWrench.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/Float32Array.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/GuiCamera.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/JointWrench.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/Light.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/MaterialColor.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/ParamVec.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/SensorNoise.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/StringVec.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/TrackVisual.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/VideoRecord.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/WorldControl.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:msg/WorldReset.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:srv/ControlWorld.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:srv/DeleteEntity.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:srv/SetEntityPose.idl",
+    "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_adapter/ros_gz_interfaces:srv/SpawnEntity.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/iron/share/builtin_interfaces",
+    "std_msgs:/opt/ros/iron/share/std_msgs",
+    "geometry_msgs:/opt/ros/iron/share/geometry_msgs",
+    "rcl_interfaces:/opt/ros/iron/share/rcl_interfaces",
+    "service_msgs:/opt/ros/iron/share/service_msgs"
+  ]
+}

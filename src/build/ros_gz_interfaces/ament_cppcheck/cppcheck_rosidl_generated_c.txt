@@ -1,0 +1,8 @@
+-- run_test.py: invoking following command in '/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces':
+ - /opt/ros/iron/bin/ament_cppcheck --xunit-file /home/dia/ros2_ws/src/build/ros_gz_interfaces/test_results/ros_gz_interfaces/cppcheck_rosidl_generated_c.xunit.xml /home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_generator_c/ros_gz_interfaces
+
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/home/dia/ros2_ws/src/build/ros_gz_interfaces/test_results/ros_gz_interfaces/cppcheck_rosidl_generated_c.xunit.xml'

@@ -1,0 +1,24 @@
+[1.418s] Invoking command in '/home/dia/ros2_ws/src/esp32_motor_control': PYTHONPATH=/home/dia/ros2_ws/build/esp32_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/install/esp32_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/esp32_motor_control build --build-base /home/dia/ros2_ws/build/esp32_motor_control/build install --record /home/dia/ros2_ws/build/esp32_motor_control/install.log --single-version-externally-managed install_data
+[1.954s] running egg_info
+[1.955s] writing ../../build/esp32_motor_control/esp32_motor_control.egg-info/PKG-INFO
+[1.956s] writing dependency_links to ../../build/esp32_motor_control/esp32_motor_control.egg-info/dependency_links.txt
+[1.956s] writing entry points to ../../build/esp32_motor_control/esp32_motor_control.egg-info/entry_points.txt
+[1.956s] writing requirements to ../../build/esp32_motor_control/esp32_motor_control.egg-info/requires.txt
+[1.956s] writing top-level names to ../../build/esp32_motor_control/esp32_motor_control.egg-info/top_level.txt
+[1.960s] reading manifest file '../../build/esp32_motor_control/esp32_motor_control.egg-info/SOURCES.txt'
+[1.962s] writing manifest file '../../build/esp32_motor_control/esp32_motor_control.egg-info/SOURCES.txt'
+[1.962s] running build
+[1.962s] running build_py
+[1.962s] copying esp32_motor_control/motor_control_node.py -> /home/dia/ros2_ws/build/esp32_motor_control/build/lib/esp32_motor_control
+[1.963s] running install
+[1.964s] running install_lib
+[1.965s] copying /home/dia/ros2_ws/build/esp32_motor_control/build/lib/esp32_motor_control/motor_control_node.py -> /home/dia/ros2_ws/install/esp32_motor_control/lib/python3.10/site-packages/esp32_motor_control
+[1.967s] byte-compiling /home/dia/ros2_ws/install/esp32_motor_control/lib/python3.10/site-packages/esp32_motor_control/motor_control_node.py to motor_control_node.cpython-310.pyc
+[1.968s] running install_data
+[1.968s] running install_egg_info
+[1.972s] removing '/home/dia/ros2_ws/install/esp32_motor_control/lib/python3.10/site-packages/esp32_motor_control-0.0.0-py3.10.egg-info' (and everything under it)
+[1.972s] Copying ../../build/esp32_motor_control/esp32_motor_control.egg-info to /home/dia/ros2_ws/install/esp32_motor_control/lib/python3.10/site-packages/esp32_motor_control-0.0.0-py3.10.egg-info
+[1.974s] running install_scripts
+[2.016s] Installing motor_control_node script to /home/dia/ros2_ws/install/esp32_motor_control/lib/esp32_motor_control
+[2.017s] writing list of installed files to '/home/dia/ros2_ws/build/esp32_motor_control/install.log'
+[2.089s] Invoked command in '/home/dia/ros2_ws/src/esp32_motor_control' returned '0': PYTHONPATH=/home/dia/ros2_ws/build/esp32_motor_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/install/esp32_motor_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/esp32_motor_control build --build-base /home/dia/ros2_ws/build/esp32_motor_control/build install --record /home/dia/ros2_ws/build/esp32_motor_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,38 @@
+[5.563s] Invoking command in '/home/dia/ros2_ws/src/esp32_cam_stream': PYTHONPATH=/home/dia/ros2_ws/src/build/esp32_cam_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/esp32_cam_stream build --build-base /home/dia/ros2_ws/src/build/esp32_cam_stream/build install --record /home/dia/ros2_ws/src/build/esp32_cam_stream/install.log --single-version-externally-managed install_data
+[5.987s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.988s]   warnings.warn(msg)
+[6.342s] running egg_info
+[6.342s] creating ../build/esp32_cam_stream/esp32_cam_stream.egg-info
+[6.400s] writing ../build/esp32_cam_stream/esp32_cam_stream.egg-info/PKG-INFO
+[6.401s] writing dependency_links to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/dependency_links.txt
+[6.401s] writing entry points to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/entry_points.txt
+[6.402s] writing requirements to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/requires.txt
+[6.402s] writing top-level names to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/top_level.txt
+[6.750s] writing manifest file '../build/esp32_cam_stream/esp32_cam_stream.egg-info/SOURCES.txt'
+[6.903s] reading manifest file '../build/esp32_cam_stream/esp32_cam_stream.egg-info/SOURCES.txt'
+[6.918s] writing manifest file '../build/esp32_cam_stream/esp32_cam_stream.egg-info/SOURCES.txt'
+[6.918s] running build
+[6.918s] running build_py
+[6.919s] creating /home/dia/ros2_ws/src/build/esp32_cam_stream/build
+[6.919s] creating /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib
+[6.919s] creating /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream
+[6.919s] copying esp32_cam_stream/__init__.py -> /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream
+[6.920s] copying esp32_cam_stream/esp32_cam_node.py -> /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream
+[6.925s] running install
+[6.937s] running install_lib
+[6.999s] creating /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream
+[7.000s] copying /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream/__init__.py -> /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream
+[7.002s] copying /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream/esp32_cam_node.py -> /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream
+[7.009s] byte-compiling /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream/__init__.py to __init__.cpython-310.pyc
+[7.011s] byte-compiling /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream/esp32_cam_node.py to esp32_cam_node.cpython-310.pyc
+[7.016s] running install_data
+[7.201s] creating /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index
+[7.201s] creating /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index/resource_index
+[7.201s] creating /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index/resource_index/packages
+[7.202s] copying resource/esp32_cam_stream -> /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index/resource_index/packages
+[7.202s] copying package.xml -> /home/dia/ros2_ws/src/install/esp32_cam_stream/share/esp32_cam_stream
+[7.202s] running install_egg_info
+[7.261s] Copying ../build/esp32_cam_stream/esp32_cam_stream.egg-info to /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream-0.0.0-py3.10.egg-info
+[7.263s] running install_scripts
+[7.389s] Installing esp32_cam_node script to /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/esp32_cam_stream
+[7.390s] writing list of installed files to '/home/dia/ros2_ws/src/build/esp32_cam_stream/install.log'

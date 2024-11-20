@@ -1,0 +1,32 @@
+[2.144s] Invoking command in '/home/dia/ros2_ws/src/build/structureURDF': PYTHONPATH=/home/dia/ros2_ws/src/build/structureURDF/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dia/ros2_ws/src/build/structureURDF/build --no-deps symlink_data --force
+[2.519s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.520s]   warnings.warn(msg)
+[3.021s] running develop
+[3.025s] /home/dia/.local/lib/python3.10/site-packages/setuptools/command/develop.py:41: EasyInstallDeprecationWarning: easy_install command is deprecated.
+[3.025s] !!
+[3.025s] 
+[3.025s]         ********************************************************************************
+[3.025s]         Please avoid running ``setup.py`` and ``easy_install``.
+[3.025s]         Instead, use pypa/build, pypa/installer or other
+[3.025s]         standards-based tools.
+[3.026s] 
+[3.026s]         See https://github.com/pypa/setuptools/issues/917 for details.
+[3.026s]         ********************************************************************************
+[3.026s] 
+[3.026s] !!
+[3.026s]   easy_install.initialize_options(self)
+[3.662s] running egg_info
+[3.710s] writing structureURDF.egg-info/PKG-INFO
+[3.711s] writing dependency_links to structureURDF.egg-info/dependency_links.txt
+[3.712s] writing requirements to structureURDF.egg-info/requires.txt
+[3.712s] writing top-level names to structureURDF.egg-info/top_level.txt
+[3.845s] reading manifest file 'structureURDF.egg-info/SOURCES.txt'
+[3.847s] writing manifest file 'structureURDF.egg-info/SOURCES.txt'
+[3.983s] running build_ext
+[3.984s] Creating /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF.egg-link (link to .)
+[3.985s] 
+[3.986s] Installed /home/dia/ros2_ws/src/build/structureURDF
+[3.986s] running symlink_data
+[3.986s] symbolically linking /home/dia/ros2_ws/src/build/structureURDF/resource/structureURDF -> /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index/packages
+[3.987s] symbolically linking /home/dia/ros2_ws/src/build/structureURDF/package.xml -> /home/dia/ros2_ws/src/install/structureURDF/share/structureURDF
+[4.110s] Invoked command in '/home/dia/ros2_ws/src/build/structureURDF' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/structureURDF/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dia/ros2_ws/src/build/structureURDF/build --no-deps symlink_data --force

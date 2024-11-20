@@ -1,0 +1,609 @@
+[0.000000] (-) TimerEvent: {}
+[0.000603] (hello_moveit) JobQueued: {'identifier': 'hello_moveit', 'dependencies': OrderedDict()}
+[0.001125] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict()}
+[0.001381] (servo_control_node) JobQueued: {'identifier': 'servo_control_node', 'dependencies': OrderedDict()}
+[0.001627] (simulation) JobQueued: {'identifier': 'simulation', 'dependencies': OrderedDict()}
+[0.001717] (hello_moveit) JobStarted: {'identifier': 'hello_moveit'}
+[0.012543] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[0.018871] (servo_control_node) JobStarted: {'identifier': 'servo_control_node'}
+[0.033428] (simulation) JobStarted: {'identifier': 'simulation'}
+[0.043789] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'cmake'}
+[0.044200] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '/home/dia/ros2_ws/src/hello_moveit', '-DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/hello_moveit'], 'cwd': '/home/dia/ros2_ws/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '2728'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/2701,unix/dia-desktop:/tmp/.ICE-unix/2701'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2204696e_1d3f_4666_ad02_d5ea27e3fe75'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.048682] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[0.049033] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/home/dia/ros2_ws/src/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/micro_ros_agent'], 'cwd': '/home/dia/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '2728'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/2701,unix/dia-desktop:/tmp/.ICE-unix/2701'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2204696e_1d3f_4666_ad02_d5ea27e3fe75'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099504] (-) TimerEvent: {}
+[0.200143] (-) TimerEvent: {}
+[0.300818] (-) TimerEvent: {}
+[0.401458] (-) TimerEvent: {}
+[0.504094] (-) TimerEvent: {}
+[0.581404] (hello_moveit) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.582688] (hello_moveit) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.584578] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.585007] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.586213] (hello_moveit) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.586696] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.590156] (hello_moveit) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.591112] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.591725] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.592912] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.593100] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.593266] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.593424] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.593573] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.593718] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.593861] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.594010] (simulation) JobProgress: {'identifier': 'simulation', 'progress': 'cmake'}
+[0.594095] (simulation) Command: {'cmd': ['/usr/bin/cmake', '/home/dia/ros2_ws/src/simulation', '-DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/simulation'], 'cwd': '/home/dia/ros2_ws/build/simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '2728'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/2701,unix/dia-desktop:/tmp/.ICE-unix/2701'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2204696e_1d3f_4666_ad02_d5ea27e3fe75'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/build/simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.604191] (-) TimerEvent: {}
+[0.689240] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.696837] (simulation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.704187] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.704537] (-) TimerEvent: {}
+[0.706450] (hello_moveit) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.707383] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.708872] (hello_moveit) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.724826] (hello_moveit) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.727277] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.728120] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.729256] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.795414] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.803066] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[0.804689] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/dia/ros2_ws/build/micro_ros_agent\n'}
+[0.804944] (-) TimerEvent: {}
+[0.814809] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[0.817183] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[0.819509] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dia/ros2_ws/build/micro_ros_agent', '--', '-j6', '-l6'], 'cwd': '/home/dia/ros2_ws/build/micro_ros_agent', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '2728'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/2701,unix/dia-desktop:/tmp/.ICE-unix/2701'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2204696e_1d3f_4666_ad02_d5ea27e3fe75'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/build/micro_ros_agent'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.822844] (simulation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.835510] (simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.905158] (-) TimerEvent: {}
+[0.920680] (micro_ros_agent) StdoutLine: {'line': b"[  6%] \x1b[34m\x1b[1mCreating directories for 'xrceagent'\x1b[0m\n"}
+[0.974084] (simulation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.987729] (simulation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.988385] (simulation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.989179] (simulation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.996725] (simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.005278] (-) TimerEvent: {}
+[1.076752] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mPerforming download step (git clone) for 'xrceagent'\x1b[0m\n"}
+[1.105456] (-) TimerEvent: {}
+[1.136282] (micro_ros_agent) StderrLine: {'line': b"Cloning into 'xrceagent'...\n"}
+[1.151768] (simulation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.164738] (simulation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.165263] (simulation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.166047] (simulation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.171131] (simulation) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.205585] (-) TimerEvent: {}
+[1.306467] (-) TimerEvent: {}
+[1.407093] (-) TimerEvent: {}
+[1.507754] (-) TimerEvent: {}
+[1.593194] (hello_moveit) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.607881] (-) TimerEvent: {}
+[1.708492] (-) TimerEvent: {}
+[1.809128] (-) TimerEvent: {}
+[1.855814] (hello_moveit) StdoutLine: {'line': b'-- Found moveit_ros_planning_interface: 2.5.5 (/opt/ros/humble/share/moveit_ros_planning_interface/cmake)\n'}
+[1.909271] (-) TimerEvent: {}
+[2.009906] (-) TimerEvent: {}
+[2.017269] (simulation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.110055] (-) TimerEvent: {}
+[2.210790] (-) TimerEvent: {}
+[2.242211] (servo_control_node) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/servo_control_node', 'build', '--build-base', '/home/dia/ros2_ws/build/servo_control_node/build', 'install', '--record', '/home/dia/ros2_ws/build/servo_control_node/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dia/ros2_ws/src/servo_control_node', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dia', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/dia', 'OLDPWD': '/home/dia/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ar_TN.UTF-8', 'SYSTEMD_EXEC_PID': '2728', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dia', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421124269098', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': 'workspaces/isaac_ros-dev/', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dia-desktop:@/tmp/.ICE-unix/2701,unix/dia-desktop:/tmp/.ICE-unix/2701', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2204696e_1d3f_4666_ad02_d5ea27e3fe75', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.168', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/dia/ros2_ws/build/servo_control_node', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dia/ros2_ws/build/servo_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[2.292495] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread \n'}
+[2.310937] (-) TimerEvent: {}
+[2.381950] (simulation) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.388075] (simulation) StdoutLine: {'line': b'-- Generating done\n'}
+[2.389659] (simulation) StdoutLine: {'line': b'-- Build files have been written to: /home/dia/ros2_ws/build/simulation\n'}
+[2.399406] (simulation) CommandEnded: {'returncode': 0}
+[2.400772] (simulation) JobProgress: {'identifier': 'simulation', 'progress': 'build'}
+[2.401314] (simulation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dia/ros2_ws/build/simulation', '--', '-j6', '-l6'], 'cwd': '/home/dia/ros2_ws/build/simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '2728'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/2701,unix/dia-desktop:/tmp/.ICE-unix/2701'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2204696e_1d3f_4666_ad02_d5ea27e3fe75'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/build/simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.411048] (-) TimerEvent: {}
+[2.438744] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.454983] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.487237] (simulation) CommandEnded: {'returncode': 0}
+[2.490805] (hello_moveit) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.511180] (-) TimerEvent: {}
+[2.528491] (simulation) JobProgress: {'identifier': 'simulation', 'progress': 'install'}
+[2.533316] (hello_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.552663] (simulation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dia/ros2_ws/build/simulation'], 'cwd': '/home/dia/ros2_ws/build/simulation', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '2728'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/2701,unix/dia-desktop:/tmp/.ICE-unix/2701'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2204696e_1d3f_4666_ad02_d5ea27e3fe75'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/build/simulation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.570693] (simulation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.571192] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/ament_index/resource_index/package_run_dependencies/simulation\n'}
+[2.571650] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/ament_index/resource_index/parent_prefix_path/simulation\n'}
+[2.572109] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/environment/ament_prefix_path.sh\n'}
+[2.572433] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/environment/ament_prefix_path.dsv\n'}
+[2.572749] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/environment/path.sh\n'}
+[2.573072] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/environment/path.dsv\n'}
+[2.573354] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/local_setup.bash\n'}
+[2.573648] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/local_setup.sh\n'}
+[2.573960] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/local_setup.zsh\n'}
+[2.574256] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/local_setup.dsv\n'}
+[2.574541] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/package.dsv\n'}
+[2.574940] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/ament_index/resource_index/packages/simulation\n'}
+[2.575310] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/cmake/simulationConfig.cmake\n'}
+[2.575591] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/cmake/simulationConfig-version.cmake\n'}
+[2.575863] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/package.xml\n'}
+[2.576136] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch\n'}
+[2.576344] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/move_group.launch.py\n'}
+[2.577446] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/rsp.launch.py\n'}
+[2.578760] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/spawn_controllers.launch.py\n'}
+[2.580052] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/warehouse_db.launch.py\n'}
+[2.581309] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/gazebo.launch.py\n'}
+[2.582224] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/static_virtual_joint_tfs.launch.py\n'}
+[2.583196] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/demo.launch.py\n'}
+[2.584055] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/rviz.launch.py\n'}
+[2.584861] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/display.launch.py\n'}
+[2.585733] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/setup_assistant.launch.py\n'}
+[2.586725] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/moveit_rviz.launch.py\n'}
+[2.587606] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config\n'}
+[2.587928] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/structure.ros2_control.xacro\n'}
+[2.588974] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/moveit_controllers.yaml\n'}
+[2.590143] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/controllers.yaml\n'}
+[2.591211] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/moveit.rviz\n'}
+[2.592233] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/joint_limits.yaml\n'}
+[2.593161] (hello_moveit) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.593414] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/kinematics.yaml\n'}
+[2.594800] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/pilz_cartesian_limits.yaml\n'}
+[2.595613] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/structure.srdf\n'}
+[2.596377] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/sensors_3d.yaml\n'}
+[2.597203] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/structure.urdf.xacro\n'}
+[2.598302] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/ros2_controllers.yaml\n'}
+[2.599516] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/initial_positions.yaml\n'}
+[2.600610] (simulation) StdoutLine: {'line': b'-- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/.setup_assistant\n'}
+[2.605564] (simulation) CommandEnded: {'returncode': 0}
+[2.611229] (-) TimerEvent: {}
+[2.621551] (servo_control_node) StderrLine: {'line': b"/home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.623327] (servo_control_node) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.701563] (simulation) JobEnded: {'identifier': 'simulation', 'rc': 0}
+[2.711449] (-) TimerEvent: {}
+[2.811953] (-) TimerEvent: {}
+[2.912560] (-) TimerEvent: {}
+[2.923435] (servo_control_node) StdoutLine: {'line': b'running egg_info\n'}
+[2.924363] (servo_control_node) StdoutLine: {'line': b'creating ../../build/servo_control_node/servo_control_node.egg-info\n'}
+[2.972667] (servo_control_node) StdoutLine: {'line': b'writing ../../build/servo_control_node/servo_control_node.egg-info/PKG-INFO\n'}
+[2.973721] (servo_control_node) StdoutLine: {'line': b'writing dependency_links to ../../build/servo_control_node/servo_control_node.egg-info/dependency_links.txt\n'}
+[2.974110] (servo_control_node) StdoutLine: {'line': b'writing entry points to ../../build/servo_control_node/servo_control_node.egg-info/entry_points.txt\n'}
+[2.974399] (servo_control_node) StdoutLine: {'line': b'writing requirements to ../../build/servo_control_node/servo_control_node.egg-info/requires.txt\n'}
+[2.974612] (servo_control_node) StdoutLine: {'line': b'writing top-level names to ../../build/servo_control_node/servo_control_node.egg-info/top_level.txt\n'}
+[3.012684] (-) TimerEvent: {}
+[3.113266] (-) TimerEvent: {}
+[3.213849] (-) TimerEvent: {}
+[3.227132] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread \n'}
+[3.264167] (servo_control_node) StdoutLine: {'line': b"writing manifest file '../../build/servo_control_node/servo_control_node.egg-info/SOURCES.txt'\n"}
+[3.275667] (hello_moveit) StdoutLine: {'line': b'-- Found parameter_traits: 0.3.8 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[3.313996] (-) TimerEvent: {}
+[3.366811] (servo_control_node) StdoutLine: {'line': b"reading manifest file '../../build/servo_control_node/servo_control_node.egg-info/SOURCES.txt'\n"}
+[3.367305] (servo_control_node) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.369235] (servo_control_node) StdoutLine: {'line': b"writing manifest file '../../build/servo_control_node/servo_control_node.egg-info/SOURCES.txt'\n"}
+[3.369579] (servo_control_node) StdoutLine: {'line': b'running build\n'}
+[3.369808] (servo_control_node) StdoutLine: {'line': b'running build_py\n'}
+[3.370077] (servo_control_node) StdoutLine: {'line': b'creating /home/dia/ros2_ws/build/servo_control_node/build\n'}
+[3.370288] (servo_control_node) StdoutLine: {'line': b'creating /home/dia/ros2_ws/build/servo_control_node/build/lib\n'}
+[3.370488] (servo_control_node) StdoutLine: {'line': b'creating /home/dia/ros2_ws/build/servo_control_node/build/lib/servo_control_node\n'}
+[3.370670] (servo_control_node) StdoutLine: {'line': b'copying servo_control_node/__init__.py -> /home/dia/ros2_ws/build/servo_control_node/build/lib/servo_control_node\n'}
+[3.370938] (servo_control_node) StdoutLine: {'line': b'copying servo_control_node/servo_control.py -> /home/dia/ros2_ws/build/servo_control_node/build/lib/servo_control_node\n'}
+[3.371819] (servo_control_node) StdoutLine: {'line': b'running install\n'}
+[3.381486] (servo_control_node) StdoutLine: {'line': b'running install_lib\n'}
+[3.414131] (-) TimerEvent: {}
+[3.430743] (hello_moveit) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.431291] (servo_control_node) StdoutLine: {'line': b'creating /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node\n'}
+[3.431629] (servo_control_node) StdoutLine: {'line': b'copying /home/dia/ros2_ws/build/servo_control_node/build/lib/servo_control_node/__init__.py -> /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node\n'}
+[3.431904] (servo_control_node) StdoutLine: {'line': b'copying /home/dia/ros2_ws/build/servo_control_node/build/lib/servo_control_node/servo_control.py -> /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node\n'}
+[3.432752] (servo_control_node) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node/__init__.py to __init__.cpython-310.pyc\n'}
+[3.433390] (servo_control_node) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node/servo_control.py to servo_control.cpython-310.pyc\n'}
+[3.434134] (servo_control_node) StdoutLine: {'line': b'running install_data\n'}
+[3.434529] (servo_control_node) StdoutLine: {'line': b'creating /home/dia/ros2_ws/install/servo_control_node/share/ament_index\n'}
+[3.434815] (servo_control_node) StdoutLine: {'line': b'creating /home/dia/ros2_ws/install/servo_control_node/share/ament_index/resource_index\n'}
+[3.435069] (servo_control_node) StdoutLine: {'line': b'creating /home/dia/ros2_ws/install/servo_control_node/share/ament_index/resource_index/packages\n'}
+[3.435256] (servo_control_node) StdoutLine: {'line': b'copying resource/servo_control_node -> /home/dia/ros2_ws/install/servo_control_node/share/ament_index/resource_index/packages\n'}
+[3.435522] (servo_control_node) StdoutLine: {'line': b'copying package.xml -> /home/dia/ros2_ws/install/servo_control_node/share/servo_control_node\n'}
+[3.435744] (servo_control_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.443056] (hello_moveit) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.488733] (servo_control_node) StdoutLine: {'line': b'Copying ../../build/servo_control_node/servo_control_node.egg-info to /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node-0.0.0-py3.10.egg-info\n'}
+[3.514271] (-) TimerEvent: {}
+[3.615327] (-) TimerEvent: {}
+[3.689623] (servo_control_node) StdoutLine: {'line': b'running install_scripts\n'}
+[3.715475] (-) TimerEvent: {}
+[3.809126] (servo_control_node) StdoutLine: {'line': b'Installing servo_control script to /home/dia/ros2_ws/install/servo_control_node/lib/servo_control_node\n'}
+[3.809931] (servo_control_node) StdoutLine: {'line': b"writing list of installed files to '/home/dia/ros2_ws/build/servo_control_node/install.log'\n"}
+[3.815581] (-) TimerEvent: {}
+[3.890134] (servo_control_node) CommandEnded: {'returncode': 0}
+[3.916026] (servo_control_node) JobEnded: {'identifier': 'servo_control_node', 'rc': 0}
+[3.917404] (-) TimerEvent: {}
+[4.017955] (-) TimerEvent: {}
+[4.118820] (-) TimerEvent: {}
+[4.160206] (hello_moveit) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.219031] (-) TimerEvent: {}
+[4.266904] (hello_moveit) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.319177] (-) TimerEvent: {}
+[4.360373] (hello_moveit) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.383496] (hello_moveit) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.419273] (-) TimerEvent: {}
+[4.519902] (-) TimerEvent: {}
+[4.544870] (hello_moveit) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.10 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[4.620209] (-) TimerEvent: {}
+[4.636624] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[4.720296] (-) TimerEvent: {}
+[4.821235] (-) TimerEvent: {}
+[4.905597] (hello_moveit) StdoutLine: {'line': b'-- library: /usr/lib/aarch64-linux-gnu/libcurl.so\n'}
+[4.921312] (-) TimerEvent: {}
+[5.022192] (-) TimerEvent: {}
+[5.030955] (hello_moveit) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[5.032010] (hello_moveit) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[5.122476] (-) TimerEvent: {}
+[5.223629] (-) TimerEvent: {}
+[5.324920] (-) TimerEvent: {}
+[5.426088] (-) TimerEvent: {}
+[5.595363] (-) TimerEvent: {}
+[5.672444] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono \n'}
+[5.695433] (-) TimerEvent: {}
+[5.774211] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options \n'}
+[5.795578] (-) TimerEvent: {}
+[5.837079] (hello_moveit) StdoutLine: {'line': b'-- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread \n'}
+[5.895740] (-) TimerEvent: {}
+[5.929278] (hello_moveit) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.995923] (-) TimerEvent: {}
+[6.096823] (-) TimerEvent: {}
+[6.162792] (hello_moveit) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[6.164453] (hello_moveit) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dia/ros2_ws/src/hello_moveit/include>\n'}
+[6.164819] (hello_moveit) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[6.167271] (hello_moveit) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.171956] (hello_moveit) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[6.172340] (hello_moveit) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[6.175617] (hello_moveit) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.186755] (hello_moveit) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.196883] (-) TimerEvent: {}
+[6.297774] (-) TimerEvent: {}
+[6.399172] (-) TimerEvent: {}
+[6.499994] (-) TimerEvent: {}
+[6.601107] (-) TimerEvent: {}
+[6.702192] (-) TimerEvent: {}
+[6.803123] (-) TimerEvent: {}
+[6.903823] (-) TimerEvent: {}
+[7.004226] (-) TimerEvent: {}
+[7.104736] (-) TimerEvent: {}
+[7.205317] (-) TimerEvent: {}
+[7.305966] (-) TimerEvent: {}
+[7.324720] (micro_ros_agent) StderrLine: {'line': b'HEAD is now at 7362281 Release v2.4.3\n'}
+[7.398786] (hello_moveit) StdoutLine: {'line': b'-- Generating done\n'}
+[7.405954] (hello_moveit) StdoutLine: {'line': b'-- Build files have been written to: /home/dia/ros2_ws/build/hello_moveit\n'}
+[7.406387] (-) TimerEvent: {}
+[7.456123] (micro_ros_agent) StdoutLine: {'line': b"[ 18%] \x1b[34m\x1b[1mPerforming update step for 'xrceagent'\x1b[0m\n"}
+[7.471425] (hello_moveit) CommandEnded: {'returncode': 0}
+[7.473513] (hello_moveit) JobProgress: {'identifier': 'hello_moveit', 'progress': 'build'}
+[7.474390] (hello_moveit) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dia/ros2_ws/build/hello_moveit', '--', '-j6', '-l6'], 'cwd': '/home/dia/ros2_ws/build/hello_moveit', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '2728'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/2701,unix/dia-desktop:/tmp/.ICE-unix/2701'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2204696e_1d3f_4666_ad02_d5ea27e3fe75'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.168'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/build/hello_moveit'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.506610] (-) TimerEvent: {}
+[7.516965] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo patch step for 'xrceagent'\x1b[0m\n"}
+[7.574153] (micro_ros_agent) StdoutLine: {'line': b"[ 31%] \x1b[34m\x1b[1mPerforming configure step for 'xrceagent'\x1b[0m\n"}
+[7.594087] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/dia/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake\n'}
+[7.597819] (hello_moveit) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/hello_moveit.dir/src/hello_moveit.cpp.o\x1b[0m\n'}
+[7.606720] (-) TimerEvent: {}
+[7.707655] (-) TimerEvent: {}
+[7.708667] (micro_ros_agent) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[7.727633] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[7.807802] (-) TimerEvent: {}
+[7.898268] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[7.907896] (-) TimerEvent: {}
+[7.924154] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[7.925139] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[7.926471] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[8.008232] (-) TimerEvent: {}
+[8.058141] (micro_ros_agent) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[8.080040] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[8.108531] (-) TimerEvent: {}
+[8.209584] (-) TimerEvent: {}
+[8.277575] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[8.303807] (micro_ros_agent) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[8.304776] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[8.306446] (micro_ros_agent) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[8.309617] (-) TimerEvent: {}
+[8.321609] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.409945] (-) TimerEvent: {}
+[8.511062] (-) TimerEvent: {}
+[8.513300] (micro_ros_agent) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.514197] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.611325] (-) TimerEvent: {}
+[8.712640] (-) TimerEvent: {}
+[8.713930] (micro_ros_agent) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[8.717519] (micro_ros_agent) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[8.754382] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.760612] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[8.762821] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /home/dia/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build\n'}
+[8.812846] (-) TimerEvent: {}
+[8.825428] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mPerforming build step for 'xrceagent'\x1b[0m\n"}
+[8.913129] (-) TimerEvent: {}
+[8.927762] (micro_ros_agent) StdoutLine: {'line': b"[ 12%] \x1b[34m\x1b[1mCreating directories for 'uagent'\x1b[0m\n"}
+[9.013431] (-) TimerEvent: {}
+[9.114616] (-) TimerEvent: {}
+[9.115837] (micro_ros_agent) StdoutLine: {'line': b"[ 25%] \x1b[34m\x1b[1mNo download step for 'uagent'\x1b[0m\n"}
+[9.179777] (micro_ros_agent) StdoutLine: {'line': b"[ 37%] \x1b[34m\x1b[1mNo update step for 'uagent'\x1b[0m\n"}
+[9.214870] (-) TimerEvent: {}
+[9.246338] (micro_ros_agent) StdoutLine: {'line': b"[ 50%] \x1b[34m\x1b[1mNo patch step for 'uagent'\x1b[0m\n"}
+[9.315045] (micro_ros_agent) StdoutLine: {'line': b"[ 62%] \x1b[34m\x1b[1mPerforming configure step for 'uagent'\x1b[0m\n"}
+[9.315914] (-) TimerEvent: {}
+[9.339726] (micro_ros_agent) StdoutLine: {'line': b'loading initial cache file /home/dia/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake\n'}
+[9.432144] (-) TimerEvent: {}
+[9.444633] (micro_ros_agent) StdoutLine: {'line': b"-- Setting build type to 'Release' as none was specified.\n"}
+[9.475054] (micro_ros_agent) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:153 (find_package):\n'}
+[9.475692] (micro_ros_agent) StderrLine: {'line': b'  Could not find a configuration file for package "fastcdr" that is\n'}
+[9.475852] (micro_ros_agent) StderrLine: {'line': b'  compatible with requested version "2".\n'}
+[9.475987] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[9.476112] (micro_ros_agent) StderrLine: {'line': b'  The following configuration files were considered but not accepted:\n'}
+[9.476234] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[9.476350] (micro_ros_agent) StderrLine: {'line': b'    /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.24\n'}
+[9.476465] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[9.476576] (micro_ros_agent) StderrLine: {'line': b'\n'}
+[9.476780] (micro_ros_agent) StderrLine: {'line': b'\x1b[0m\n'}
+[9.476990] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[9.477234] (micro_ros_agent) StdoutLine: {'line': b'See also "/home/dia/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/CMakeOutput.log".\n'}
+[9.480548] (micro_ros_agent) StderrLine: {'line': b'gmake[5]: *** [CMakeFiles/uagent.dir/build.make:93: uagent-prefix/src/uagent-stamp/uagent-configure] Error 1\n'}
+[9.481163] (micro_ros_agent) StderrLine: {'line': b'gmake[4]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Error 2\n'}
+[9.481753] (micro_ros_agent) StderrLine: {'line': b'gmake[3]: *** [Makefile:91: all] Error 2\n'}
+[9.482525] (micro_ros_agent) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86: agent/src/xrceagent-stamp/xrceagent-build] Error 2\n'}
+[9.483191] (micro_ros_agent) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2\n'}
+[9.483975] (micro_ros_agent) StderrLine: {'line': b'gmake: *** [Makefile:91: all] Error 2\n'}
+[9.491292] (micro_ros_agent) CommandEnded: {'returncode': 2}
+[9.533843] (-) TimerEvent: {}
+[9.543910] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 2}
+[9.634158] (-) TimerEvent: {}
+[9.735281] (-) TimerEvent: {}
+[9.836284] (-) TimerEvent: {}
+[9.936886] (-) TimerEvent: {}
+[10.037354] (-) TimerEvent: {}
+[10.137794] (-) TimerEvent: {}
+[10.238306] (-) TimerEvent: {}
+[10.339091] (-) TimerEvent: {}
+[10.439950] (-) TimerEvent: {}
+[10.540522] (-) TimerEvent: {}
+[10.640976] (-) TimerEvent: {}
+[10.741440] (-) TimerEvent: {}
+[10.841873] (-) TimerEvent: {}
+[10.942315] (-) TimerEvent: {}
+[11.042725] (-) TimerEvent: {}
+[11.143304] (-) TimerEvent: {}
+[11.244267] (-) TimerEvent: {}
+[11.345071] (-) TimerEvent: {}
+[11.445705] (-) TimerEvent: {}
+[11.546416] (-) TimerEvent: {}
+[11.647227] (-) TimerEvent: {}
+[11.747962] (-) TimerEvent: {}
+[11.848845] (-) TimerEvent: {}
+[11.949692] (-) TimerEvent: {}
+[12.050783] (-) TimerEvent: {}
+[12.152081] (-) TimerEvent: {}
+[12.253025] (-) TimerEvent: {}
+[12.353882] (-) TimerEvent: {}
+[12.455001] (-) TimerEvent: {}
+[12.556279] (-) TimerEvent: {}
+[12.657444] (-) TimerEvent: {}
+[12.758518] (-) TimerEvent: {}
+[12.859733] (-) TimerEvent: {}
+[12.960940] (-) TimerEvent: {}
+[13.063601] (-) TimerEvent: {}
+[13.164509] (-) TimerEvent: {}
+[13.265345] (-) TimerEvent: {}
+[13.366159] (-) TimerEvent: {}
+[13.467012] (-) TimerEvent: {}
+[13.567941] (-) TimerEvent: {}
+[13.668771] (-) TimerEvent: {}
+[13.769612] (-) TimerEvent: {}
+[13.870418] (-) TimerEvent: {}
+[13.971394] (-) TimerEvent: {}
+[14.072230] (-) TimerEvent: {}
+[14.173048] (-) TimerEvent: {}
+[14.273794] (-) TimerEvent: {}
+[14.374513] (-) TimerEvent: {}
+[14.475233] (-) TimerEvent: {}
+[14.576050] (-) TimerEvent: {}
+[14.676813] (-) TimerEvent: {}
+[14.777611] (-) TimerEvent: {}
+[14.878424] (-) TimerEvent: {}
+[14.979523] (-) TimerEvent: {}
+[15.080531] (-) TimerEvent: {}
+[15.181241] (-) TimerEvent: {}
+[15.282064] (-) TimerEvent: {}
+[15.382920] (-) TimerEvent: {}
+[15.483802] (-) TimerEvent: {}
+[15.584620] (-) TimerEvent: {}
+[15.685339] (-) TimerEvent: {}
+[15.786051] (-) TimerEvent: {}
+[15.886684] (-) TimerEvent: {}
+[15.987316] (-) TimerEvent: {}
+[16.087981] (-) TimerEvent: {}
+[16.188683] (-) TimerEvent: {}
+[16.289410] (-) TimerEvent: {}
+[16.390153] (-) TimerEvent: {}
+[16.490879] (-) TimerEvent: {}
+[16.591617] (-) TimerEvent: {}
+[16.692328] (-) TimerEvent: {}
+[16.793019] (-) TimerEvent: {}
+[16.893725] (-) TimerEvent: {}
+[16.994401] (-) TimerEvent: {}
+[17.095090] (-) TimerEvent: {}
+[17.195825] (-) TimerEvent: {}
+[17.296503] (-) TimerEvent: {}
+[17.397169] (-) TimerEvent: {}
+[17.497834] (-) TimerEvent: {}
+[17.598500] (-) TimerEvent: {}
+[17.699177] (-) TimerEvent: {}
+[17.799855] (-) TimerEvent: {}
+[17.900515] (-) TimerEvent: {}
+[18.001160] (-) TimerEvent: {}
+[18.101849] (-) TimerEvent: {}
+[18.202556] (-) TimerEvent: {}
+[18.303247] (-) TimerEvent: {}
+[18.404164] (-) TimerEvent: {}
+[18.504883] (-) TimerEvent: {}
+[18.605594] (-) TimerEvent: {}
+[18.706651] (-) TimerEvent: {}
+[18.807409] (-) TimerEvent: {}
+[18.908105] (-) TimerEvent: {}
+[19.008805] (-) TimerEvent: {}
+[19.109520] (-) TimerEvent: {}
+[19.210195] (-) TimerEvent: {}
+[19.310861] (-) TimerEvent: {}
+[19.411528] (-) TimerEvent: {}
+[19.512194] (-) TimerEvent: {}
+[19.612858] (-) TimerEvent: {}
+[19.713502] (-) TimerEvent: {}
+[19.814141] (-) TimerEvent: {}
+[19.914781] (-) TimerEvent: {}
+[20.015491] (-) TimerEvent: {}
+[20.116188] (-) TimerEvent: {}
+[20.217316] (-) TimerEvent: {}
+[20.318159] (-) TimerEvent: {}
+[20.418988] (-) TimerEvent: {}
+[20.519913] (-) TimerEvent: {}
+[20.620748] (-) TimerEvent: {}
+[20.721544] (-) TimerEvent: {}
+[20.822330] (-) TimerEvent: {}
+[20.923142] (-) TimerEvent: {}
+[21.024005] (-) TimerEvent: {}
+[21.124833] (-) TimerEvent: {}
+[21.225682] (-) TimerEvent: {}
+[21.326493] (-) TimerEvent: {}
+[21.427316] (-) TimerEvent: {}
+[21.528162] (-) TimerEvent: {}
+[21.628979] (-) TimerEvent: {}
+[21.729787] (-) TimerEvent: {}
+[21.830555] (-) TimerEvent: {}
+[21.931395] (-) TimerEvent: {}
+[22.032240] (-) TimerEvent: {}
+[22.133047] (-) TimerEvent: {}
+[22.233848] (-) TimerEvent: {}
+[22.334662] (-) TimerEvent: {}
+[22.435537] (-) TimerEvent: {}
+[22.536362] (-) TimerEvent: {}
+[22.637213] (-) TimerEvent: {}
+[22.738048] (-) TimerEvent: {}
+[22.838848] (-) TimerEvent: {}
+[22.939718] (-) TimerEvent: {}
+[23.040560] (-) TimerEvent: {}
+[23.141386] (-) TimerEvent: {}
+[23.242217] (-) TimerEvent: {}
+[23.343057] (-) TimerEvent: {}
+[23.443945] (-) TimerEvent: {}
+[23.544783] (-) TimerEvent: {}
+[23.645622] (-) TimerEvent: {}
+[23.746432] (-) TimerEvent: {}
+[23.847271] (-) TimerEvent: {}
+[23.948177] (-) TimerEvent: {}
+[24.049019] (-) TimerEvent: {}
+[24.149885] (-) TimerEvent: {}
+[24.250683] (-) TimerEvent: {}
+[24.351538] (-) TimerEvent: {}
+[24.452362] (-) TimerEvent: {}
+[24.553182] (-) TimerEvent: {}
+[24.653971] (-) TimerEvent: {}
+[24.754666] (-) TimerEvent: {}
+[24.855388] (-) TimerEvent: {}
+[24.956112] (-) TimerEvent: {}
+[25.056751] (-) TimerEvent: {}
+[25.157411] (-) TimerEvent: {}
+[25.258172] (-) TimerEvent: {}
+[25.358967] (-) TimerEvent: {}
+[25.459757] (-) TimerEvent: {}
+[25.560513] (-) TimerEvent: {}
+[25.661223] (-) TimerEvent: {}
+[25.761862] (-) TimerEvent: {}
+[25.862429] (-) TimerEvent: {}
+[25.962906] (-) TimerEvent: {}
+[26.063458] (-) TimerEvent: {}
+[26.164120] (-) TimerEvent: {}
+[26.264728] (-) TimerEvent: {}
+[26.365481] (-) TimerEvent: {}
+[26.466190] (-) TimerEvent: {}
+[26.566804] (-) TimerEvent: {}
+[26.667482] (-) TimerEvent: {}
+[26.768083] (-) TimerEvent: {}
+[26.868684] (-) TimerEvent: {}
+[26.969240] (-) TimerEvent: {}
+[27.069757] (-) TimerEvent: {}
+[27.170297] (-) TimerEvent: {}
+[27.270954] (-) TimerEvent: {}
+[27.371817] (-) TimerEvent: {}
+[27.472585] (-) TimerEvent: {}
+[27.573239] (-) TimerEvent: {}
+[27.673954] (-) TimerEvent: {}
+[27.774678] (-) TimerEvent: {}
+[27.875288] (-) TimerEvent: {}
+[27.976047] (-) TimerEvent: {}
+[28.076678] (-) TimerEvent: {}
+[28.177432] (-) TimerEvent: {}
+[28.278179] (-) TimerEvent: {}
+[28.378906] (-) TimerEvent: {}
+[28.479650] (-) TimerEvent: {}
+[28.580421] (-) TimerEvent: {}
+[28.681223] (-) TimerEvent: {}
+[28.782198] (-) TimerEvent: {}
+[28.882938] (-) TimerEvent: {}
+[28.983630] (-) TimerEvent: {}
+[29.084268] (-) TimerEvent: {}
+[29.185082] (-) TimerEvent: {}
+[29.285980] (-) TimerEvent: {}
+[29.386832] (-) TimerEvent: {}
+[29.487680] (-) TimerEvent: {}
+[29.588269] (-) TimerEvent: {}
+[29.688979] (-) TimerEvent: {}
+[29.789683] (-) TimerEvent: {}
+[29.890212] (-) TimerEvent: {}
+[29.990794] (-) TimerEvent: {}
+[30.091546] (-) TimerEvent: {}
+[30.192266] (-) TimerEvent: {}
+[30.293194] (-) TimerEvent: {}
+[30.483328] (-) TimerEvent: {}
+[30.584174] (-) TimerEvent: {}
+[30.684795] (-) TimerEvent: {}
+[30.727741] (hello_moveit) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hello_moveit\x1b[0m\n'}
+[30.785004] (-) TimerEvent: {}
+[30.885861] (-) TimerEvent: {}
+[30.986672] (-) TimerEvent: {}
+[31.087622] (-) TimerEvent: {}
+[31.188416] (-) TimerEvent: {}
+[31.289138] (-) TimerEvent: {}
+[31.389952] (-) TimerEvent: {}
+[31.490706] (-) TimerEvent: {}
+[31.591315] (-) TimerEvent: {}
+[31.692163] (-) TimerEvent: {}
+[31.792851] (-) TimerEvent: {}
+[31.893457] (-) TimerEvent: {}
+[31.993960] (-) TimerEvent: {}
+[32.094488] (-) TimerEvent: {}
+[32.195156] (-) TimerEvent: {}
+[32.296001] (-) TimerEvent: {}
+[32.396807] (-) TimerEvent: {}
+[32.497401] (-) TimerEvent: {}
+[32.598026] (-) TimerEvent: {}
+[32.698709] (-) TimerEvent: {}
+[32.799504] (-) TimerEvent: {}
+[32.900371] (-) TimerEvent: {}
+[33.001088] (-) TimerEvent: {}
+[33.101755] (-) TimerEvent: {}
+[33.202623] (-) TimerEvent: {}
+[33.303638] (-) TimerEvent: {}
+[33.404639] (-) TimerEvent: {}
+[33.505844] (-) TimerEvent: {}
+[33.606935] (-) TimerEvent: {}
+[33.708067] (-) TimerEvent: {}
+[33.808893] (-) TimerEvent: {}
+[33.909713] (-) TimerEvent: {}
+[34.010715] (-) TimerEvent: {}
+[34.111531] (-) TimerEvent: {}
+[34.212455] (-) TimerEvent: {}
+[34.313341] (-) TimerEvent: {}
+[34.414272] (-) TimerEvent: {}
+[34.515202] (-) TimerEvent: {}
+[34.616282] (-) TimerEvent: {}
+[34.717311] (-) TimerEvent: {}
+[34.818324] (-) TimerEvent: {}
+[34.919399] (-) TimerEvent: {}
+[35.020515] (-) TimerEvent: {}
+[35.121622] (-) TimerEvent: {}
+[35.222538] (-) TimerEvent: {}
+[35.323477] (-) TimerEvent: {}
+[35.424550] (-) TimerEvent: {}
+[35.525581] (-) TimerEvent: {}
+[35.626440] (-) TimerEvent: {}
+[35.727494] (-) TimerEvent: {}
+[35.828420] (-) TimerEvent: {}
+[35.929099] (-) TimerEvent: {}
+[36.021169] (hello_moveit) StdoutLine: {'line': b'[100%] Built target hello_moveit\n'}
+[36.029271] (-) TimerEvent: {}
+[36.054666] (hello_moveit) JobEnded: {'identifier': 'hello_moveit', 'rc': 'SIGINT'}
+[36.067495] (-) EventReactorShutdown: {}

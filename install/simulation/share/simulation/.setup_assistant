@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: simulation
+    relative_path: urdf/structure.urdf
+  srdf:
+    relative_path: config/structure.srdf
+  package_settings:
+    author_name: AYMAN TOUNSI
+    author_email: ayman.tounsi12@gmail.com
+    generated_timestamp: 1729534455
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity

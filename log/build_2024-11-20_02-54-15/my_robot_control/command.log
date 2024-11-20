@@ -1,0 +1,2 @@
+Invoking command in '/home/dia/ros2_ws/build/my_robot_control': /usr/bin/cmake /home/dia/ros2_ws/src/my_robot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/my_robot_control
+Invoked command in '/home/dia/ros2_ws/build/my_robot_control' returned '1': /usr/bin/cmake /home/dia/ros2_ws/src/my_robot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/my_robot_control

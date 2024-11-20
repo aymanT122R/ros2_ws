@@ -1,0 +1,42 @@
+[5.608s] Invoking command in '/home/dia/ros2_ws/src/service_pkg': PYTHONPATH=/home/dia/ros2_ws/src/build/service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/service_pkg build --build-base /home/dia/ros2_ws/src/build/service_pkg/build install --record /home/dia/ros2_ws/src/build/service_pkg/install.log --single-version-externally-managed install_data
+[7.224s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[7.225s]   warnings.warn(msg)
+[7.225s] running egg_info
+[7.225s] creating ../build/service_pkg/service_pkg.egg-info
+[7.226s] writing ../build/service_pkg/service_pkg.egg-info/PKG-INFO
+[7.226s] writing dependency_links to ../build/service_pkg/service_pkg.egg-info/dependency_links.txt
+[7.226s] writing entry points to ../build/service_pkg/service_pkg.egg-info/entry_points.txt
+[7.226s] writing requirements to ../build/service_pkg/service_pkg.egg-info/requires.txt
+[7.226s] writing top-level names to ../build/service_pkg/service_pkg.egg-info/top_level.txt
+[7.226s] writing manifest file '../build/service_pkg/service_pkg.egg-info/SOURCES.txt'
+[7.226s] reading manifest file '../build/service_pkg/service_pkg.egg-info/SOURCES.txt'
+[7.227s] writing manifest file '../build/service_pkg/service_pkg.egg-info/SOURCES.txt'
+[7.227s] running build
+[7.227s] running build_py
+[7.227s] creating /home/dia/ros2_ws/src/build/service_pkg/build
+[7.227s] creating /home/dia/ros2_ws/src/build/service_pkg/build/lib
+[7.227s] creating /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg
+[7.227s] copying service_pkg/__init__.py -> /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg
+[7.227s] copying service_pkg/server_demo.py -> /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg
+[7.327s] copying service_pkg/client_demo.py -> /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg
+[7.329s] running install
+[7.342s] running install_lib
+[7.408s] creating /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg
+[7.408s] copying /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg/__init__.py -> /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg
+[7.409s] copying /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg/server_demo.py -> /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg
+[7.409s] copying /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg/client_demo.py -> /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg
+[7.410s] byte-compiling /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg/__init__.py to __init__.cpython-310.pyc
+[7.410s] byte-compiling /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg/server_demo.py to server_demo.cpython-310.pyc
+[7.411s] byte-compiling /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg/client_demo.py to client_demo.cpython-310.pyc
+[7.413s] running install_data
+[7.413s] creating /home/dia/ros2_ws/src/install/service_pkg/share/ament_index
+[7.413s] creating /home/dia/ros2_ws/src/install/service_pkg/share/ament_index/resource_index
+[7.414s] creating /home/dia/ros2_ws/src/install/service_pkg/share/ament_index/resource_index/packages
+[7.414s] copying resource/service_pkg -> /home/dia/ros2_ws/src/install/service_pkg/share/ament_index/resource_index/packages
+[7.414s] copying package.xml -> /home/dia/ros2_ws/src/install/service_pkg/share/service_pkg
+[7.414s] running install_egg_info
+[7.469s] Copying ../build/service_pkg/service_pkg.egg-info to /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg-0.0.0-py3.10.egg-info
+[7.471s] running install_scripts
+[7.592s] Installing client_demo script to /home/dia/ros2_ws/src/install/service_pkg/lib/service_pkg
+[7.592s] Installing server_demo script to /home/dia/ros2_ws/src/install/service_pkg/lib/service_pkg
+[7.593s] writing list of installed files to '/home/dia/ros2_ws/src/build/service_pkg/install.log'

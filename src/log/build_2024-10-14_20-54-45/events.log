@@ -1,0 +1,932 @@
+[0.000000] (-) TimerEvent: {}
+[0.000387] (affichage) JobQueued: {'identifier': 'affichage', 'dependencies': OrderedDict()}
+[0.000684] (cam_yolo) JobQueued: {'identifier': 'cam_yolo', 'dependencies': OrderedDict()}
+[0.001444] (display) JobQueued: {'identifier': 'display', 'dependencies': OrderedDict()}
+[0.001703] (esp32_cam_stream) JobQueued: {'identifier': 'esp32_cam_stream', 'dependencies': OrderedDict()}
+[0.001952] (my_box_bot_gazebo) JobQueued: {'identifier': 'my_box_bot_gazebo', 'dependencies': OrderedDict()}
+[0.002045] (ros_gz_interfaces) JobQueued: {'identifier': 'ros_gz_interfaces', 'dependencies': OrderedDict()}
+[0.002203] (ros_gz_sim) JobQueued: {'identifier': 'ros_gz_sim', 'dependencies': OrderedDict()}
+[0.002281] (service_pkg) JobQueued: {'identifier': 'service_pkg', 'dependencies': OrderedDict()}
+[0.002322] (servo_control_node) JobQueued: {'identifier': 'servo_control_node', 'dependencies': OrderedDict()}
+[0.002378] (simulation) JobQueued: {'identifier': 'simulation', 'dependencies': OrderedDict()}
+[0.002432] (topic_pkg) JobQueued: {'identifier': 'topic_pkg', 'dependencies': OrderedDict()}
+[0.002491] (ros_gz_bridge) JobQueued: {'identifier': 'ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/dia/ros2_ws/src/install/ros_gz_interfaces')])}
+[0.002883] (ros_gz_image) JobQueued: {'identifier': 'ros_gz_image', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/dia/ros2_ws/src/install/ros_gz_interfaces'), ('ros_gz_bridge', '/home/dia/ros2_ws/src/install/ros_gz_bridge')])}
+[0.002965] (test_ros_gz_bridge) JobQueued: {'identifier': 'test_ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/dia/ros2_ws/src/install/ros_gz_interfaces'), ('ros_gz_bridge', '/home/dia/ros2_ws/src/install/ros_gz_bridge')])}
+[0.003112] (ros_gz_sim_demos) JobQueued: {'identifier': 'ros_gz_sim_demos', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/dia/ros2_ws/src/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/dia/ros2_ws/src/install/ros_gz_sim'), ('ros_gz_bridge', '/home/dia/ros2_ws/src/install/ros_gz_bridge'), ('ros_gz_image', '/home/dia/ros2_ws/src/install/ros_gz_image')])}
+[0.003190] (ros_gz) JobQueued: {'identifier': 'ros_gz', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/dia/ros2_ws/src/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/dia/ros2_ws/src/install/ros_gz_sim'), ('ros_gz_bridge', '/home/dia/ros2_ws/src/install/ros_gz_bridge'), ('ros_gz_image', '/home/dia/ros2_ws/src/install/ros_gz_image'), ('ros_gz_sim_demos', '/home/dia/ros2_ws/src/install/ros_gz_sim_demos')])}
+[0.003252] (ros_gz_interfaces) JobStarted: {'identifier': 'ros_gz_interfaces'}
+[0.016074] (ros_gz_sim) JobStarted: {'identifier': 'ros_gz_sim'}
+[0.025428] (affichage) JobStarted: {'identifier': 'affichage'}
+[0.038433] (cam_yolo) JobStarted: {'identifier': 'cam_yolo'}
+[0.052664] (display) JobStarted: {'identifier': 'display'}
+[0.065588] (esp32_cam_stream) JobStarted: {'identifier': 'esp32_cam_stream'}
+[0.111743] (-) TimerEvent: {}
+[0.115562] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'cmake'}
+[0.117057] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'build'}
+[0.118494] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dia/ros2_ws/src/build/ros_gz_interfaces', '--', '-j6', '-l6'], 'cwd': '/home/dia/ros2_ws/src/build/ros_gz_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '3941'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/3914,unix/dia-desktop:/tmp/.ICE-unix/3914'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48cdd128_a3a3_450c_afb1_bc3f04ddce8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/simulation:/home/dia/ros2_ws/install/servo_control_node:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/my_box_bot_gazebo:/home/dia/ros2_ws/install/esp32_cam_stream:/home/dia/ros2_ws/install/display:/home/dia/ros2_ws/install/cam_yolo:/home/dia/ros2_ws/install/affichage:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/src/build/ros_gz_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/simulation/lib/python3.10/site-packages:/home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/home/dia/ros2_ws/install/display/lib/python3.10/site-packages:/home/dia/ros2_ws/install/cam_yolo/lib/python3.10/site-packages:/home/dia/ros2_ws/install/affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/dia/ros2_ws/install/my_box_bot_gazebo:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/simulation:/home/dia/ros2_ws/install/servo_control_node:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/home/dia/ros2_ws/install/display:/home/dia/ros2_ws/install/cam_yolo:/home/dia/ros2_ws/install/affichage:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.125276] (ros_gz_sim) JobProgress: {'identifier': 'ros_gz_sim', 'progress': 'cmake'}
+[0.127544] (ros_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/dia/ros2_ws/src/ros_gz/ros_gz_sim', '-DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/src/install/ros_gz_sim'], 'cwd': '/home/dia/ros2_ws/src/build/ros_gz_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('SYSTEMD_EXEC_PID', '3941'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dia/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/3914,unix/dia-desktop:/tmp/.ICE-unix/3914'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/48cdd128_a3a3_450c_afb1_bc3f04ddce8e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.102'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/simulation:/home/dia/ros2_ws/install/servo_control_node:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/my_box_bot_gazebo:/home/dia/ros2_ws/install/esp32_cam_stream:/home/dia/ros2_ws/install/display:/home/dia/ros2_ws/install/cam_yolo:/home/dia/ros2_ws/install/affichage:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/src/build/ros_gz_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/simulation/lib/python3.10/site-packages:/home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/home/dia/ros2_ws/install/display/lib/python3.10/site-packages:/home/dia/ros2_ws/install/cam_yolo/lib/python3.10/site-packages:/home/dia/ros2_ws/install/affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('CMAKE_PREFIX_PATH', '/home/dia/ros2_ws/install/my_box_bot_gazebo:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/simulation:/home/dia/ros2_ws/install/servo_control_node:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/home/dia/ros2_ws/install/display:/home/dia/ros2_ws/install/cam_yolo:/home/dia/ros2_ws/install/affichage:/opt/ros/humble'), ('JETSON_P_NUMBER', 'p3767-0005')]), 'shell': False}
+[0.211915] (-) TimerEvent: {}
+[0.312735] (-) TimerEvent: {}
+[0.413512] (-) TimerEvent: {}
+[0.514231] (-) TimerEvent: {}
+[0.615070] (-) TimerEvent: {}
+[0.716592] (-) TimerEvent: {}
+[0.817392] (-) TimerEvent: {}
+[0.918076] (-) TimerEvent: {}
+[1.018786] (-) TimerEvent: {}
+[1.119496] (-) TimerEvent: {}
+[1.220179] (-) TimerEvent: {}
+[1.320871] (-) TimerEvent: {}
+[1.421537] (-) TimerEvent: {}
+[1.522194] (-) TimerEvent: {}
+[1.622814] (-) TimerEvent: {}
+[1.723608] (-) TimerEvent: {}
+[1.824555] (-) TimerEvent: {}
+[1.925348] (-) TimerEvent: {}
+[2.026252] (-) TimerEvent: {}
+[2.126924] (-) TimerEvent: {}
+[2.227580] (-) TimerEvent: {}
+[2.328224] (-) TimerEvent: {}
+[2.428900] (-) TimerEvent: {}
+[2.446051] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.447576] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.447928] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[2.448450] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.448916] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.449186] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.449823] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.450400] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.451742] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.2.1 (/opt/ros/humble/share/rcl_interfaces/cmake)\n'}
+[2.452028] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.452184] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.452682] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.453344] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.453597] (ros_gz_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.453789] (ros_gz_sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[2.454490] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[2.454639] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.454981] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[2.455216] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.456104] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.456267] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.456412] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.456547] (ros_gz_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.527884] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.528998] (-) TimerEvent: {}
+[2.629577] (-) TimerEvent: {}
+[2.730254] (-) TimerEvent: {}
+[2.831142] (-) TimerEvent: {}
+[2.931790] (-) TimerEvent: {}
+[3.032464] (-) TimerEvent: {}
+[3.133168] (-) TimerEvent: {}
+[3.234180] (-) TimerEvent: {}
+[3.335166] (-) TimerEvent: {}
+[3.379609] (ros_gz_sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.381323] (ros_gz_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.435320] (-) TimerEvent: {}
+[3.536009] (-) TimerEvent: {}
+[3.636688] (-) TimerEvent: {}
+[3.737357] (-) TimerEvent: {}
+[3.838043] (-) TimerEvent: {}
+[3.938714] (-) TimerEvent: {}
+[4.039389] (-) TimerEvent: {}
+[4.086116] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[4.139555] (-) TimerEvent: {}
+[4.174554] (cam_yolo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/cam_yolo', 'build', '--build-base', '/home/dia/ros2_ws/src/build/cam_yolo/build', 'install', '--record', '/home/dia/ros2_ws/src/build/cam_yolo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dia/ros2_ws/src/cam_yolo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dia', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/dia', 'OLDPWD': '/home/dia/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ar_TN.UTF-8', 'SYSTEMD_EXEC_PID': '3941', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dia/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dia', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421124269098', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': 'workspaces/isaac_ros-dev/', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dia-desktop:@/tmp/.ICE-unix/3914,unix/dia-desktop:/tmp/.ICE-unix/3914', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48cdd128_a3a3_450c_afb1_bc3f04ddce8e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/simulation:/home/dia/ros2_ws/install/servo_control_node:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/my_box_bot_gazebo:/home/dia/ros2_ws/install/esp32_cam_stream:/home/dia/ros2_ws/install/display:/home/dia/ros2_ws/install/cam_yolo:/home/dia/ros2_ws/install/affichage:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/dia/ros2_ws/src/build/cam_yolo', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dia/ros2_ws/src/build/cam_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages:/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/simulation/lib/python3.10/site-packages:/home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/home/dia/ros2_ws/install/display/lib/python3.10/site-packages:/home/dia/ros2_ws/install/cam_yolo/lib/python3.10/site-packages:/home/dia/ros2_ws/install/affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/dia/ros2_ws/install/my_box_bot_gazebo', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[4.239155] (esp32_cam_stream) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/esp32_cam_stream', 'build', '--build-base', '/home/dia/ros2_ws/src/build/esp32_cam_stream/build', 'install', '--record', '/home/dia/ros2_ws/src/build/esp32_cam_stream/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dia/ros2_ws/src/esp32_cam_stream', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dia', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/dia', 'OLDPWD': '/home/dia/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ar_TN.UTF-8', 'SYSTEMD_EXEC_PID': '3941', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dia/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dia', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421124269098', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': 'workspaces/isaac_ros-dev/', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dia-desktop:@/tmp/.ICE-unix/3914,unix/dia-desktop:/tmp/.ICE-unix/3914', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48cdd128_a3a3_450c_afb1_bc3f04ddce8e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/simulation:/home/dia/ros2_ws/install/servo_control_node:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/my_box_bot_gazebo:/home/dia/ros2_ws/install/esp32_cam_stream:/home/dia/ros2_ws/install/display:/home/dia/ros2_ws/install/cam_yolo:/home/dia/ros2_ws/install/affichage:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/dia/ros2_ws/src/build/esp32_cam_stream', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dia/ros2_ws/src/build/esp32_cam_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages:/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/simulation/lib/python3.10/site-packages:/home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/home/dia/ros2_ws/install/display/lib/python3.10/site-packages:/home/dia/ros2_ws/install/cam_yolo/lib/python3.10/site-packages:/home/dia/ros2_ws/install/affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/dia/ros2_ws/install/my_box_bot_gazebo', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[4.244600] (-) TimerEvent: {}
+[4.280141] (affichage) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/affichage', 'build', '--build-base', '/home/dia/ros2_ws/src/build/affichage/build', 'install', '--record', '/home/dia/ros2_ws/src/build/affichage/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dia/ros2_ws/src/affichage', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dia', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/dia', 'OLDPWD': '/home/dia/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ar_TN.UTF-8', 'SYSTEMD_EXEC_PID': '3941', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dia/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dia', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421124269098', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': 'workspaces/isaac_ros-dev/', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dia-desktop:@/tmp/.ICE-unix/3914,unix/dia-desktop:/tmp/.ICE-unix/3914', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48cdd128_a3a3_450c_afb1_bc3f04ddce8e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/simulation:/home/dia/ros2_ws/install/servo_control_node:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/my_box_bot_gazebo:/home/dia/ros2_ws/install/esp32_cam_stream:/home/dia/ros2_ws/install/display:/home/dia/ros2_ws/install/cam_yolo:/home/dia/ros2_ws/install/affichage:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/dia/ros2_ws/src/build/affichage', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dia/ros2_ws/src/build/affichage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages:/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/simulation/lib/python3.10/site-packages:/home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/home/dia/ros2_ws/install/display/lib/python3.10/site-packages:/home/dia/ros2_ws/install/cam_yolo/lib/python3.10/site-packages:/home/dia/ros2_ws/install/affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/dia/ros2_ws/install/my_box_bot_gazebo', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[4.311308] (display) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/display', 'build', '--build-base', '/home/dia/ros2_ws/src/build/display/build', 'install', '--record', '/home/dia/ros2_ws/src/build/display/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dia/ros2_ws/src/display', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dia', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/dia', 'OLDPWD': '/home/dia/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ar_TN.UTF-8', 'SYSTEMD_EXEC_PID': '3941', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/humble/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dia/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dia', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421124269098', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': 'workspaces/isaac_ros-dev/', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/opt/ros/humble/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dia-desktop:@/tmp/.ICE-unix/3914,unix/dia-desktop:/tmp/.ICE-unix/3914', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/48cdd128_a3a3_450c_afb1_bc3f04ddce8e', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.102', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/simulation:/home/dia/ros2_ws/install/servo_control_node:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/my_box_bot_gazebo:/home/dia/ros2_ws/install/esp32_cam_stream:/home/dia/ros2_ws/install/display:/home/dia/ros2_ws/install/cam_yolo:/home/dia/ros2_ws/install/affichage:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/dia/ros2_ws/src/build/display', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dia/ros2_ws/src/build/display/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages:/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/simulation/lib/python3.10/site-packages:/home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/home/dia/ros2_ws/install/display/lib/python3.10/site-packages:/home/dia/ros2_ws/install/cam_yolo/lib/python3.10/site-packages:/home/dia/ros2_ws/install/affichage/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'CMAKE_PREFIX_PATH': '/home/dia/ros2_ws/install/my_box_bot_gazebo', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[4.344729] (-) TimerEvent: {}
+[4.445376] (-) TimerEvent: {}
+[4.458965] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[4.468522] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[4.481369] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[4.545569] (-) TimerEvent: {}
+[4.557383] (ros_gz_sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.559630] (ros_gz_sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.602751] (cam_yolo) StderrLine: {'line': b"/home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[4.603466] (cam_yolo) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[4.645718] (-) TimerEvent: {}
+[4.647471] (esp32_cam_stream) StderrLine: {'line': b"/home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[4.647975] (esp32_cam_stream) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[4.706863] (affichage) StderrLine: {'line': b"/home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[4.707393] (affichage) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[4.740104] (ros_gz_sim) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[4.745843] (-) TimerEvent: {}
+[4.846437] (-) TimerEvent: {}
+[4.862359] (ros_gz_sim) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[4.862921] (ros_gz_sim) StderrLine: {'line': b'  By not providing "Findgz_math_vendor.cmake" in CMAKE_MODULE_PATH this\n'}
+[4.863156] (ros_gz_sim) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[4.863305] (ros_gz_sim) StderrLine: {'line': b'  "gz_math_vendor", but CMake did not find one.\n'}
+[4.863437] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[4.863560] (ros_gz_sim) StderrLine: {'line': b'  Could not find a package configuration file provided by "gz_math_vendor"\n'}
+[4.863681] (ros_gz_sim) StderrLine: {'line': b'  with any of the following names:\n'}
+[4.863796] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[4.863907] (ros_gz_sim) StderrLine: {'line': b'    gz_math_vendorConfig.cmake\n'}
+[4.864015] (ros_gz_sim) StderrLine: {'line': b'    gz_math_vendor-config.cmake\n'}
+[4.864125] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[4.864232] (ros_gz_sim) StderrLine: {'line': b'  Add the installation prefix of "gz_math_vendor" to CMAKE_PREFIX_PATH or set\n'}
+[4.864342] (ros_gz_sim) StderrLine: {'line': b'  "gz_math_vendor_DIR" to a directory containing one of the above files.  If\n'}
+[4.864450] (ros_gz_sim) StderrLine: {'line': b'  "gz_math_vendor" provides a separate development package or SDK, be sure it\n'}
+[4.864558] (ros_gz_sim) StderrLine: {'line': b'  has been installed.\n'}
+[4.864664] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[4.864801] (ros_gz_sim) StderrLine: {'line': b'\x1b[0m\n'}
+[4.864916] (ros_gz_sim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.865050] (ros_gz_sim) StdoutLine: {'line': b'See also "/home/dia/ros2_ws/src/build/ros_gz_sim/CMakeFiles/CMakeOutput.log".\n'}
+[4.888854] (ros_gz_sim) CommandEnded: {'returncode': 1}
+[4.890062] (display) StderrLine: {'line': b"/home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[4.890375] (display) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[4.946677] (-) TimerEvent: {}
+[4.951005] (ros_gz_sim) JobEnded: {'identifier': 'ros_gz_sim', 'rc': 1}
+[4.961834] (cam_yolo) StdoutLine: {'line': b'running egg_info\n'}
+[4.971086] (esp32_cam_stream) StdoutLine: {'line': b'running egg_info\n'}
+[5.020026] (cam_yolo) StdoutLine: {'line': b'writing ../build/cam_yolo/cam_yolo.egg-info/PKG-INFO\n'}
+[5.021328] (cam_yolo) StdoutLine: {'line': b'writing dependency_links to ../build/cam_yolo/cam_yolo.egg-info/dependency_links.txt\n'}
+[5.021876] (cam_yolo) StdoutLine: {'line': b'writing entry points to ../build/cam_yolo/cam_yolo.egg-info/entry_points.txt\n'}
+[5.022467] (cam_yolo) StdoutLine: {'line': b'writing requirements to ../build/cam_yolo/cam_yolo.egg-info/requires.txt\n'}
+[5.022790] (cam_yolo) StdoutLine: {'line': b'writing top-level names to ../build/cam_yolo/cam_yolo.egg-info/top_level.txt\n'}
+[5.023066] (esp32_cam_stream) StdoutLine: {'line': b'writing ../build/esp32_cam_stream/esp32_cam_stream.egg-info/PKG-INFO\n'}
+[5.024224] (esp32_cam_stream) StdoutLine: {'line': b'writing dependency_links to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/dependency_links.txt\n'}
+[5.024687] (esp32_cam_stream) StdoutLine: {'line': b'writing entry points to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/entry_points.txt\n'}
+[5.025103] (esp32_cam_stream) StdoutLine: {'line': b'writing requirements to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/requires.txt\n'}
+[5.025368] (esp32_cam_stream) StdoutLine: {'line': b'writing top-level names to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/top_level.txt\n'}
+[5.035527] (affichage) StdoutLine: {'line': b'running egg_info\n'}
+[5.036398] (affichage) StdoutLine: {'line': b'creating ../build/affichage/affichage.egg-info\n'}
+[5.046765] (-) TimerEvent: {}
+[5.053590] (display) StdoutLine: {'line': b'running egg_info\n'}
+[5.054463] (display) StdoutLine: {'line': b'creating ../build/display/display.egg-info\n'}
+[5.087977] (affichage) StdoutLine: {'line': b'writing ../build/affichage/affichage.egg-info/PKG-INFO\n'}
+[5.089018] (affichage) StdoutLine: {'line': b'writing dependency_links to ../build/affichage/affichage.egg-info/dependency_links.txt\n'}
+[5.089450] (affichage) StdoutLine: {'line': b'writing entry points to ../build/affichage/affichage.egg-info/entry_points.txt\n'}
+[5.089803] (affichage) StdoutLine: {'line': b'writing requirements to ../build/affichage/affichage.egg-info/requires.txt\n'}
+[5.090044] (affichage) StdoutLine: {'line': b'writing top-level names to ../build/affichage/affichage.egg-info/top_level.txt\n'}
+[5.106723] (display) StdoutLine: {'line': b'writing ../build/display/display.egg-info/PKG-INFO\n'}
+[5.108120] (display) StdoutLine: {'line': b'writing dependency_links to ../build/display/display.egg-info/dependency_links.txt\n'}
+[5.108722] (display) StdoutLine: {'line': b'writing entry points to ../build/display/display.egg-info/entry_points.txt\n'}
+[5.109225] (display) StdoutLine: {'line': b'writing requirements to ../build/display/display.egg-info/requires.txt\n'}
+[5.109575] (display) StdoutLine: {'line': b'writing top-level names to ../build/display/display.egg-info/top_level.txt\n'}
+[5.146945] (-) TimerEvent: {}
+[5.247728] (-) TimerEvent: {}
+[5.348375] (-) TimerEvent: {}
+[5.393896] (affichage) StdoutLine: {'line': b"writing manifest file '../build/affichage/affichage.egg-info/SOURCES.txt'\n"}
+[5.421166] (display) StdoutLine: {'line': b"writing manifest file '../build/display/display.egg-info/SOURCES.txt'\n"}
+[5.436142] (esp32_cam_stream) StdoutLine: {'line': b"reading manifest file '../build/esp32_cam_stream/esp32_cam_stream.egg-info/SOURCES.txt'\n"}
+[5.439169] (esp32_cam_stream) StdoutLine: {'line': b"writing manifest file '../build/esp32_cam_stream/esp32_cam_stream.egg-info/SOURCES.txt'\n"}
+[5.439612] (esp32_cam_stream) StdoutLine: {'line': b'running build\n'}
+[5.439905] (esp32_cam_stream) StdoutLine: {'line': b'running build_py\n'}
+[5.440138] (esp32_cam_stream) StdoutLine: {'line': b'copying esp32_cam_stream/__init__.py -> /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream\n'}
+[5.440989] (esp32_cam_stream) StdoutLine: {'line': b'running install\n'}
+[5.448474] (-) TimerEvent: {}
+[5.450592] (cam_yolo) StdoutLine: {'line': b"reading manifest file '../build/cam_yolo/cam_yolo.egg-info/SOURCES.txt'\n"}
+[5.451286] (esp32_cam_stream) StdoutLine: {'line': b'running install_lib\n'}
+[5.453711] (cam_yolo) StdoutLine: {'line': b"writing manifest file '../build/cam_yolo/cam_yolo.egg-info/SOURCES.txt'\n"}
+[5.454306] (cam_yolo) StdoutLine: {'line': b'running build\n'}
+[5.454578] (cam_yolo) StdoutLine: {'line': b'running build_py\n'}
+[5.454912] (cam_yolo) StdoutLine: {'line': b'copying cam_yolo/__init__.py -> /home/dia/ros2_ws/src/build/cam_yolo/build/lib/cam_yolo\n'}
+[5.455467] (cam_yolo) StdoutLine: {'line': b'copying cam_yolo/cam_yolo_node.py -> /home/dia/ros2_ws/src/build/cam_yolo/build/lib/cam_yolo\n'}
+[5.456427] (cam_yolo) StdoutLine: {'line': b'running install\n'}
+[5.466984] (cam_yolo) StdoutLine: {'line': b'running install_lib\n'}
+[5.502296] (affichage) StdoutLine: {'line': b"reading manifest file '../build/affichage/affichage.egg-info/SOURCES.txt'\n"}
+[5.502825] (affichage) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.503165] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream\n'}
+[5.503484] (esp32_cam_stream) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream/__init__.py -> /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream\n'}
+[5.503774] (esp32_cam_stream) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream/esp32_cam_node.py -> /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream\n'}
+[5.505092] (affichage) StdoutLine: {'line': b"writing manifest file '../build/affichage/affichage.egg-info/SOURCES.txt'\n"}
+[5.505389] (esp32_cam_stream) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream/__init__.py to __init__.cpython-310.pyc\n'}
+[5.505634] (affichage) StdoutLine: {'line': b'running build\n'}
+[5.505792] (affichage) StdoutLine: {'line': b'running build_py\n'}
+[5.505998] (esp32_cam_stream) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream/esp32_cam_node.py to esp32_cam_node.cpython-310.pyc\n'}
+[5.506392] (affichage) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/affichage/build\n'}
+[5.506576] (affichage) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/affichage/build/lib\n'}
+[5.506780] (affichage) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/affichage/build/lib/affichage\n'}
+[5.506934] (affichage) StdoutLine: {'line': b'copying affichage/__init__.py -> /home/dia/ros2_ws/src/build/affichage/build/lib/affichage\n'}
+[5.507171] (esp32_cam_stream) StdoutLine: {'line': b'running install_data\n'}
+[5.507326] (affichage) StdoutLine: {'line': b'copying affichage/esp32_cam_node.py -> /home/dia/ros2_ws/src/build/affichage/build/lib/affichage\n'}
+[5.507770] (affichage) StdoutLine: {'line': b'running install\n'}
+[5.508011] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index\n'}
+[5.508172] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index/resource_index\n'}
+[5.508396] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index/resource_index/packages\n'}
+[5.508593] (esp32_cam_stream) StdoutLine: {'line': b'copying resource/esp32_cam_stream -> /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index/resource_index/packages\n'}
+[5.508902] (esp32_cam_stream) StdoutLine: {'line': b'copying package.xml -> /home/dia/ros2_ws/src/install/esp32_cam_stream/share/esp32_cam_stream\n'}
+[5.509166] (esp32_cam_stream) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.517690] (affichage) StdoutLine: {'line': b'running install_lib\n'}
+[5.519084] (cam_yolo) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/cam_yolo/build/lib/cam_yolo/cam_yolo_node.py -> /home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages/cam_yolo\n'}
+[5.520723] (cam_yolo) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages/cam_yolo/cam_yolo_node.py to cam_yolo_node.cpython-310.pyc\n'}
+[5.522750] (cam_yolo) StdoutLine: {'line': b'running install_data\n'}
+[5.523278] (cam_yolo) StdoutLine: {'line': b'copying resource/cam_yolo -> /home/dia/ros2_ws/src/install/cam_yolo/share/ament_index/resource_index/packages\n'}
+[5.523713] (cam_yolo) StdoutLine: {'line': b'copying package.xml -> /home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo\n'}
+[5.524061] (cam_yolo) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.532169] (display) StdoutLine: {'line': b"reading manifest file '../build/display/display.egg-info/SOURCES.txt'\n"}
+[5.532694] (display) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.534675] (display) StdoutLine: {'line': b"writing manifest file '../build/display/display.egg-info/SOURCES.txt'\n"}
+[5.535090] (display) StdoutLine: {'line': b'running build\n'}
+[5.535345] (display) StdoutLine: {'line': b'running build_py\n'}
+[5.535637] (display) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/display/build\n'}
+[5.535858] (display) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/display/build/lib\n'}
+[5.536206] (display) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/display/build/lib/display\n'}
+[5.536427] (display) StdoutLine: {'line': b'copying display/__init__.py -> /home/dia/ros2_ws/src/build/display/build/lib/display\n'}
+[5.536635] (display) StdoutLine: {'line': b'copying display/display_node.py -> /home/dia/ros2_ws/src/build/display/build/lib/display\n'}
+[5.537264] (display) StdoutLine: {'line': b'running install\n'}
+[5.547367] (display) StdoutLine: {'line': b'running install_lib\n'}
+[5.548555] (-) TimerEvent: {}
+[5.565641] (esp32_cam_stream) StdoutLine: {'line': b'Copying ../build/esp32_cam_stream/esp32_cam_stream.egg-info to /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream-0.0.0-py3.10.egg-info\n'}
+[5.567915] (esp32_cam_stream) StdoutLine: {'line': b'running install_scripts\n'}
+[5.570145] (affichage) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage\n'}
+[5.570466] (affichage) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/affichage/build/lib/affichage/__init__.py -> /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage\n'}
+[5.570713] (affichage) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/affichage/build/lib/affichage/esp32_cam_node.py -> /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage\n'}
+[5.572205] (affichage) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage/__init__.py to __init__.cpython-310.pyc\n'}
+[5.572791] (affichage) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage/esp32_cam_node.py to esp32_cam_node.cpython-310.pyc\n'}
+[5.573875] (affichage) StdoutLine: {'line': b'running install_data\n'}
+[5.574320] (affichage) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/affichage/share/ament_index\n'}
+[5.574583] (affichage) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/affichage/share/ament_index/resource_index\n'}
+[5.574791] (affichage) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/affichage/share/ament_index/resource_index/packages\n'}
+[5.574996] (affichage) StdoutLine: {'line': b'copying resource/affichage -> /home/dia/ros2_ws/src/install/affichage/share/ament_index/resource_index/packages\n'}
+[5.575297] (affichage) StdoutLine: {'line': b'copying package.xml -> /home/dia/ros2_ws/src/install/affichage/share/affichage\n'}
+[5.575554] (affichage) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.580918] (cam_yolo) StdoutLine: {'line': b"removing '/home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages/cam_yolo-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[5.581241] (cam_yolo) StdoutLine: {'line': b'Copying ../build/cam_yolo/cam_yolo.egg-info to /home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages/cam_yolo-0.0.0-py3.10.egg-info\n'}
+[5.582745] (cam_yolo) StdoutLine: {'line': b'running install_scripts\n'}
+[5.603951] (display) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display\n'}
+[5.604351] (display) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/display/build/lib/display/__init__.py -> /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display\n'}
+[5.604521] (display) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/display/build/lib/display/display_node.py -> /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display\n'}
+[5.604660] (display) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display/__init__.py to __init__.cpython-310.pyc\n'}
+[5.604794] (display) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display/display_node.py to display_node.cpython-310.pyc\n'}
+[5.605019] (display) StdoutLine: {'line': b'running install_data\n'}
+[5.605628] (display) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/display/share/ament_index\n'}
+[5.605974] (display) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/display/share/ament_index/resource_index\n'}
+[5.606249] (display) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/display/share/ament_index/resource_index/packages\n'}
+[5.606673] (display) StdoutLine: {'line': b'copying resource/display -> /home/dia/ros2_ws/src/install/display/share/ament_index/resource_index/packages\n'}
+[5.607312] (display) StdoutLine: {'line': b'copying package.xml -> /home/dia/ros2_ws/src/install/display/share/display\n'}
+[5.607710] (display) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.631260] (affichage) StdoutLine: {'line': b'Copying ../build/affichage/affichage.egg-info to /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage-0.0.0-py3.10.egg-info\n'}
+[5.633476] (affichage) StdoutLine: {'line': b'running install_scripts\n'}
+[5.648718] (-) TimerEvent: {}
+[5.665626] (display) StdoutLine: {'line': b'Copying ../build/display/display.egg-info to /home/dia/ros2_ws/src/install/display/lib/python3.10/site-packages/display-0.0.0-py3.10.egg-info\n'}
+[5.667838] (display) StdoutLine: {'line': b'running install_scripts\n'}
+[5.693871] (esp32_cam_stream) StdoutLine: {'line': b'Installing esp32_cam_node script to /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/esp32_cam_stream\n'}
+[5.694827] (esp32_cam_stream) StdoutLine: {'line': b"writing list of installed files to '/home/dia/ros2_ws/src/build/esp32_cam_stream/install.log'\n"}
+[5.699678] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.710587] (cam_yolo) StdoutLine: {'line': b'Installing cam_yolo_node script to /home/dia/ros2_ws/src/install/cam_yolo/lib/cam_yolo\n'}
+[5.711907] (cam_yolo) StdoutLine: {'line': b"writing list of installed files to '/home/dia/ros2_ws/src/build/cam_yolo/install.log'\n"}
+[5.748911] (-) TimerEvent: {}
+[5.762950] (affichage) StdoutLine: {'line': b'Installing esp32_cam_node script to /home/dia/ros2_ws/src/install/affichage/lib/affichage\n'}
+[5.764064] (affichage) StdoutLine: {'line': b"writing list of installed files to '/home/dia/ros2_ws/src/build/affichage/install.log'\n"}
+[5.781294] (esp32_cam_stream) JobEnded: {'identifier': 'esp32_cam_stream', 'rc': 'SIGINT'}
+[5.799312] (display) StdoutLine: {'line': b'Installing display_node script to /home/dia/ros2_ws/src/install/display/lib/display\n'}
+[5.800547] (display) StdoutLine: {'line': b"writing list of installed files to '/home/dia/ros2_ws/src/build/display/install.log'\n"}
+[5.809990] (cam_yolo) JobEnded: {'identifier': 'cam_yolo', 'rc': 'SIGINT'}
+[5.849065] (-) TimerEvent: {}
+[5.851559] (affichage) JobEnded: {'identifier': 'affichage', 'rc': 'SIGINT'}
+[5.896126] (display) JobEnded: {'identifier': 'display', 'rc': 'SIGINT'}
+[5.949388] (-) TimerEvent: {}
+[6.050410] (-) TimerEvent: {}
+[6.156032] (-) TimerEvent: {}
+[6.193092] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.256156] (-) TimerEvent: {}
+[6.268810] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.346033] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.346863] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.347217] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[6.356260] (-) TimerEvent: {}
+[6.457016] (-) TimerEvent: {}
+[6.496994] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[6.505303] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[6.537912] (ros_gz_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.557063] (-) TimerEvent: {}
+[6.657630] (-) TimerEvent: {}
+[6.684582] (ros_gz_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[6.691231] (ros_gz_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/dia/ros2_ws/src/build/ros_gz_interfaces\n'}
+[6.757901] (-) TimerEvent: {}
+[6.768584] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.804360] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.813997] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_ros_gz_interfaces\n'}
+[6.858016] (-) TimerEvent: {}
+[6.958590] (-) TimerEvent: {}
+[7.059130] (-) TimerEvent: {}
+[7.159720] (-) TimerEvent: {}
+[7.260293] (-) TimerEvent: {}
+[7.360834] (-) TimerEvent: {}
+[7.374197] (ros_gz_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[7.376366] (ros_gz_interfaces) StdoutLine: {'line': b'creating ros_gz_interfaces.egg-info\n'}
+[7.427125] (ros_gz_interfaces) StdoutLine: {'line': b'writing ros_gz_interfaces.egg-info/PKG-INFO\n'}
+[7.428475] (ros_gz_interfaces) StdoutLine: {'line': b'writing dependency_links to ros_gz_interfaces.egg-info/dependency_links.txt\n'}
+[7.429095] (ros_gz_interfaces) StdoutLine: {'line': b'writing top-level names to ros_gz_interfaces.egg-info/top_level.txt\n'}
+[7.460916] (-) TimerEvent: {}
+[7.561401] (-) TimerEvent: {}
+[7.661979] (-) TimerEvent: {}
+[7.726704] (ros_gz_interfaces) StdoutLine: {'line': b"writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'\n"}
+[7.762066] (-) TimerEvent: {}
+[7.862833] (-) TimerEvent: {}
+[7.883572] (ros_gz_interfaces) StdoutLine: {'line': b"reading manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'\n"}
+[7.885535] (ros_gz_interfaces) StdoutLine: {'line': b"writing manifest file 'ros_gz_interfaces.egg-info/SOURCES.txt'\n"}
+[7.963001] (-) TimerEvent: {}
+[7.971871] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_build_ros_gz_interfaces_egg\n'}
+[8.063138] (-) TimerEvent: {}
+[8.163702] (-) TimerEvent: {}
+[8.264290] (-) TimerEvent: {}
+[8.364784] (-) TimerEvent: {}
+[8.465360] (-) TimerEvent: {}
+[8.565855] (-) TimerEvent: {}
+[8.666299] (-) TimerEvent: {}
+[8.766874] (-) TimerEvent: {}
+[8.867463] (-) TimerEvent: {}
+[8.968089] (-) TimerEvent: {}
+[9.068657] (-) TimerEvent: {}
+[9.169249] (-) TimerEvent: {}
+[9.269828] (-) TimerEvent: {}
+[9.370389] (-) TimerEvent: {}
+[9.470959] (-) TimerEvent: {}
+[9.571556] (-) TimerEvent: {}
+[9.672124] (-) TimerEvent: {}
+[9.772661] (-) TimerEvent: {}
+[9.873230] (-) TimerEvent: {}
+[9.973878] (-) TimerEvent: {}
+[10.074535] (-) TimerEvent: {}
+[10.175134] (-) TimerEvent: {}
+[10.275685] (-) TimerEvent: {}
+[10.376247] (-) TimerEvent: {}
+[10.476825] (-) TimerEvent: {}
+[10.577418] (-) TimerEvent: {}
+[10.678012] (-) TimerEvent: {}
+[10.778950] (-) TimerEvent: {}
+[10.879671] (-) TimerEvent: {}
+[10.980301] (-) TimerEvent: {}
+[11.093056] (-) TimerEvent: {}
+[11.193633] (-) TimerEvent: {}
+[11.294168] (-) TimerEvent: {}
+[11.394731] (-) TimerEvent: {}
+[11.495435] (-) TimerEvent: {}
+[11.596230] (-) TimerEvent: {}
+[11.696814] (-) TimerEvent: {}
+[11.797406] (-) TimerEvent: {}
+[11.898085] (-) TimerEvent: {}
+[11.998793] (-) TimerEvent: {}
+[12.099713] (-) TimerEvent: {}
+[12.200921] (-) TimerEvent: {}
+[12.213477] (ros_gz_interfaces) StdoutLine: {'line': b'[  1%] Built target ros_gz_interfaces__cpp\n'}
+[12.240670] (ros_gz_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[12.248850] (ros_gz_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[12.249886] (ros_gz_interfaces) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[12.301128] (-) TimerEvent: {}
+[12.402458] (-) TimerEvent: {}
+[12.503133] (-) TimerEvent: {}
+[12.604013] (-) TimerEvent: {}
+[12.704693] (-) TimerEvent: {}
+[12.788168] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/altimeter__functions.c.o\x1b[0m\n'}
+[12.788652] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contacts__functions.c.o\x1b[0m\n'}
+[12.789050] (ros_gz_interfaces) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/contact__functions.c.o\x1b[0m\n'}
+[12.804827] (-) TimerEvent: {}
+[12.905438] (-) TimerEvent: {}
+[13.006045] (-) TimerEvent: {}
+[13.106680] (-) TimerEvent: {}
+[13.124000] (ros_gz_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/dataframe__functions.c.o\x1b[0m\n'}
+[13.129687] (ros_gz_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity__functions.c.o\x1b[0m\n'}
+[13.132283] (ros_gz_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_factory__functions.c.o\x1b[0m\n'}
+[13.206852] (-) TimerEvent: {}
+[13.238276] (ros_gz_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/entity_wrench__functions.c.o\x1b[0m\n'}
+[13.246560] (ros_gz_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/float32_array__functions.c.o\x1b[0m\n'}
+[13.262834] (ros_gz_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/gui_camera__functions.c.o\x1b[0m\n'}
+[13.307126] (-) TimerEvent: {}
+[13.354559] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/joint_wrench__functions.c.o\x1b[0m\n'}
+[13.360047] (ros_gz_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/light__functions.c.o\x1b[0m\n'}
+[13.389127] (ros_gz_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/material_color__functions.c.o\x1b[0m\n'}
+[13.407176] (-) TimerEvent: {}
+[13.478380] (ros_gz_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/param_vec__functions.c.o\x1b[0m\n'}
+[13.486415] (ros_gz_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/sensor_noise__functions.c.o\x1b[0m\n'}
+[13.507337] (-) TimerEvent: {}
+[13.520650] (ros_gz_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/string_vec__functions.c.o\x1b[0m\n'}
+[13.592314] (ros_gz_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/track_visual__functions.c.o\x1b[0m\n'}
+[13.603003] (ros_gz_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/video_record__functions.c.o\x1b[0m\n'}
+[13.607482] (-) TimerEvent: {}
+[13.641490] (ros_gz_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_control__functions.c.o\x1b[0m\n'}
+[13.707746] (-) TimerEvent: {}
+[13.709849] (ros_gz_interfaces) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/msg/detail/world_reset__functions.c.o\x1b[0m\n'}
+[13.737503] (ros_gz_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/control_world__functions.c.o\x1b[0m\n'}
+[13.753911] (ros_gz_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/delete_entity__functions.c.o\x1b[0m\n'}
+[13.807933] (-) TimerEvent: {}
+[13.828759] (ros_gz_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/set_entity_pose__functions.c.o\x1b[0m\n'}
+[13.863379] (ros_gz_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_c.dir/rosidl_generator_c/ros_gz_interfaces/srv/detail/spawn_entity__functions.c.o\x1b[0m\n'}
+[13.908097] (-) TimerEvent: {}
+[13.988061] (ros_gz_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32m\x1b[1mLinking C shared library libros_gz_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[14.008261] (-) TimerEvent: {}
+[14.090598] (ros_gz_interfaces) StdoutLine: {'line': b'[ 16%] Built target ros_gz_interfaces__rosidl_generator_c\n'}
+[14.108431] (-) TimerEvent: {}
+[14.112924] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[14.113364] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.113564] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[14.208603] (-) TimerEvent: {}
+[14.309240] (-) TimerEvent: {}
+[14.409840] (-) TimerEvent: {}
+[14.510501] (-) TimerEvent: {}
+[14.611168] (-) TimerEvent: {}
+[14.711785] (-) TimerEvent: {}
+[14.812422] (-) TimerEvent: {}
+[14.913066] (-) TimerEvent: {}
+[15.013735] (-) TimerEvent: {}
+[15.114348] (-) TimerEvent: {}
+[15.215070] (-) TimerEvent: {}
+[15.315721] (-) TimerEvent: {}
+[15.416397] (-) TimerEvent: {}
+[15.517056] (-) TimerEvent: {}
+[15.617730] (-) TimerEvent: {}
+[15.718406] (-) TimerEvent: {}
+[15.819109] (-) TimerEvent: {}
+[15.919740] (-) TimerEvent: {}
+[16.020403] (-) TimerEvent: {}
+[16.121056] (-) TimerEvent: {}
+[16.247845] (-) TimerEvent: {}
+[16.348539] (-) TimerEvent: {}
+[16.449226] (-) TimerEvent: {}
+[16.510738] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/altimeter__type_support.cpp.o\x1b[0m\n'}
+[16.549397] (-) TimerEvent: {}
+[16.650081] (-) TimerEvent: {}
+[16.750770] (-) TimerEvent: {}
+[16.852242] (-) TimerEvent: {}
+[16.953336] (-) TimerEvent: {}
+[17.053970] (-) TimerEvent: {}
+[17.154629] (-) TimerEvent: {}
+[17.256018] (-) TimerEvent: {}
+[17.356650] (-) TimerEvent: {}
+[17.357207] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/altimeter__type_support.cpp.o\x1b[0m\n'}
+[17.456816] (-) TimerEvent: {}
+[17.557516] (-) TimerEvent: {}
+[17.658520] (-) TimerEvent: {}
+[17.759166] (-) TimerEvent: {}
+[17.859823] (-) TimerEvent: {}
+[17.960459] (-) TimerEvent: {}
+[18.061256] (-) TimerEvent: {}
+[18.161906] (-) TimerEvent: {}
+[18.262946] (-) TimerEvent: {}
+[18.341574] (ros_gz_interfaces) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/altimeter__type_support.cpp.o\x1b[0m\n'}
+[18.363260] (-) TimerEvent: {}
+[18.464485] (-) TimerEvent: {}
+[18.554665] (ros_gz_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contact__type_support.cpp.o\x1b[0m\n'}
+[18.564650] (-) TimerEvent: {}
+[18.665620] (-) TimerEvent: {}
+[18.676330] (ros_gz_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/altimeter__type_support.cpp.o\x1b[0m\n'}
+[18.747782] (ros_gz_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contact__type_support.cpp.o\x1b[0m\n'}
+[18.768104] (-) TimerEvent: {}
+[18.831702] (ros_gz_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/contacts__type_support.cpp.o\x1b[0m\n'}
+[18.837549] (ros_gz_interfaces) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contact__type_support.cpp.o\x1b[0m\n'}
+[18.868294] (-) TimerEvent: {}
+[18.923618] (ros_gz_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/dataframe__type_support.cpp.o\x1b[0m\n'}
+[18.968506] (-) TimerEvent: {}
+[19.023737] (ros_gz_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[19.069177] (-) TimerEvent: {}
+[19.112431] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[19.169383] (-) TimerEvent: {}
+[19.180951] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o\x1b[0m\n'}
+[19.181604] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/contacts__type_support.cpp.o\x1b[0m\n'}
+[19.251821] (ros_gz_interfaces) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/float32_array__type_support.cpp.o\x1b[0m\n'}
+[19.269583] (-) TimerEvent: {}
+[19.314287] (ros_gz_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[19.369768] (-) TimerEvent: {}
+[19.380898] (ros_gz_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[19.384921] (ros_gz_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contact__type_support.cpp.o\x1b[0m\n'}
+[19.449018] (ros_gz_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/light__type_support.cpp.o\x1b[0m\n'}
+[19.469969] (-) TimerEvent: {}
+[19.515688] (ros_gz_interfaces) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/material_color__type_support.cpp.o\x1b[0m\n'}
+[19.570156] (-) TimerEvent: {}
+[19.594793] (ros_gz_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/param_vec__type_support.cpp.o\x1b[0m\n'}
+[19.661204] (ros_gz_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o\x1b[0m\n'}
+[19.670495] (-) TimerEvent: {}
+[19.736206] (ros_gz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/string_vec__type_support.cpp.o\x1b[0m\n'}
+[19.770690] (-) TimerEvent: {}
+[19.808138] (ros_gz_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/track_visual__type_support.cpp.o\x1b[0m\n'}
+[19.815542] (ros_gz_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/dataframe__type_support.cpp.o\x1b[0m\n'}
+[19.870892] (-) TimerEvent: {}
+[19.877431] (ros_gz_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/video_record__type_support.cpp.o\x1b[0m\n'}
+[19.881520] (ros_gz_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/altimeter__type_support.c.o\x1b[0m\n'}
+[19.883186] (ros_gz_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/altimeter__type_support_c.cpp.o\x1b[0m\n'}
+[19.951654] (ros_gz_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_control__type_support.cpp.o\x1b[0m\n'}
+[19.971155] (-) TimerEvent: {}
+[19.986853] (ros_gz_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/contacts__type_support.cpp.o\x1b[0m\n'}
+[19.987391] (ros_gz_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contact__type_support.c.o\x1b[0m\n'}
+[20.028239] (ros_gz_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/msg/world_reset__type_support.cpp.o\x1b[0m\n'}
+[20.071346] (-) TimerEvent: {}
+[20.094179] (ros_gz_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/control_world__type_support.cpp.o\x1b[0m\n'}
+[20.097719] (ros_gz_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/contacts__type_support.c.o\x1b[0m\n'}
+[20.171540] (-) TimerEvent: {}
+[20.302298] (ros_gz_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[20.302834] (-) TimerEvent: {}
+[20.403668] (-) TimerEvent: {}
+[20.472753] (ros_gz_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[20.473447] (ros_gz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/dataframe__type_support.c.o\x1b[0m\n'}
+[20.473678] (ros_gz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity__type_support.cpp.o\x1b[0m\n'}
+[20.503843] (-) TimerEvent: {}
+[20.604578] (-) TimerEvent: {}
+[20.705693] (-) TimerEvent: {}
+[20.806500] (-) TimerEvent: {}
+[20.849446] (ros_gz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/contacts__type_support.cpp.o\x1b[0m\n'}
+[20.906683] (-) TimerEvent: {}
+[21.007407] (-) TimerEvent: {}
+[21.071208] (ros_gz_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity__type_support.c.o\x1b[0m\n'}
+[21.071928] (ros_gz_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[21.072186] (ros_gz_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contact__type_support_c.cpp.o\x1b[0m\n'}
+[21.102741] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[21.107571] (-) TimerEvent: {}
+[21.147913] (ros_gz_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[21.150327] (ros_gz_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_factory__type_support.c.o\x1b[0m\n'}
+[21.207766] (-) TimerEvent: {}
+[21.230525] (ros_gz_interfaces) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support.c.o\x1b[0m\n'}
+[21.244854] (ros_gz_interfaces) StdoutLine: {'line': b'[ 39%] Built target ros_gz_interfaces__rosidl_typesupport_c\n'}
+[21.265775] (ros_gz_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/dataframe__type_support.cpp.o\x1b[0m\n'}
+[21.307971] (-) TimerEvent: {}
+[21.325071] (ros_gz_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/float32_array__type_support.c.o\x1b[0m\n'}
+[21.333539] (ros_gz_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/dataframe__type_support.cpp.o\x1b[0m\n'}
+[21.403165] (ros_gz_interfaces) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/gui_camera__type_support.c.o\x1b[0m\n'}
+[21.408150] (-) TimerEvent: {}
+[21.481002] (ros_gz_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support.c.o\x1b[0m\n'}
+[21.508366] (-) TimerEvent: {}
+[21.567385] (ros_gz_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/light__type_support.c.o\x1b[0m\n'}
+[21.608581] (-) TimerEvent: {}
+[21.656539] (ros_gz_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/material_color__type_support.c.o\x1b[0m\n'}
+[21.708800] (-) TimerEvent: {}
+[21.744393] (ros_gz_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/param_vec__type_support.c.o\x1b[0m\n'}
+[21.783937] (ros_gz_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/entity_wrench__type_support.cpp.o\x1b[0m\n'}
+[21.809015] (-) TimerEvent: {}
+[21.846261] (ros_gz_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support.c.o\x1b[0m\n'}
+[21.896095] (ros_gz_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/contacts__type_support_c.cpp.o\x1b[0m\n'}
+[21.909213] (-) TimerEvent: {}
+[21.937838] (ros_gz_interfaces) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/string_vec__type_support.c.o\x1b[0m\n'}
+[22.004315] (ros_gz_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/track_visual__type_support.c.o\x1b[0m\n'}
+[22.009821] (-) TimerEvent: {}
+[22.036194] (ros_gz_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/video_record__type_support.c.o\x1b[0m\n'}
+[22.110008] (-) TimerEvent: {}
+[22.210767] (-) TimerEvent: {}
+[22.229551] (ros_gz_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity__type_support.cpp.o\x1b[0m\n'}
+[22.230252] (ros_gz_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_control__type_support.c.o\x1b[0m\n'}
+[22.310448] (ros_gz_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity__type_support.cpp.o\x1b[0m\n'}
+[22.310970] (-) TimerEvent: {}
+[22.317044] (ros_gz_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/detail/world_reset__type_support.c.o\x1b[0m\n'}
+[22.331455] (ros_gz_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[22.388475] (ros_gz_interfaces) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/control_world__type_support.c.o\x1b[0m\n'}
+[22.411450] (-) TimerEvent: {}
+[22.451455] (ros_gz_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/float32_array__type_support.cpp.o\x1b[0m\n'}
+[22.472445] (ros_gz_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/delete_entity__type_support.c.o\x1b[0m\n'}
+[22.511639] (-) TimerEvent: {}
+[22.560029] (ros_gz_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.c.o\x1b[0m\n'}
+[22.611835] (-) TimerEvent: {}
+[22.652998] (ros_gz_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/dataframe__type_support_c.cpp.o\x1b[0m\n'}
+[22.657309] (ros_gz_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support.c.o\x1b[0m\n'}
+[22.712036] (-) TimerEvent: {}
+[22.738436] (ros_gz_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking C shared library libros_gz_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[22.812262] (-) TimerEvent: {}
+[22.817187] (ros_gz_interfaces) StdoutLine: {'line': b'[ 52%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c\n'}
+[22.836155] (ros_gz_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity__type_support_c.cpp.o\x1b[0m\n'}
+[22.912465] (-) TimerEvent: {}
+[23.013565] (-) TimerEvent: {}
+[23.064680] (ros_gz_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[23.113799] (-) TimerEvent: {}
+[23.188235] (ros_gz_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_factory__type_support.cpp.o\x1b[0m\n'}
+[23.214008] (-) TimerEvent: {}
+[23.233468] (ros_gz_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/entity_wrench__type_support.cpp.o\x1b[0m\n'}
+[23.253860] (ros_gz_interfaces) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_factory__type_support_c.cpp.o\x1b[0m\n'}
+[23.314224] (-) TimerEvent: {}
+[23.415576] (-) TimerEvent: {}
+[23.516632] (-) TimerEvent: {}
+[23.539337] (ros_gz_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/float32_array__type_support.cpp.o\x1b[0m\n'}
+[23.591799] (ros_gz_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[23.616840] (-) TimerEvent: {}
+[23.691190] (ros_gz_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/entity_wrench__type_support_c.cpp.o\x1b[0m\n'}
+[23.717063] (-) TimerEvent: {}
+[23.817898] (-) TimerEvent: {}
+[23.918734] (-) TimerEvent: {}
+[24.019576] (-) TimerEvent: {}
+[24.120368] (-) TimerEvent: {}
+[24.123147] (ros_gz_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/entity_wrench__type_support.cpp.o\x1b[0m\n'}
+[24.142117] (ros_gz_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[24.156588] (ros_gz_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/float32_array__type_support.cpp.o\x1b[0m\n'}
+[24.185050] (ros_gz_interfaces) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/light__type_support.cpp.o\x1b[0m\n'}
+[24.220582] (-) TimerEvent: {}
+[24.321400] (-) TimerEvent: {}
+[24.422221] (-) TimerEvent: {}
+[24.474329] (ros_gz_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/float32_array__type_support_c.cpp.o\x1b[0m\n'}
+[24.522455] (-) TimerEvent: {}
+[24.581951] (ros_gz_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/gui_camera__type_support.cpp.o\x1b[0m\n'}
+[24.622683] (-) TimerEvent: {}
+[24.723796] (-) TimerEvent: {}
+[24.785884] (ros_gz_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/material_color__type_support.cpp.o\x1b[0m\n'}
+[24.823993] (-) TimerEvent: {}
+[24.925053] (-) TimerEvent: {}
+[25.026248] (-) TimerEvent: {}
+[25.040791] (ros_gz_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[25.109520] (ros_gz_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/light__type_support.cpp.o\x1b[0m\n'}
+[25.126477] (-) TimerEvent: {}
+[25.185355] (ros_gz_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/material_color__type_support.cpp.o\x1b[0m\n'}
+[25.221799] (ros_gz_interfaces) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/gui_camera__type_support_c.cpp.o\x1b[0m\n'}
+[25.226693] (-) TimerEvent: {}
+[25.327706] (-) TimerEvent: {}
+[25.382123] (ros_gz_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/param_vec__type_support.cpp.o\x1b[0m\n'}
+[25.427918] (-) TimerEvent: {}
+[25.529006] (-) TimerEvent: {}
+[25.598674] (ros_gz_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/joint_wrench__type_support.cpp.o\x1b[0m\n'}
+[25.629221] (-) TimerEvent: {}
+[25.730027] (-) TimerEvent: {}
+[25.830826] (-) TimerEvent: {}
+[25.931631] (-) TimerEvent: {}
+[25.989960] (ros_gz_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/sensor_noise__type_support.cpp.o\x1b[0m\n'}
+[25.996101] (ros_gz_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/light__type_support.cpp.o\x1b[0m\n'}
+[26.001978] (ros_gz_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/joint_wrench__type_support_c.cpp.o\x1b[0m\n'}
+[26.034403] (-) TimerEvent: {}
+[26.107808] (ros_gz_interfaces) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/param_vec__type_support.cpp.o\x1b[0m\n'}
+[26.112723] (ros_gz_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/sensor_noise__type_support.cpp.o\x1b[0m\n'}
+[26.134618] (-) TimerEvent: {}
+[26.235411] (-) TimerEvent: {}
+[26.336269] (-) TimerEvent: {}
+[26.437073] (-) TimerEvent: {}
+[26.537878] (-) TimerEvent: {}
+[26.592540] (ros_gz_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/string_vec__type_support.cpp.o\x1b[0m\n'}
+[26.605270] (ros_gz_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/track_visual__type_support.cpp.o\x1b[0m\n'}
+[26.638097] (-) TimerEvent: {}
+[26.738837] (-) TimerEvent: {}
+[26.807866] (ros_gz_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/light__type_support_c.cpp.o\x1b[0m\n'}
+[26.839115] (-) TimerEvent: {}
+[26.923874] (ros_gz_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/material_color__type_support.cpp.o\x1b[0m\n'}
+[26.939272] (-) TimerEvent: {}
+[27.040331] (-) TimerEvent: {}
+[27.054375] (ros_gz_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/material_color__type_support_c.cpp.o\x1b[0m\n'}
+[27.140525] (-) TimerEvent: {}
+[27.186494] (ros_gz_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/param_vec__type_support_c.cpp.o\x1b[0m\n'}
+[27.240741] (-) TimerEvent: {}
+[27.251308] (ros_gz_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/video_record__type_support.cpp.o\x1b[0m\n'}
+[27.340932] (-) TimerEvent: {}
+[27.441921] (-) TimerEvent: {}
+[27.542992] (-) TimerEvent: {}
+[27.644070] (-) TimerEvent: {}
+[27.724143] (ros_gz_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/string_vec__type_support.cpp.o\x1b[0m\n'}
+[27.744267] (-) TimerEvent: {}
+[27.752488] (ros_gz_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_control__type_support.cpp.o\x1b[0m\n'}
+[27.815261] (ros_gz_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/param_vec__type_support.cpp.o\x1b[0m\n'}
+[27.844461] (-) TimerEvent: {}
+[27.868867] (ros_gz_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/sensor_noise__type_support_c.cpp.o\x1b[0m\n'}
+[27.903391] (ros_gz_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/msg/world_reset__type_support.cpp.o\x1b[0m\n'}
+[27.937599] (ros_gz_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/string_vec__type_support_c.cpp.o\x1b[0m\n'}
+[27.944672] (-) TimerEvent: {}
+[28.045419] (-) TimerEvent: {}
+[28.146228] (-) TimerEvent: {}
+[28.247072] (-) TimerEvent: {}
+[28.347813] (-) TimerEvent: {}
+[28.432489] (ros_gz_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/control_world__type_support.cpp.o\x1b[0m\n'}
+[28.448029] (-) TimerEvent: {}
+[28.526392] (ros_gz_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[28.548222] (-) TimerEvent: {}
+[28.648967] (-) TimerEvent: {}
+[28.694932] (ros_gz_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[28.701935] (ros_gz_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/track_visual__type_support_c.cpp.o\x1b[0m\n'}
+[28.749175] (-) TimerEvent: {}
+[28.757599] (ros_gz_interfaces) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/track_visual__type_support.cpp.o\x1b[0m\n'}
+[28.849393] (-) TimerEvent: {}
+[28.950435] (-) TimerEvent: {}
+[28.954655] (ros_gz_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/sensor_noise__type_support.cpp.o\x1b[0m\n'}
+[29.050670] (-) TimerEvent: {}
+[29.119993] (ros_gz_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/ros_gz_interfaces/srv/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[29.151449] (-) TimerEvent: {}
+[29.160359] (ros_gz_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/string_vec__type_support.cpp.o\x1b[0m\n'}
+[29.251631] (-) TimerEvent: {}
+[29.308316] (ros_gz_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/track_visual__type_support.cpp.o\x1b[0m\n'}
+[29.351819] (-) TimerEvent: {}
+[29.452889] (-) TimerEvent: {}
+[29.553962] (-) TimerEvent: {}
+[29.566766] (ros_gz_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/video_record__type_support_c.cpp.o\x1b[0m\n'}
+[29.653967] (ros_gz_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/video_record__type_support.cpp.o\x1b[0m\n'}
+[29.654480] (-) TimerEvent: {}
+[29.755355] (-) TimerEvent: {}
+[29.786143] (ros_gz_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[29.840121] (ros_gz_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_control__type_support.cpp.o\x1b[0m\n'}
+[29.855552] (-) TimerEvent: {}
+[29.901133] (ros_gz_interfaces) StdoutLine: {'line': b'[ 77%] Built target ros_gz_interfaces__rosidl_typesupport_cpp\n'}
+[29.922703] (ros_gz_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/msg/detail/world_reset__type_support.cpp.o\x1b[0m\n'}
+[29.955745] (-) TimerEvent: {}
+[30.056828] (-) TimerEvent: {}
+[30.157960] (-) TimerEvent: {}
+[30.259067] (-) TimerEvent: {}
+[30.313839] (ros_gz_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/video_record__type_support.cpp.o\x1b[0m\n'}
+[30.359241] (-) TimerEvent: {}
+[30.363574] (ros_gz_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_control__type_support.cpp.o\x1b[0m\n'}
+[30.430503] (ros_gz_interfaces) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_control__type_support_c.cpp.o\x1b[0m\n'}
+[30.459584] (-) TimerEvent: {}
+[30.560668] (-) TimerEvent: {}
+[30.584192] (ros_gz_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/control_world__type_support.cpp.o\x1b[0m\n'}
+[30.660882] (-) TimerEvent: {}
+[30.745570] (ros_gz_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[30.761113] (-) TimerEvent: {}
+[30.861973] (-) TimerEvent: {}
+[30.862738] (ros_gz_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[30.962405] (-) TimerEvent: {}
+[31.063194] (-) TimerEvent: {}
+[31.164323] (-) TimerEvent: {}
+[31.243868] (ros_gz_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/msg/detail/dds_fastrtps/world_reset__type_support.cpp.o\x1b[0m\n'}
+[31.264554] (-) TimerEvent: {}
+[31.333237] (ros_gz_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/control_world__type_support.cpp.o\x1b[0m\n'}
+[31.364759] (-) TimerEvent: {}
+[31.450971] (ros_gz_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/msg/detail/world_reset__type_support_c.cpp.o\x1b[0m\n'}
+[31.464975] (-) TimerEvent: {}
+[31.537940] (ros_gz_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/ros_gz_interfaces/srv/detail/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[31.565204] (-) TimerEvent: {}
+[31.666242] (-) TimerEvent: {}
+[31.704677] (ros_gz_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/control_world__type_support_c.cpp.o\x1b[0m\n'}
+[31.766449] (-) TimerEvent: {}
+[31.830346] (ros_gz_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/delete_entity__type_support.cpp.o\x1b[0m\n'}
+[31.866669] (-) TimerEvent: {}
+[31.967680] (-) TimerEvent: {}
+[32.068391] (-) TimerEvent: {}
+[32.169103] (-) TimerEvent: {}
+[32.194774] (ros_gz_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/set_entity_pose__type_support.cpp.o\x1b[0m\n'}
+[32.269326] (-) TimerEvent: {}
+[32.272455] (ros_gz_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/delete_entity__type_support_c.cpp.o\x1b[0m\n'}
+[32.369522] (-) TimerEvent: {}
+[32.470255] (-) TimerEvent: {}
+[32.516443] (ros_gz_interfaces) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/set_entity_pose__type_support_c.cpp.o\x1b[0m\n'}
+[32.570449] (-) TimerEvent: {}
+[32.572756] (ros_gz_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/ros_gz_interfaces/srv/detail/spawn_entity__type_support_c.cpp.o\x1b[0m\n'}
+[32.633776] (ros_gz_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[32.670682] (-) TimerEvent: {}
+[32.771406] (-) TimerEvent: {}
+[32.843281] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/ros_gz_interfaces/srv/detail/dds_fastrtps/spawn_entity__type_support.cpp.o\x1b[0m\n'}
+[32.871594] (-) TimerEvent: {}
+[32.893622] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[32.971790] (-) TimerEvent: {}
+[33.072503] (-) TimerEvent: {}
+[33.173201] (-) TimerEvent: {}
+[33.274135] (-) TimerEvent: {}
+[33.351841] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[33.374301] (-) TimerEvent: {}
+[33.475296] (-) TimerEvent: {}
+[33.535103] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[33.575448] (-) TimerEvent: {}
+[33.676128] (-) TimerEvent: {}
+[33.736800] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[32m\x1b[1mLinking CXX shared library libros_gz_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[33.776250] (-) TimerEvent: {}
+[33.876947] (-) TimerEvent: {}
+[33.955409] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[33.977054] (-) TimerEvent: {}
+[34.014839] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] Built target ros_gz_interfaces\n'}
+[34.074254] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[34.098952] (-) TimerEvent: {}
+[34.199513] (-) TimerEvent: {}
+[34.300351] (-) TimerEvent: {}
+[34.400939] (-) TimerEvent: {}
+[34.501735] (-) TimerEvent: {}
+[34.602319] (-) TimerEvent: {}
+[34.703111] (-) TimerEvent: {}
+[34.803682] (-) TimerEvent: {}
+[34.904397] (-) TimerEvent: {}
+[35.005106] (-) TimerEvent: {}
+[35.105803] (-) TimerEvent: {}
+[35.206501] (-) TimerEvent: {}
+[35.307189] (-) TimerEvent: {}
+[35.407655] (-) TimerEvent: {}
+[35.508194] (-) TimerEvent: {}
+[35.608899] (-) TimerEvent: {}
+[35.709521] (-) TimerEvent: {}
+[35.810100] (-) TimerEvent: {}
+[35.910708] (-) TimerEvent: {}
+[36.011369] (-) TimerEvent: {}
+[36.112043] (-) TimerEvent: {}
+[36.212666] (-) TimerEvent: {}
+[36.313190] (-) TimerEvent: {}
+[36.413714] (-) TimerEvent: {}
+[36.514217] (-) TimerEvent: {}
+[36.614685] (-) TimerEvent: {}
+[36.715169] (-) TimerEvent: {}
+[36.815596] (-) TimerEvent: {}
+[36.916007] (-) TimerEvent: {}
+[37.016428] (-) TimerEvent: {}
+[37.116856] (-) TimerEvent: {}
+[37.217288] (-) TimerEvent: {}
+[37.317710] (-) TimerEvent: {}
+[37.418130] (-) TimerEvent: {}
+[37.518575] (-) TimerEvent: {}
+[37.619078] (-) TimerEvent: {}
+[37.719627] (-) TimerEvent: {}
+[37.820192] (-) TimerEvent: {}
+[37.920745] (-) TimerEvent: {}
+[38.021300] (-) TimerEvent: {}
+[38.121849] (-) TimerEvent: {}
+[38.222432] (-) TimerEvent: {}
+[38.323121] (-) TimerEvent: {}
+[38.423765] (-) TimerEvent: {}
+[38.524343] (-) TimerEvent: {}
+[38.624897] (-) TimerEvent: {}
+[38.725428] (-) TimerEvent: {}
+[38.826002] (-) TimerEvent: {}
+[38.926605] (-) TimerEvent: {}
+[39.027253] (-) TimerEvent: {}
+[39.128149] (-) TimerEvent: {}
+[39.228972] (-) TimerEvent: {}
+[39.329549] (-) TimerEvent: {}
+[39.430169] (-) TimerEvent: {}
+[39.530766] (-) TimerEvent: {}
+[39.631424] (-) TimerEvent: {}
+[39.731962] (-) TimerEvent: {}
+[39.832488] (-) TimerEvent: {}
+[39.933014] (-) TimerEvent: {}
+[40.033540] (-) TimerEvent: {}
+[40.134100] (-) TimerEvent: {}
+[40.234651] (-) TimerEvent: {}
+[40.335227] (-) TimerEvent: {}
+[40.435822] (-) TimerEvent: {}
+[40.536453] (-) TimerEvent: {}
+[40.637026] (-) TimerEvent: {}
+[40.737664] (-) TimerEvent: {}
+[40.838325] (-) TimerEvent: {}
+[40.938971] (-) TimerEvent: {}
+[41.039659] (-) TimerEvent: {}
+[41.140312] (-) TimerEvent: {}
+[41.241007] (-) TimerEvent: {}
+[41.341671] (-) TimerEvent: {}
+[41.442377] (-) TimerEvent: {}
+[41.543049] (-) TimerEvent: {}
+[41.643659] (-) TimerEvent: {}
+[41.744341] (-) TimerEvent: {}
+[41.845117] (-) TimerEvent: {}
+[41.945856] (-) TimerEvent: {}
+[42.046562] (-) TimerEvent: {}
+[42.147297] (-) TimerEvent: {}
+[42.248011] (-) TimerEvent: {}
+[42.348746] (-) TimerEvent: {}
+[42.449444] (-) TimerEvent: {}
+[42.550129] (-) TimerEvent: {}
+[42.650807] (-) TimerEvent: {}
+[42.751474] (-) TimerEvent: {}
+[42.852134] (-) TimerEvent: {}
+[42.952731] (-) TimerEvent: {}
+[43.053320] (-) TimerEvent: {}
+[43.153967] (-) TimerEvent: {}
+[43.254668] (-) TimerEvent: {}
+[43.355337] (-) TimerEvent: {}
+[43.456023] (-) TimerEvent: {}
+[43.557387] (-) TimerEvent: {}
+[43.658453] (-) TimerEvent: {}
+[43.734776] (ros_gz_interfaces) StdoutLine: {'line': b'[ 86%] Built target ros_gz_interfaces__py\n'}
+[43.758567] (-) TimerEvent: {}
+[43.790202] (ros_gz_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_dataframe_s.c.o\x1b[0m\n'}
+[43.790734] (ros_gz_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contact_s.c.o\x1b[0m\n'}
+[43.791040] (ros_gz_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_contacts_s.c.o\x1b[0m\n'}
+[43.792907] (ros_gz_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_s.c.o\x1b[0m\n'}
+[43.793794] (ros_gz_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_factory_s.c.o\x1b[0m\n'}
+[43.796887] (ros_gz_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_altimeter_s.c.o\x1b[0m\n'}
+[43.858753] (-) TimerEvent: {}
+[43.959610] (-) TimerEvent: {}
+[44.060777] (-) TimerEvent: {}
+[44.161999] (-) TimerEvent: {}
+[44.263147] (-) TimerEvent: {}
+[44.364222] (-) TimerEvent: {}
+[44.369417] (ros_gz_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_float32_array_s.c.o\x1b[0m\n'}
+[44.370058] (ros_gz_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_entity_wrench_s.c.o\x1b[0m\n'}
+[44.372205] (ros_gz_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_gui_camera_s.c.o\x1b[0m\n'}
+[44.386329] (ros_gz_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_joint_wrench_s.c.o\x1b[0m\n'}
+[44.389985] (ros_gz_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_light_s.c.o\x1b[0m\n'}
+[44.405783] (ros_gz_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_material_color_s.c.o\x1b[0m\n'}
+[44.464415] (-) TimerEvent: {}
+[44.565157] (-) TimerEvent: {}
+[44.599224] (ros_gz_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_sensor_noise_s.c.o\x1b[0m\n'}
+[44.603577] (ros_gz_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_param_vec_s.c.o\x1b[0m\n'}
+[44.615190] (ros_gz_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_string_vec_s.c.o\x1b[0m\n'}
+[44.622310] (ros_gz_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_track_visual_s.c.o\x1b[0m\n'}
+[44.652292] (ros_gz_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_video_record_s.c.o\x1b[0m\n'}
+[44.656783] (ros_gz_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_control_s.c.o\x1b[0m\n'}
+[44.665357] (-) TimerEvent: {}
+[44.766357] (-) TimerEvent: {}
+[44.830281] (ros_gz_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/msg/_world_reset_s.c.o\x1b[0m\n'}
+[44.838558] (ros_gz_interfaces) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_control_world_s.c.o\x1b[0m\n'}
+[44.848879] (ros_gz_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_delete_entity_s.c.o\x1b[0m\n'}
+[44.866552] (-) TimerEvent: {}
+[44.870597] (ros_gz_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_spawn_entity_s.c.o\x1b[0m\n'}
+[44.871659] (ros_gz_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_generator_py.dir/rosidl_generator_py/ros_gz_interfaces/srv/_set_entity_pose_s.c.o\x1b[0m\n'}
+[44.966741] (-) TimerEvent: {}
+[45.067439] (-) TimerEvent: {}
+[45.109629] (ros_gz_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/libros_gz_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[45.167760] (-) TimerEvent: {}
+[45.234205] (ros_gz_interfaces) StdoutLine: {'line': b'[ 97%] Built target ros_gz_interfaces__rosidl_generator_py\n'}
+[45.268272] (-) TimerEvent: {}
+[45.281196] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[45.281668] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[45.281841] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32mBuilding C object CMakeFiles/ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/ros_gz_interfaces/_ros_gz_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[45.368163] (-) TimerEvent: {}
+[45.468855] (-) TimerEvent: {}
+[45.569575] (-) TimerEvent: {}
+[45.670402] (-) TimerEvent: {}
+[45.688586] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[45.689125] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[45.695164] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[45.770544] (-) TimerEvent: {}
+[45.793818] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] Built target ros_gz_interfaces__rosidl_typesupport_c__pyext\n'}
+[45.798031] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] Built target ros_gz_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[45.798444] (ros_gz_interfaces) StdoutLine: {'line': b'[100%] Built target ros_gz_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[45.833932] (ros_gz_interfaces) JobEnded: {'identifier': 'ros_gz_interfaces', 'rc': 'SIGINT'}
+[45.846144] (my_box_bot_gazebo) JobSkipped: {'identifier': 'my_box_bot_gazebo'}
+[45.846454] (service_pkg) JobSkipped: {'identifier': 'service_pkg'}
+[45.846636] (servo_control_node) JobSkipped: {'identifier': 'servo_control_node'}
+[45.846811] (simulation) JobSkipped: {'identifier': 'simulation'}
+[45.846958] (topic_pkg) JobSkipped: {'identifier': 'topic_pkg'}
+[45.847090] (ros_gz_bridge) JobSkipped: {'identifier': 'ros_gz_bridge'}
+[45.847237] (ros_gz_image) JobSkipped: {'identifier': 'ros_gz_image'}
+[45.847312] (test_ros_gz_bridge) JobSkipped: {'identifier': 'test_ros_gz_bridge'}
+[45.847447] (ros_gz_sim_demos) JobSkipped: {'identifier': 'ros_gz_sim_demos'}
+[45.847591] (ros_gz) JobSkipped: {'identifier': 'ros_gz'}
+[45.847668] (-) EventReactorShutdown: {}

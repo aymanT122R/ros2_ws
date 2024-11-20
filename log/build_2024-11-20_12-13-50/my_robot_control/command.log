@@ -1,0 +1,4 @@
+Invoking command in '/home/dia/ros2_ws/build/my_robot_control': /usr/bin/cmake --build /home/dia/ros2_ws/build/my_robot_control -- -j6 -l6
+Invoked command in '/home/dia/ros2_ws/build/my_robot_control' returned '0': /usr/bin/cmake --build /home/dia/ros2_ws/build/my_robot_control -- -j6 -l6
+Invoking command in '/home/dia/ros2_ws/build/my_robot_control': /usr/bin/cmake --install /home/dia/ros2_ws/build/my_robot_control
+Invoked command in '/home/dia/ros2_ws/build/my_robot_control' returned '0': /usr/bin/cmake --install /home/dia/ros2_ws/build/my_robot_control

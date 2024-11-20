@@ -1,0 +1,18 @@
+[0.019s] Invoking command in '/home/dia/ros2_ws/build/my_robot_control': /usr/bin/cmake /home/dia/ros2_ws/src/my_robot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/my_robot_control
+[0.034s] [0mCMake Error: The source directory "/home/dia/ros2_ws/src/my_robot_control" does not appear to contain CMakeLists.txt.
+[0.034s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.037s] Invoked command in '/home/dia/ros2_ws/build/my_robot_control' returned '1': /usr/bin/cmake /home/dia/ros2_ws/src/my_robot_control -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/my_robot_control
+[0.039s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_ros/task/catkin/build.py", line 74, in build
+    rc = await extension.build(
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+TypeError: argument of type 'NoneType' is not iterable

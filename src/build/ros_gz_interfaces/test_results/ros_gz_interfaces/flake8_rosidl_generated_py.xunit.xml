@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ros_gz_interfaces.flake8_rosidl_generated_py"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.856"
+>
+  <testcase
+    name="flake8"
+    classname="ros_gz_interfaces.flake8_rosidl_generated_py"/>
+  <system-out>Checked files:
+* /home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_generator_py/ros_gz_interfaces/__init__.py</system-out>
+</testsuite>

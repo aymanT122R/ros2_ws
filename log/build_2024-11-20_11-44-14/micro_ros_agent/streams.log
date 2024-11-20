@@ -1,0 +1,13 @@
+[0.017s] Invoking command in '/home/dia/ros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/dia/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dia/ros2_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dia/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/dia/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dia/ros2_ws/build/micro_ros_agent -- -j6 -l6
+[0.104s] [  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+[0.126s] [31mCMake Error at /home/dia/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-gitupdate.cmake:25 (message):
+[0.127s]   Failed to get the hash for HEAD:
+[0.127s] 
+[0.127s]   fatal: not a git repository (or any of the parent directories): .git
+[0.127s] 
+[0.127s] 
+[0.127s] [0m
+[0.129s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:125: agent/src/xrceagent-stamp/xrceagent-update] Error 1
+[0.129s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[0.129s] gmake: *** [Makefile:91: all] Error 2
+[0.134s] Invoked command in '/home/dia/ros2_ws/build/micro_ros_agent' returned '2': AMENT_PREFIX_PATH=/home/dia/ros2_ws/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dia/ros2_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/dia/ros2_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64 PYTHONPATH=/home/dia/ros2_ws/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dia/ros2_ws/build/micro_ros_agent -- -j6 -l6

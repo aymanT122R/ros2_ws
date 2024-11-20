@@ -1,0 +1,1 @@
+Invoking command in '/home/dia/ros2_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dia/ros2_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/rtabmap

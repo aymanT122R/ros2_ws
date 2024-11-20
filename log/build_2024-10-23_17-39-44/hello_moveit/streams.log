@@ -1,0 +1,4 @@
+[0.045s] Invoking command in '/home/dia/ros2_ws/build/hello_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dia/ros2_ws/build/hello_moveit -- -j6 -l6
+[0.619s] [35m[1mConsolidate compiler generated dependencies of target hello_moveit[0m
+[0.619s] [100%] Built target hello_moveit
+[0.632s] Invoked command in '/home/dia/ros2_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dia/ros2_ws/build/hello_moveit -- -j6 -l6

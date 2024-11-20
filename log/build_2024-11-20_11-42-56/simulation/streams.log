@@ -1,0 +1,65 @@
+[1.490s] Invoking command in '/home/dia/ros2_ws/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dia/ros2_ws/src/simulation -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/simulation
+[1.653s] -- The C compiler identification is GNU 11.4.0
+[1.777s] -- The CXX compiler identification is GNU 11.4.0
+[1.798s] -- Detecting C compiler ABI info
+[1.939s] -- Detecting C compiler ABI info - done
+[1.953s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.954s] -- Detecting C compile features
+[1.954s] -- Detecting C compile features - done
+[1.961s] -- Detecting CXX compiler ABI info
+[2.111s] -- Detecting CXX compiler ABI info - done
+[2.125s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.125s] -- Detecting CXX compile features
+[2.126s] -- Detecting CXX compile features - done
+[2.131s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.838s] -- Configuring done
+[2.845s] -- Generating done
+[2.846s] -- Build files have been written to: /home/dia/ros2_ws/build/simulation
+[2.866s] Invoked command in '/home/dia/ros2_ws/build/simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dia/ros2_ws/src/simulation -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/simulation
+[2.868s] Invoking command in '/home/dia/ros2_ws/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dia/ros2_ws/build/simulation -- -j6 -l6
+[2.950s] Invoked command in '/home/dia/ros2_ws/build/simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dia/ros2_ws/build/simulation -- -j6 -l6
+[3.003s] Invoking command in '/home/dia/ros2_ws/build/simulation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dia/ros2_ws/build/simulation
+[3.017s] -- Install configuration: ""
+[3.018s] -- Installing: /home/dia/ros2_ws/install/simulation/share/ament_index/resource_index/package_run_dependencies/simulation
+[3.018s] -- Installing: /home/dia/ros2_ws/install/simulation/share/ament_index/resource_index/parent_prefix_path/simulation
+[3.019s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/environment/ament_prefix_path.sh
+[3.019s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/environment/ament_prefix_path.dsv
+[3.019s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/environment/path.sh
+[3.020s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/environment/path.dsv
+[3.020s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/local_setup.bash
+[3.020s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/local_setup.sh
+[3.020s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/local_setup.zsh
+[3.021s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/local_setup.dsv
+[3.021s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/package.dsv
+[3.021s] -- Installing: /home/dia/ros2_ws/install/simulation/share/ament_index/resource_index/packages/simulation
+[3.022s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/cmake/simulationConfig.cmake
+[3.022s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/cmake/simulationConfig-version.cmake
+[3.022s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/package.xml
+[3.022s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch
+[3.022s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/setup_assistant.launch.py
+[3.023s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/rviz.launch.py
+[3.023s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/move_group.launch.py
+[3.023s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/static_virtual_joint_tfs.launch.py
+[3.023s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/moveit_rviz.launch.py
+[3.023s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/gazebo.launch.py
+[3.024s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/demo.launch.py
+[3.024s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/spawn_controllers.launch.py
+[3.024s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/display.launch.py
+[3.024s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/warehouse_db.launch.py
+[3.024s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/launch/rsp.launch.py
+[3.025s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config
+[3.025s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/kinematics.yaml
+[3.027s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/structure.srdf
+[3.027s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/moveit_controllers.yaml
+[3.028s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/sensors_3d.yaml
+[3.029s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/controllers.yaml
+[3.029s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/initial_positions.yaml
+[3.030s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/pilz_cartesian_limits.yaml
+[3.030s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/moveit.rviz
+[3.031s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/structure.ros2_control.xacro
+[3.031s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/structure.urdf.xacro
+[3.032s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/ros2_controllers.yaml
+[3.032s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/config/joint_limits.yaml
+[3.033s] -- Installing: /home/dia/ros2_ws/install/simulation/share/simulation/.setup_assistant
+[3.046s] Invoked command in '/home/dia/ros2_ws/build/simulation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dia/ros2_ws/build/simulation

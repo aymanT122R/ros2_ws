@@ -1,0 +1,27 @@
+[4.695s] Invoking command in '/home/dia/ros2_ws/src/cam_yolo': PYTHONPATH=/home/dia/ros2_ws/src/build/cam_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cam_yolo build --build-base /home/dia/ros2_ws/src/build/cam_yolo/build install --record /home/dia/ros2_ws/src/build/cam_yolo/install.log --single-version-externally-managed install_data
+[5.075s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.076s]   warnings.warn(msg)
+[5.385s] running egg_info
+[5.436s] writing ../build/cam_yolo/cam_yolo.egg-info/PKG-INFO
+[5.437s] writing dependency_links to ../build/cam_yolo/cam_yolo.egg-info/dependency_links.txt
+[5.437s] writing entry points to ../build/cam_yolo/cam_yolo.egg-info/entry_points.txt
+[5.438s] writing requirements to ../build/cam_yolo/cam_yolo.egg-info/requires.txt
+[5.438s] writing top-level names to ../build/cam_yolo/cam_yolo.egg-info/top_level.txt
+[5.837s] reading manifest file '../build/cam_yolo/cam_yolo.egg-info/SOURCES.txt'
+[5.840s] writing manifest file '../build/cam_yolo/cam_yolo.egg-info/SOURCES.txt'
+[5.840s] running build
+[5.840s] running build_py
+[5.841s] copying cam_yolo/__init__.py -> /home/dia/ros2_ws/src/build/cam_yolo/build/lib/cam_yolo
+[5.841s] copying cam_yolo/cam_yolo_node.py -> /home/dia/ros2_ws/src/build/cam_yolo/build/lib/cam_yolo
+[5.842s] running install
+[5.852s] running install_lib
+[5.905s] running install_data
+[5.906s] copying resource/cam_yolo -> /home/dia/ros2_ws/src/install/cam_yolo/share/ament_index/resource_index/packages
+[5.906s] copying package.xml -> /home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo
+[5.906s] running install_egg_info
+[5.966s] removing '/home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages/cam_yolo-0.0.0-py3.10.egg-info' (and everything under it)
+[5.966s] Copying ../build/cam_yolo/cam_yolo.egg-info to /home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages/cam_yolo-0.0.0-py3.10.egg-info
+[5.967s] running install_scripts
+[6.103s] Installing cam_yolo script to /home/dia/ros2_ws/src/install/cam_yolo/lib/cam_yolo
+[6.104s] writing list of installed files to '/home/dia/ros2_ws/src/build/cam_yolo/install.log'
+[6.192s] Invoked command in '/home/dia/ros2_ws/src/cam_yolo' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/cam_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cam_yolo build --build-base /home/dia/ros2_ws/src/build/cam_yolo/build install --record /home/dia/ros2_ws/src/build/cam_yolo/install.log --single-version-externally-managed install_data

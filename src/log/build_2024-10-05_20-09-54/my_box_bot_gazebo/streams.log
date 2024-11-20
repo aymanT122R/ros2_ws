@@ -1,0 +1,20 @@
+[0.591s] Invoking command in '/home/dia/ros2_ws/src/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dia/arm_robot/install/cam_yolo:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/cam_yolo:/opt/ros/iron /usr/bin/cmake --build /home/dia/ros2_ws/src/build/my_box_bot_gazebo -- -j6 -l6
+[2.782s] Invoked command in '/home/dia/ros2_ws/src/build/my_box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dia/arm_robot/install/cam_yolo:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/cam_yolo:/opt/ros/iron /usr/bin/cmake --build /home/dia/ros2_ws/src/build/my_box_bot_gazebo -- -j6 -l6
+[2.887s] Invoking command in '/home/dia/ros2_ws/src/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dia/arm_robot/install/cam_yolo:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/cam_yolo:/opt/ros/iron /usr/bin/cmake --install /home/dia/ros2_ws/src/build/my_box_bot_gazebo
+[2.906s] -- Install configuration: ""
+[2.907s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/ament_index/resource_index/package_run_dependencies/my_box_bot_gazebo
+[2.907s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/ament_index/resource_index/parent_prefix_path/my_box_bot_gazebo
+[2.907s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.sh
+[2.907s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/ament_prefix_path.dsv
+[2.907s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.sh
+[2.907s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/environment/path.dsv
+[2.908s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.bash
+[2.908s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.sh
+[2.908s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.zsh
+[2.910s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/local_setup.dsv
+[2.911s] -- Installing: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv
+[2.911s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/ament_index/resource_index/packages/my_box_bot_gazebo
+[2.911s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig.cmake
+[2.911s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/cmake/my_box_bot_gazeboConfig-version.cmake
+[2.912s] -- Up-to-date: /home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.xml
+[2.923s] Invoked command in '/home/dia/ros2_ws/src/build/my_box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dia/arm_robot/install/cam_yolo:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/cam_yolo:/opt/ros/iron /usr/bin/cmake --install /home/dia/ros2_ws/src/build/my_box_bot_gazebo

@@ -1,0 +1,12 @@
+[31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+  Cannot find source file:
+
+    /home/dia/ros2_ws/src/rtabmap_ros/rtabmap_msgs/msg/Info.msg
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+Call Stack (most recent call first):
+  CMakeLists.txt:76 (rosidl_generate_interfaces)
+
+[0m
+[0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

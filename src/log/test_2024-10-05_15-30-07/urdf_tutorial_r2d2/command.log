@@ -1,0 +1,2 @@
+Invoking command in '/home/dia/ros2_ws/src/urdf_tutorial_r2d2': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v
+Invoked command in '/home/dia/ros2_ws/src/urdf_tutorial_r2d2' returned '0': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v

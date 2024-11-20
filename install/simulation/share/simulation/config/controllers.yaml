@@ -1,0 +1,21 @@
+controller_list:
+  - name: arm_group_controller
+    joint_state_broadcaster:
+
+    type: arm_group_controller/arm_group_controller
+    joints:
+      - Joint_1
+      - Joint_2
+      - Joint_3
+      - Joint_4
+      - Joint_5
+      - Joint_6
+    # Additional controller parameters
+    gains:
+      Joint_1: {p: 100.0, d: 1.0}
+      Joint_2: {p: 100.0, d: 1.0}
+      Joint_3: {p: 100.0, d: 1.0}
+      Joint_4: {p: 100.0, d: 1.0}
+      Joint_5: {p: 100.0, d: 1.0}
+      Joint_6: {p: 100.0, d: 1.0}
+

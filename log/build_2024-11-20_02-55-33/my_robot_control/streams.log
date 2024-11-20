@@ -1,0 +1,28 @@
+[1.449s] Invoking command in '/home/dia/ros2_ws/build/my_robot_control': PYTHONPATH=/home/dia/ros2_ws/build/my_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dia/ros2_ws/build/my_robot_control/build --no-deps symlink_data
+[2.046s] running develop
+[2.047s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.047s]   warnings.warn(
+[2.466s] running egg_info
+[2.466s] creating my_robot_control.egg-info
+[2.467s] writing my_robot_control.egg-info/PKG-INFO
+[2.467s] writing dependency_links to my_robot_control.egg-info/dependency_links.txt
+[2.467s] writing entry points to my_robot_control.egg-info/entry_points.txt
+[2.468s] writing requirements to my_robot_control.egg-info/requires.txt
+[2.468s] writing top-level names to my_robot_control.egg-info/top_level.txt
+[2.468s] writing manifest file 'my_robot_control.egg-info/SOURCES.txt'
+[2.471s] reading manifest file 'my_robot_control.egg-info/SOURCES.txt'
+[2.472s] writing manifest file 'my_robot_control.egg-info/SOURCES.txt'
+[2.475s] running build_ext
+[2.476s] Creating /home/dia/ros2_ws/install/my_robot_control/lib/python3.10/site-packages/my-robot-control.egg-link (link to .)
+[2.478s] Installing robot_control script to /home/dia/ros2_ws/install/my_robot_control/lib/my_robot_control
+[2.478s] 
+[2.479s] Installed /home/dia/ros2_ws/build/my_robot_control
+[2.479s] running symlink_data
+[2.479s] creating /home/dia/ros2_ws/install/my_robot_control/share
+[2.479s] creating /home/dia/ros2_ws/install/my_robot_control/share/ament_index
+[2.480s] creating /home/dia/ros2_ws/install/my_robot_control/share/ament_index/resource_index
+[2.480s] creating /home/dia/ros2_ws/install/my_robot_control/share/ament_index/resource_index/packages
+[2.480s] symbolically linking /home/dia/ros2_ws/build/my_robot_control/resource/my_robot_control -> /home/dia/ros2_ws/install/my_robot_control/share/ament_index/resource_index/packages
+[2.480s] creating /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control
+[2.481s] symbolically linking /home/dia/ros2_ws/build/my_robot_control/package.xml -> /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control
+[2.556s] Invoked command in '/home/dia/ros2_ws/build/my_robot_control' returned '0': PYTHONPATH=/home/dia/ros2_ws/build/my_robot_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/dia/ros2_ws/build/my_robot_control/build --no-deps symlink_data

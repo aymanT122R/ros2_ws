@@ -1,0 +1,7 @@
+[2.214s] Invoking command in '/home/dia/ros2_ws/src/topic_pkg': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v
+[2.307s] 
+[2.307s] ----------------------------------------------------------------------
+[2.307s] Ran 0 tests in 0.000s
+[2.308s] 
+[2.308s] OK
+[6.157s] Invoked command in '/home/dia/ros2_ws/src/topic_pkg' returned '0': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v

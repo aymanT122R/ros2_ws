@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ros_gz_interfaces.cppcheck_rosidl_typesupport_introspection_c"
+  tests="1"
+  errors="0"
+  failures="0"
+  time="0.041"
+  skipped="1"
+>
+  <testcase
+    name="/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_typesupport_introspection_c/ros_gz_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h"
+    classname="ros_gz_interfaces.cppcheck_rosidl_typesupport_introspection_c"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

@@ -1,0 +1,2 @@
+[console_scripts]
+servo_control = servo_control_node.servo_control:main

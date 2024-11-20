@@ -1,0 +1,2 @@
+Invoking command in '/home/dia/ros2_ws/src/yolo_detection': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v
+Invoked command in '/home/dia/ros2_ws/src/yolo_detection' returned '1': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v

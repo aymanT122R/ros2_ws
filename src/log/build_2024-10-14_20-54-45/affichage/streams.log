@@ -1,0 +1,39 @@
+[4.256s] Invoking command in '/home/dia/ros2_ws/src/affichage': PYTHONPATH=/home/dia/ros2_ws/src/build/affichage/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/affichage build --build-base /home/dia/ros2_ws/src/build/affichage/build install --record /home/dia/ros2_ws/src/build/affichage/install.log --single-version-externally-managed install_data
+[4.682s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.682s]   warnings.warn(msg)
+[5.010s] running egg_info
+[5.011s] creating ../build/affichage/affichage.egg-info
+[5.063s] writing ../build/affichage/affichage.egg-info/PKG-INFO
+[5.063s] writing dependency_links to ../build/affichage/affichage.egg-info/dependency_links.txt
+[5.064s] writing entry points to ../build/affichage/affichage.egg-info/entry_points.txt
+[5.064s] writing requirements to ../build/affichage/affichage.egg-info/requires.txt
+[5.064s] writing top-level names to ../build/affichage/affichage.egg-info/top_level.txt
+[5.369s] writing manifest file '../build/affichage/affichage.egg-info/SOURCES.txt'
+[5.477s] reading manifest file '../build/affichage/affichage.egg-info/SOURCES.txt'
+[5.477s] adding license file 'LICENSE'
+[5.480s] writing manifest file '../build/affichage/affichage.egg-info/SOURCES.txt'
+[5.480s] running build
+[5.480s] running build_py
+[5.481s] creating /home/dia/ros2_ws/src/build/affichage/build
+[5.481s] creating /home/dia/ros2_ws/src/build/affichage/build/lib
+[5.481s] creating /home/dia/ros2_ws/src/build/affichage/build/lib/affichage
+[5.481s] copying affichage/__init__.py -> /home/dia/ros2_ws/src/build/affichage/build/lib/affichage
+[5.482s] copying affichage/esp32_cam_node.py -> /home/dia/ros2_ws/src/build/affichage/build/lib/affichage
+[5.482s] running install
+[5.492s] running install_lib
+[5.545s] creating /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage
+[5.545s] copying /home/dia/ros2_ws/src/build/affichage/build/lib/affichage/__init__.py -> /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage
+[5.545s] copying /home/dia/ros2_ws/src/build/affichage/build/lib/affichage/esp32_cam_node.py -> /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage
+[5.547s] byte-compiling /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage/__init__.py to __init__.cpython-310.pyc
+[5.547s] byte-compiling /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage/esp32_cam_node.py to esp32_cam_node.cpython-310.pyc
+[5.548s] running install_data
+[5.549s] creating /home/dia/ros2_ws/src/install/affichage/share/ament_index
+[5.549s] creating /home/dia/ros2_ws/src/install/affichage/share/ament_index/resource_index
+[5.549s] creating /home/dia/ros2_ws/src/install/affichage/share/ament_index/resource_index/packages
+[5.549s] copying resource/affichage -> /home/dia/ros2_ws/src/install/affichage/share/ament_index/resource_index/packages
+[5.550s] copying package.xml -> /home/dia/ros2_ws/src/install/affichage/share/affichage
+[5.550s] running install_egg_info
+[5.606s] Copying ../build/affichage/affichage.egg-info to /home/dia/ros2_ws/src/install/affichage/lib/python3.10/site-packages/affichage-0.0.0-py3.10.egg-info
+[5.608s] running install_scripts
+[5.738s] Installing esp32_cam_node script to /home/dia/ros2_ws/src/install/affichage/lib/affichage
+[5.739s] writing list of installed files to '/home/dia/ros2_ws/src/build/affichage/install.log'

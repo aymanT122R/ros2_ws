@@ -1,0 +1,21 @@
+-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dia/ros2_ws/build/my_robot_control
+-- Install configuration: ""
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/ament_index/resource_index/package_run_dependencies/my_robot_control
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/ament_index/resource_index/parent_prefix_path/my_robot_control
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/environment/ament_prefix_path.sh
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/environment/ament_prefix_path.dsv
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/environment/path.sh
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/environment/path.dsv
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/local_setup.bash
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/local_setup.sh
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/local_setup.zsh
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/local_setup.dsv
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/package.dsv
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/ament_index/resource_index/packages/my_robot_control
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/cmake/my_robot_controlConfig.cmake
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/cmake/my_robot_controlConfig-version.cmake
+-- Installing: /home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/package.xml

@@ -1,0 +1,58 @@
+[0.071s] Invoking command in '/home/dia/ros2_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dia/ros2_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/rtabmap
+[1.151s] -- The C compiler identification is GNU 11.4.0
+[1.194s] -- The CXX compiler identification is GNU 11.4.0
+[1.215s] -- Detecting C compiler ABI info
+[1.562s] -- Detecting C compiler ABI info - done
+[1.575s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.576s] -- Detecting C compile features
+[1.577s] -- Detecting C compile features - done
+[1.583s] -- Detecting CXX compiler ABI info
+[1.738s] -- Detecting CXX compiler ABI info - done
+[1.752s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.752s] -- Detecting CXX compile features
+[1.753s] -- Detecting CXX compile features - done
+[1.760s] -- MOBILE_BUILD=OFF
+[1.849s] -- Checking for module 'eigen3'
+[1.876s] --   Found eigen3, version 3.4.0
+[1.926s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.926s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.084s] -- Checking for module 'libusb-1.0'
+[2.104s] --   Found libusb-1.0, version 1.0.25
+[2.170s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[2.173s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.059s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.107s] -- Checking for module 'flann'
+[8.143s] --   Found flann, version 1.9.1
+[8.226s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[8.227s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[8.243s] -- Found Qhull version 8.0.2
+[9.088s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.234s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.533s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[9.541s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[9.543s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[9.545s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[9.547s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[9.549s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[9.552s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[9.552s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[9.554s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[9.557s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[9.559s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[9.560s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[9.562s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[9.564s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[9.566s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[9.568s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[9.581s] -- Found SQLite3: /usr/include /usr/lib/aarch64-linux-gnu/libsqlite3.so
+[11.506s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[11.714s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[11.715s] -- Found OpenMP: TRUE (found version "4.5") found components: C CXX 
+[11.716s] -- Found OpenMP: /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.so;/usr/lib/aarch64-linux-gnu/libpthread.a
+[11.716s] -- Add PCL_OMP to definitions
+[11.717s] -- Found OpenCV: /usr/include/opencv4
+[11.717s] -- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni;/usr/include/openni2
+[11.717s] -- Found ZLIB: /usr/include
+[11.762s] -- Found Threads: TRUE  
+[11.767s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[11.772s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 

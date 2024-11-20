@@ -1,0 +1,35 @@
+[5.591s] Invoking command in '/home/dia/ros2_ws/src/structureURDF': PYTHONPATH=/home/dia/ros2_ws/src/build/structureURDF/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/structureURDF build --build-base /home/dia/ros2_ws/src/build/structureURDF/build install --record /home/dia/ros2_ws/src/build/structureURDF/install.log --single-version-externally-managed install_data
+[5.999s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.999s]   warnings.warn(msg)
+[6.341s] running egg_info
+[6.343s] creating ../build/structureURDF/structureURDF.egg-info
+[6.411s] writing ../build/structureURDF/structureURDF.egg-info/PKG-INFO
+[6.414s] writing dependency_links to ../build/structureURDF/structureURDF.egg-info/dependency_links.txt
+[6.415s] writing requirements to ../build/structureURDF/structureURDF.egg-info/requires.txt
+[6.416s] writing top-level names to ../build/structureURDF/structureURDF.egg-info/top_level.txt
+[6.761s] writing manifest file '../build/structureURDF/structureURDF.egg-info/SOURCES.txt'
+[6.878s] reading manifest file '../build/structureURDF/structureURDF.egg-info/SOURCES.txt'
+[6.883s] adding license file 'LICENSE'
+[6.885s] writing manifest file '../build/structureURDF/structureURDF.egg-info/SOURCES.txt'
+[6.885s] running build
+[6.886s] running build_py
+[6.886s] creating /home/dia/ros2_ws/src/build/structureURDF/build
+[6.887s] creating /home/dia/ros2_ws/src/build/structureURDF/build/lib
+[6.887s] creating /home/dia/ros2_ws/src/build/structureURDF/build/lib/structureURDF
+[6.887s] copying structureURDF/__init__.py -> /home/dia/ros2_ws/src/build/structureURDF/build/lib/structureURDF
+[6.888s] running install
+[6.898s] running install_lib
+[6.952s] creating /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF
+[6.952s] copying /home/dia/ros2_ws/src/build/structureURDF/build/lib/structureURDF/__init__.py -> /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF
+[6.954s] byte-compiling /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF/__init__.py to __init__.cpython-310.pyc
+[6.955s] running install_data
+[6.955s] creating /home/dia/ros2_ws/src/install/structureURDF/share/ament_index
+[6.956s] creating /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index
+[6.956s] creating /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index/packages
+[6.958s] copying resource/structureURDF -> /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index/packages
+[6.958s] copying package.xml -> /home/dia/ros2_ws/src/install/structureURDF/share/structureURDF
+[6.958s] running install_egg_info
+[7.018s] Copying ../build/structureURDF/structureURDF.egg-info to /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF-0.0.0-py3.10.egg-info
+[7.019s] running install_scripts
+[7.143s] writing list of installed files to '/home/dia/ros2_ws/src/build/structureURDF/install.log'
+[7.222s] Invoked command in '/home/dia/ros2_ws/src/structureURDF' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/structureURDF/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/structureURDF build --build-base /home/dia/ros2_ws/src/build/structureURDF/build install --record /home/dia/ros2_ws/src/build/structureURDF/install.log --single-version-externally-managed install_data

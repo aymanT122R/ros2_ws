@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces':
+ - /opt/ros/iron/bin/ament_cpplint --xunit-file /home/dia/ros2_ws/src/build/ros_gz_interfaces/test_results/ros_gz_interfaces/cpplint_rosidl_generated_cpp.xunit.xml --linelength 999 --root /home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_generator_cpp /home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_generator_cpp/ros_gz_interfaces
+
+No files found
+
+
+-- run_test.py: return code 1
+-- run_test.py: generate result file '/home/dia/ros2_ws/src/build/ros_gz_interfaces/test_results/ros_gz_interfaces/cpplint_rosidl_generated_cpp.xunit.xml' with failed test
+-- run_test.py: verify result file '/home/dia/ros2_ws/src/build/ros_gz_interfaces/test_results/ros_gz_interfaces/cpplint_rosidl_generated_cpp.xunit.xml'

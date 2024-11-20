@@ -1,0 +1,2 @@
+Invoking command in '/home/dia/ros2_ws/build/hello_moveit': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dia/ros2_ws/build/hello_moveit -- -j6 -l6
+Invoked command in '/home/dia/ros2_ws/build/hello_moveit' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dia/ros2_ws/build/hello_moveit -- -j6 -l6

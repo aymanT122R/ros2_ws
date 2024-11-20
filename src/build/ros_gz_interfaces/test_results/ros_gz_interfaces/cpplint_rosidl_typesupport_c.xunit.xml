@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ros_gz_interfaces" tests="1" failures="0" time="0.185" errors="1" skipped="0">
+  <testcase classname="ros_gz_interfaces" name="cpplint_rosidl_typesupport_c.xunit.missing_result" time="0.185">
+    <error message="The test did not generate a result file:&#10;&#10;No files found&#10;"/>
+  </testcase>
+</testsuite>

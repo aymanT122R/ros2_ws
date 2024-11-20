@@ -1,0 +1,15 @@
+/home/dia/ros2_ws/install/my_robot_control/share/ament_index/resource_index/package_run_dependencies/my_robot_control
+/home/dia/ros2_ws/install/my_robot_control/share/ament_index/resource_index/parent_prefix_path/my_robot_control
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/environment/ament_prefix_path.sh
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/environment/ament_prefix_path.dsv
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/environment/path.sh
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/environment/path.dsv
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/local_setup.bash
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/local_setup.sh
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/local_setup.zsh
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/local_setup.dsv
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/package.dsv
+/home/dia/ros2_ws/install/my_robot_control/share/ament_index/resource_index/packages/my_robot_control
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/cmake/my_robot_controlConfig.cmake
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/cmake/my_robot_controlConfig-version.cmake
+/home/dia/ros2_ws/install/my_robot_control/share/my_robot_control/package.xml

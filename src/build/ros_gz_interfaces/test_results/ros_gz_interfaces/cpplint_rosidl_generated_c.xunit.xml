@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="ros_gz_interfaces.cpplint_rosidl_generated_c"
+  tests="1"
+  failures="0"
+  errors="0"
+  time="0.047"
+>
+  <testcase
+    name="/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_generator_c/ros_gz_interfaces/msg/rosidl_generator_c__visibility_control.h"
+    classname="ros_gz_interfaces.cpplint_rosidl_generated_c"/>
+  <system-out>Checked files:
+* /home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_generator_c/ros_gz_interfaces/msg/rosidl_generator_c__visibility_control.h</system-out>
+</testsuite>

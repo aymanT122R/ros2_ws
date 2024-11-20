@@ -1,0 +1,10 @@
+[31mCMake Error at /home/dia/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-gitupdate.cmake:25 (message):
+  Failed to get the hash for HEAD:
+
+  fatal: not a git repository (or any of the parent directories): .git
+
+
+[0m
+gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:125: agent/src/xrceagent-stamp/xrceagent-update] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

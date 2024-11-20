@@ -1,0 +1,47 @@
+[0.062s] Invoking command in '/home/dia/ros2_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dia/ros2_ws/src/rtabmap_ros/rtabmap_msgs -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/rtabmap_msgs
+[1.138s] -- The C compiler identification is GNU 11.4.0
+[1.182s] -- The CXX compiler identification is GNU 11.4.0
+[1.203s] -- Detecting C compiler ABI info
+[1.582s] -- Detecting C compiler ABI info - done
+[1.594s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.595s] -- Detecting C compile features
+[1.595s] -- Detecting C compile features - done
+[1.601s] -- Detecting CXX compiler ABI info
+[1.762s] -- Detecting CXX compiler ABI info - done
+[1.772s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.773s] -- Detecting CXX compile features
+[1.774s] -- Detecting CXX compile features - done
+[1.784s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.788s] -- Found ament_cmake_core: 1.3.10 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[2.599s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.763s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.783s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.595s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.902s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[3.985s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[4.113s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[4.186s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[7.241s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[8.063s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.956s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[9.018s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[9.026s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[9.110s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[9.111s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[9.111s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[9.111s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[9.170s] -- Found PythonExtra: .so  
+[9.386s] -- Configuring done
+[9.415s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:213 (add_custom_target):
+[9.415s]   Cannot find source file:
+[9.416s] 
+[9.416s]     /home/dia/ros2_ws/src/rtabmap_ros/rtabmap_msgs/msg/Info.msg
+[9.416s] 
+[9.416s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h
+[9.417s]   .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc
+[9.417s] Call Stack (most recent call first):
+[9.417s]   CMakeLists.txt:76 (rosidl_generate_interfaces)
+[9.417s] 
+[9.417s] [0m
+[9.582s] -- Generating done
+[9.586s] [0mCMake Generate step failed.  Build files cannot be regenerated correctly.[0m

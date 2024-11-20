@@ -1,0 +1,12 @@
+digraph G {
+"base_link" -> "Link_1"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1728504180.38347\nOldest transform: 1728504175.383682\n"];
+"Link_1" -> "Link_2"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1728504180.38347\nOldest transform: 1728504175.383682\n"];
+"Link_2" -> "Link_3"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1728504180.38347\nOldest transform: 1728504175.383682\n"];
+"Link_3" -> "Link_4"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1728504180.38347\nOldest transform: 1728504175.383682\n"];
+"Link_4" -> "Link_5"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1728504180.38347\nOldest transform: 1728504175.383682\n"];
+"Link_5" -> "Link_6"[label=" Broadcaster: default_authority\nAverage rate: 10.2\nBuffer length: 5.0\nMost recent transform: 1728504180.38347\nOldest transform: 1728504175.383682\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1728504180.4052236"[ shape=plaintext ] ;
+}->"base_link";
+}

@@ -1,0 +1,39 @@
+[5.605s] Invoking command in '/home/dia/ros2_ws/src/result_publisher': PYTHONPATH=/home/dia/ros2_ws/src/build/result_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/result_publisher build --build-base /home/dia/ros2_ws/src/build/result_publisher/build install --record /home/dia/ros2_ws/src/build/result_publisher/install.log --single-version-externally-managed install_data
+[6.022s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[6.022s]   warnings.warn(msg)
+[6.343s] running egg_info
+[6.343s] creating ../build/result_publisher/result_publisher.egg-info
+[6.395s] writing ../build/result_publisher/result_publisher.egg-info/PKG-INFO
+[6.396s] writing dependency_links to ../build/result_publisher/result_publisher.egg-info/dependency_links.txt
+[6.397s] writing entry points to ../build/result_publisher/result_publisher.egg-info/entry_points.txt
+[6.397s] writing requirements to ../build/result_publisher/result_publisher.egg-info/requires.txt
+[6.397s] writing top-level names to ../build/result_publisher/result_publisher.egg-info/top_level.txt
+[6.688s] writing manifest file '../build/result_publisher/result_publisher.egg-info/SOURCES.txt'
+[6.795s] reading manifest file '../build/result_publisher/result_publisher.egg-info/SOURCES.txt'
+[6.798s] writing manifest file '../build/result_publisher/result_publisher.egg-info/SOURCES.txt'
+[6.798s] running build
+[6.798s] running build_py
+[6.798s] creating /home/dia/ros2_ws/src/build/result_publisher/build
+[6.799s] creating /home/dia/ros2_ws/src/build/result_publisher/build/lib
+[6.799s] creating /home/dia/ros2_ws/src/build/result_publisher/build/lib/result_publisher
+[6.799s] copying result_publisher/__init__.py -> /home/dia/ros2_ws/src/build/result_publisher/build/lib/result_publisher
+[6.799s] copying result_publisher/publisher_node.py -> /home/dia/ros2_ws/src/build/result_publisher/build/lib/result_publisher
+[6.802s] running install
+[6.812s] running install_lib
+[6.893s] creating /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher
+[6.893s] copying /home/dia/ros2_ws/src/build/result_publisher/build/lib/result_publisher/__init__.py -> /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher
+[6.893s] copying /home/dia/ros2_ws/src/build/result_publisher/build/lib/result_publisher/publisher_node.py -> /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher
+[6.893s] byte-compiling /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher/__init__.py to __init__.cpython-310.pyc
+[6.894s] byte-compiling /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher/publisher_node.py to publisher_node.cpython-310.pyc
+[6.894s] running install_data
+[6.894s] creating /home/dia/ros2_ws/src/install/result_publisher/share/ament_index
+[6.894s] creating /home/dia/ros2_ws/src/install/result_publisher/share/ament_index/resource_index
+[6.894s] creating /home/dia/ros2_ws/src/install/result_publisher/share/ament_index/resource_index/packages
+[6.894s] copying resource/result_publisher -> /home/dia/ros2_ws/src/install/result_publisher/share/ament_index/resource_index/packages
+[6.905s] copying package.xml -> /home/dia/ros2_ws/src/install/result_publisher/share/result_publisher
+[6.906s] running install_egg_info
+[6.961s] Copying ../build/result_publisher/result_publisher.egg-info to /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher-0.0.0-py3.10.egg-info
+[6.963s] running install_scripts
+[7.086s] Installing publisher_node script to /home/dia/ros2_ws/src/install/result_publisher/lib/result_publisher
+[7.207s] writing list of installed files to '/home/dia/ros2_ws/src/build/result_publisher/install.log'
+[7.394s] Invoked command in '/home/dia/ros2_ws/src/result_publisher' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/result_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/result_publisher build --build-base /home/dia/ros2_ws/src/build/result_publisher/build install --record /home/dia/ros2_ws/src/build/result_publisher/install.log --single-version-externally-managed install_data

@@ -1,0 +1,31 @@
+running egg_info
+creating ../build/structureURDF/structureURDF.egg-info
+writing ../build/structureURDF/structureURDF.egg-info/PKG-INFO
+writing dependency_links to ../build/structureURDF/structureURDF.egg-info/dependency_links.txt
+writing requirements to ../build/structureURDF/structureURDF.egg-info/requires.txt
+writing top-level names to ../build/structureURDF/structureURDF.egg-info/top_level.txt
+writing manifest file '../build/structureURDF/structureURDF.egg-info/SOURCES.txt'
+reading manifest file '../build/structureURDF/structureURDF.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/structureURDF/structureURDF.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dia/ros2_ws/src/build/structureURDF/build
+creating /home/dia/ros2_ws/src/build/structureURDF/build/lib
+creating /home/dia/ros2_ws/src/build/structureURDF/build/lib/structureURDF
+copying structureURDF/__init__.py -> /home/dia/ros2_ws/src/build/structureURDF/build/lib/structureURDF
+running install
+running install_lib
+creating /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF
+copying /home/dia/ros2_ws/src/build/structureURDF/build/lib/structureURDF/__init__.py -> /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF
+byte-compiling /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/dia/ros2_ws/src/install/structureURDF/share/ament_index
+creating /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index
+creating /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index/packages
+copying resource/structureURDF -> /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index/packages
+copying package.xml -> /home/dia/ros2_ws/src/install/structureURDF/share/structureURDF
+running install_egg_info
+Copying ../build/structureURDF/structureURDF.egg-info to /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/dia/ros2_ws/src/build/structureURDF/install.log'

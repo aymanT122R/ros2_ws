@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/dia/ros2_ws/src/build/ros_gz_interfaces/rosidl_generator_py/ros_gz_interfaces/ros_gz_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "ros_gz_interfaces__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.10/site-packages/ros_gz_interfaces")

@@ -1,0 +1,26 @@
+-- The C compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/dia/ros2_ws/build/micro_ros_agent
+[  6%] [34m[1mPerforming update step for 'xrceagent'[0m
+[31mCMake Error at /home/dia/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-gitupdate.cmake:25 (message):
+  Failed to get the hash for HEAD:
+
+  fatal: not a git repository (or any of the parent directories): .git
+
+
+[0m
+gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:125: agent/src/xrceagent-stamp/xrceagent-update] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

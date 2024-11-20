@@ -1,0 +1,38 @@
+[4.655s] Invoking command in '/home/dia/ros2_ws/src/control_node': PYTHONPATH=/home/dia/ros2_ws/src/build/control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/control_node build --build-base /home/dia/ros2_ws/src/build/control_node/build install --record /home/dia/ros2_ws/src/build/control_node/install.log --single-version-externally-managed install_data
+[5.070s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[5.071s]   warnings.warn(msg)
+[5.404s] running egg_info
+[5.405s] creating ../build/control_node/control_node.egg-info
+[5.456s] writing ../build/control_node/control_node.egg-info/PKG-INFO
+[5.458s] writing dependency_links to ../build/control_node/control_node.egg-info/dependency_links.txt
+[5.459s] writing requirements to ../build/control_node/control_node.egg-info/requires.txt
+[5.459s] writing top-level names to ../build/control_node/control_node.egg-info/top_level.txt
+[5.771s] writing manifest file '../build/control_node/control_node.egg-info/SOURCES.txt'
+[5.881s] reading manifest file '../build/control_node/control_node.egg-info/SOURCES.txt'
+[5.882s] adding license file 'LICENSE'
+[5.884s] writing manifest file '../build/control_node/control_node.egg-info/SOURCES.txt'
+[5.885s] running build
+[5.885s] running build_py
+[5.886s] creating /home/dia/ros2_ws/src/build/control_node/build
+[5.886s] creating /home/dia/ros2_ws/src/build/control_node/build/lib
+[5.887s] creating /home/dia/ros2_ws/src/build/control_node/build/lib/control_node
+[5.887s] copying control_node/control_servo.py -> /home/dia/ros2_ws/src/build/control_node/build/lib/control_node
+[5.887s] copying control_node/__init__.py -> /home/dia/ros2_ws/src/build/control_node/build/lib/control_node
+[5.888s] running install
+[5.899s] running install_lib
+[5.952s] creating /home/dia/ros2_ws/src/install/control_node/lib/python3.10/site-packages/control_node
+[5.953s] copying /home/dia/ros2_ws/src/build/control_node/build/lib/control_node/control_servo.py -> /home/dia/ros2_ws/src/install/control_node/lib/python3.10/site-packages/control_node
+[5.953s] copying /home/dia/ros2_ws/src/build/control_node/build/lib/control_node/__init__.py -> /home/dia/ros2_ws/src/install/control_node/lib/python3.10/site-packages/control_node
+[5.954s] byte-compiling /home/dia/ros2_ws/src/install/control_node/lib/python3.10/site-packages/control_node/control_servo.py to control_servo.cpython-310.pyc
+[5.956s] byte-compiling /home/dia/ros2_ws/src/install/control_node/lib/python3.10/site-packages/control_node/__init__.py to __init__.cpython-310.pyc
+[5.956s] running install_data
+[5.957s] creating /home/dia/ros2_ws/src/install/control_node/share/ament_index
+[5.957s] creating /home/dia/ros2_ws/src/install/control_node/share/ament_index/resource_index
+[5.957s] creating /home/dia/ros2_ws/src/install/control_node/share/ament_index/resource_index/packages
+[5.957s] copying resource/control_node -> /home/dia/ros2_ws/src/install/control_node/share/ament_index/resource_index/packages
+[5.958s] copying package.xml -> /home/dia/ros2_ws/src/install/control_node/share/control_node
+[5.958s] running install_egg_info
+[6.014s] Copying ../build/control_node/control_node.egg-info to /home/dia/ros2_ws/src/install/control_node/lib/python3.10/site-packages/control_node-0.0.0-py3.10.egg-info
+[6.016s] running install_scripts
+[6.147s] writing list of installed files to '/home/dia/ros2_ws/src/build/control_node/install.log'
+[6.243s] Invoked command in '/home/dia/ros2_ws/src/control_node' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/control_node build --build-base /home/dia/ros2_ws/src/build/control_node/build install --record /home/dia/ros2_ws/src/build/control_node/install.log --single-version-externally-managed install_data

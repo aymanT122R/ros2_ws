@@ -1,0 +1,29 @@
+[4.529s] Invoking command in '/home/dia/ros2_ws/src/service_pkg': PYTHONPATH=/home/dia/ros2_ws/src/build/service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/service_pkg build --build-base /home/dia/ros2_ws/src/build/service_pkg/build install --record /home/dia/ros2_ws/src/build/service_pkg/install.log --single-version-externally-managed install_data
+[4.914s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[4.914s]   warnings.warn(msg)
+[5.227s] running egg_info
+[5.277s] writing ../build/service_pkg/service_pkg.egg-info/PKG-INFO
+[5.279s] writing dependency_links to ../build/service_pkg/service_pkg.egg-info/dependency_links.txt
+[5.280s] writing entry points to ../build/service_pkg/service_pkg.egg-info/entry_points.txt
+[5.280s] writing requirements to ../build/service_pkg/service_pkg.egg-info/requires.txt
+[5.281s] writing top-level names to ../build/service_pkg/service_pkg.egg-info/top_level.txt
+[5.696s] reading manifest file '../build/service_pkg/service_pkg.egg-info/SOURCES.txt'
+[5.699s] writing manifest file '../build/service_pkg/service_pkg.egg-info/SOURCES.txt'
+[5.699s] running build
+[5.700s] running build_py
+[5.700s] copying service_pkg/__init__.py -> /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg
+[5.701s] copying service_pkg/server_demo.py -> /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg
+[5.701s] copying service_pkg/client_demo.py -> /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg
+[5.702s] running install
+[5.713s] running install_lib
+[5.767s] running install_data
+[5.768s] copying resource/service_pkg -> /home/dia/ros2_ws/src/install/service_pkg/share/ament_index/resource_index/packages
+[5.768s] copying package.xml -> /home/dia/ros2_ws/src/install/service_pkg/share/service_pkg
+[5.768s] running install_egg_info
+[5.823s] removing '/home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[5.824s] Copying ../build/service_pkg/service_pkg.egg-info to /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg-0.0.0-py3.10.egg-info
+[5.826s] running install_scripts
+[5.951s] Installing client_demo script to /home/dia/ros2_ws/src/install/service_pkg/lib/service_pkg
+[5.951s] Installing server_demo script to /home/dia/ros2_ws/src/install/service_pkg/lib/service_pkg
+[5.952s] writing list of installed files to '/home/dia/ros2_ws/src/build/service_pkg/install.log'
+[6.045s] Invoked command in '/home/dia/ros2_ws/src/service_pkg' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/service_pkg build --build-base /home/dia/ros2_ws/src/build/service_pkg/build install --record /home/dia/ros2_ws/src/build/service_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,7 @@
+[0.627s] Invoking command in '/home/dia/ros2_ws/src/esp32_cam_stream': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v
+[2.263s] 
+[2.264s] ----------------------------------------------------------------------
+[2.267s] Ran 0 tests in 0.000s
+[2.267s] 
+[2.269s] OK
+[2.273s] Invoked command in '/home/dia/ros2_ws/src/esp32_cam_stream' returned '0': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v

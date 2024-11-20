@@ -1,0 +1,2 @@
+Invoking command in '/home/dia/ros2_ws/src/esp32_cam_stream': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v
+Invoked command in '/home/dia/ros2_ws/src/esp32_cam_stream' returned '0': PYTHONDONTWRITEBYTECODE=1 /usr/bin/python3 -m unittest -v

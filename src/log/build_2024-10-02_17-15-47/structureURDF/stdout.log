@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing structureURDF.egg-info/PKG-INFO
+writing dependency_links to structureURDF.egg-info/dependency_links.txt
+writing requirements to structureURDF.egg-info/requires.txt
+writing top-level names to structureURDF.egg-info/top_level.txt
+reading manifest file 'structureURDF.egg-info/SOURCES.txt'
+writing manifest file 'structureURDF.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF.egg-link (link to .)
+
+Installed /home/dia/ros2_ws/src/build/structureURDF
+running symlink_data
+symbolically linking /home/dia/ros2_ws/src/build/structureURDF/resource/structureURDF -> /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index/packages
+symbolically linking /home/dia/ros2_ws/src/build/structureURDF/package.xml -> /home/dia/ros2_ws/src/install/structureURDF/share/structureURDF

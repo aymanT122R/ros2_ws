@@ -1,0 +1,385 @@
+[0.000000] (-) TimerEvent: {}
+[0.001376] (esp32_cam_stream) JobQueued: {'identifier': 'esp32_cam_stream', 'dependencies': OrderedDict()}
+[0.001695] (result_publisher) JobQueued: {'identifier': 'result_publisher', 'dependencies': OrderedDict()}
+[0.002117] (ros_gz_interfaces) JobQueued: {'identifier': 'ros_gz_interfaces', 'dependencies': OrderedDict()}
+[0.002254] (ros_gz_sim) JobQueued: {'identifier': 'ros_gz_sim', 'dependencies': OrderedDict()}
+[0.002396] (service_pkg) JobQueued: {'identifier': 'service_pkg', 'dependencies': OrderedDict()}
+[0.002500] (structureURDF) JobQueued: {'identifier': 'structureURDF', 'dependencies': OrderedDict()}
+[0.002595] (topic_pkg) JobQueued: {'identifier': 'topic_pkg', 'dependencies': OrderedDict()}
+[0.002688] (urdf_tutorial_r2d2) JobQueued: {'identifier': 'urdf_tutorial_r2d2', 'dependencies': OrderedDict()}
+[0.002782] (yolo_detection) JobQueued: {'identifier': 'yolo_detection', 'dependencies': OrderedDict()}
+[0.002875] (ros_gz_bridge) JobQueued: {'identifier': 'ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/dia/ros2_ws/src/install/ros_gz_interfaces')])}
+[0.003030] (ros_gz_image) JobQueued: {'identifier': 'ros_gz_image', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/dia/ros2_ws/src/install/ros_gz_interfaces'), ('ros_gz_bridge', '/home/dia/ros2_ws/src/install/ros_gz_bridge')])}
+[0.003140] (test_ros_gz_bridge) JobQueued: {'identifier': 'test_ros_gz_bridge', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/dia/ros2_ws/src/install/ros_gz_interfaces'), ('ros_gz_bridge', '/home/dia/ros2_ws/src/install/ros_gz_bridge')])}
+[0.003263] (ros_gz_sim_demos) JobQueued: {'identifier': 'ros_gz_sim_demos', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/dia/ros2_ws/src/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/dia/ros2_ws/src/install/ros_gz_sim'), ('ros_gz_bridge', '/home/dia/ros2_ws/src/install/ros_gz_bridge'), ('ros_gz_image', '/home/dia/ros2_ws/src/install/ros_gz_image')])}
+[0.003395] (ros_gz) JobQueued: {'identifier': 'ros_gz', 'dependencies': OrderedDict([('ros_gz_interfaces', '/home/dia/ros2_ws/src/install/ros_gz_interfaces'), ('ros_gz_sim', '/home/dia/ros2_ws/src/install/ros_gz_sim'), ('ros_gz_bridge', '/home/dia/ros2_ws/src/install/ros_gz_bridge'), ('ros_gz_image', '/home/dia/ros2_ws/src/install/ros_gz_image'), ('ros_gz_sim_demos', '/home/dia/ros2_ws/src/install/ros_gz_sim_demos')])}
+[0.003631] (ros_gz_interfaces) JobStarted: {'identifier': 'ros_gz_interfaces'}
+[0.015372] (ros_gz_sim) JobStarted: {'identifier': 'ros_gz_sim'}
+[0.023123] (esp32_cam_stream) JobStarted: {'identifier': 'esp32_cam_stream'}
+[0.033812] (result_publisher) JobStarted: {'identifier': 'result_publisher'}
+[0.044072] (service_pkg) JobStarted: {'identifier': 'service_pkg'}
+[0.054805] (structureURDF) JobStarted: {'identifier': 'structureURDF'}
+[0.069470] (ros_gz_interfaces) JobProgress: {'identifier': 'ros_gz_interfaces', 'progress': 'cmake'}
+[0.069941] (ros_gz_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/dia/ros2_ws/src/ros_gz/ros_gz_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/src/install/ros_gz_interfaces'], 'cwd': '/home/dia/ros2_ws/src/build/ros_gz_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3861'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dia/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/3861,unix/dia-desktop:/tmp/.ICE-unix/3861'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/785c3948_41f7_4262_a656_13c3bee556af'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/src/build/ros_gz_interfaces'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dia/ros2_ws/install/yolo_detection/lib/python3.10/site-packages:/home/dia/ros2_ws/build/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron')]), 'shell': False}
+[0.076350] (ros_gz_sim) JobProgress: {'identifier': 'ros_gz_sim', 'progress': 'cmake'}
+[0.076866] (ros_gz_sim) Command: {'cmd': ['/usr/bin/cmake', '/home/dia/ros2_ws/src/ros_gz/ros_gz_sim', '-DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/src/install/ros_gz_sim'], 'cwd': '/home/dia/ros2_ws/src/build/ros_gz_sim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dia'), ('LC_TIME', 'ar_TN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-12.2/lib64:'), ('HOME', '/home/dia'), ('OLDPWD', '/home/dia/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('JETSON_L4T', '36.3.0'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('JETSON_MODEL', 'NVIDIA Jetson Orin Nano Developer Kit'), ('LC_MONETARY', 'ar_TN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3861'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/iron/'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/dia/ros2_ws/install'), ('ROS_DISTRO', 'iron'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'dia'), ('JETSON_MODULE', 'NVIDIA Jetson Orin Nano (Developer kit)'), ('JETSON_SERIAL_NUMBER', '1421124269098'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dia'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ISAAC_ROS_WS', 'workspaces/isaac_ros-dev/'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/iron/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dia-desktop:@/tmp/.ICE-unix/3861,unix/dia-desktop:/tmp/.ICE-unix/3861'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_TN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/785c3948_41f7_4262_a656_13c3bee556af'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_TN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('JETSON_SOC', 'tegra234'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_TN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_TN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'ar_TN.UTF-8'), ('ROS_AUTOMATIC_DISCOVERY_RANGE', 'SUBNET'), ('QT_IM_MODULE', 'ibus'), ('JETSON_CUDA_ARCH_BIN', '8.7'), ('PWD', '/home/dia/ros2_ws/src/build/ros_gz_sim'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dia/ros2_ws/install/yolo_detection/lib/python3.10/site-packages:/home/dia/ros2_ws/build/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages'), ('LC_NUMERIC', 'ar_TN.UTF-8'), ('LC_PAPER', 'ar_TN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('JETSON_JETPACK', '6.0'), ('JETSON_P_NUMBER', 'p3767-0005'), ('CMAKE_PREFIX_PATH', '/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron')]), 'shell': False}
+[0.099227] (-) TimerEvent: {}
+[0.199925] (-) TimerEvent: {}
+[0.300797] (-) TimerEvent: {}
+[0.401593] (-) TimerEvent: {}
+[0.502221] (-) TimerEvent: {}
+[0.603975] (-) TimerEvent: {}
+[0.705726] (-) TimerEvent: {}
+[0.806481] (-) TimerEvent: {}
+[0.907173] (-) TimerEvent: {}
+[1.007910] (-) TimerEvent: {}
+[1.108568] (-) TimerEvent: {}
+[1.209195] (-) TimerEvent: {}
+[1.309917] (-) TimerEvent: {}
+[1.410531] (-) TimerEvent: {}
+[1.511130] (-) TimerEvent: {}
+[1.611907] (-) TimerEvent: {}
+[1.712681] (-) TimerEvent: {}
+[1.813448] (-) TimerEvent: {}
+[1.914134] (-) TimerEvent: {}
+[2.037706] (-) TimerEvent: {}
+[2.138526] (-) TimerEvent: {}
+[2.273300] (-) TimerEvent: {}
+[2.293047] (ros_gz_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.294027] (ros_gz_sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.373440] (-) TimerEvent: {}
+[2.474128] (-) TimerEvent: {}
+[2.574789] (-) TimerEvent: {}
+[2.675426] (-) TimerEvent: {}
+[2.776085] (-) TimerEvent: {}
+[2.876779] (-) TimerEvent: {}
+[2.977480] (-) TimerEvent: {}
+[3.078686] (-) TimerEvent: {}
+[3.179778] (-) TimerEvent: {}
+[3.280814] (-) TimerEvent: {}
+[3.381977] (-) TimerEvent: {}
+[3.483103] (-) TimerEvent: {}
+[3.584105] (-) TimerEvent: {}
+[3.685203] (-) TimerEvent: {}
+[3.786364] (-) TimerEvent: {}
+[3.887423] (-) TimerEvent: {}
+[3.888138] (ros_gz_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.888617] (ros_gz_sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.915286] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.915968] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.987597] (-) TimerEvent: {}
+[4.071109] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.071755] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.087744] (-) TimerEvent: {}
+[4.091185] (ros_gz_sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.091902] (ros_gz_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.104486] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.104873] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.106493] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.107240] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.116997] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.117918] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.187907] (-) TimerEvent: {}
+[4.288645] (-) TimerEvent: {}
+[4.340763] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.342351] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.366570] (ros_gz_sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.367956] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.368997] (ros_gz_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.369867] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.370886] (ros_gz_sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.371501] (ros_gz_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.387619] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[4.388553] (ros_gz_sim) StdoutLine: {'line': b'-- Found ament_cmake: 2.0.6 (/opt/ros/iron/share/ament_cmake/cmake)\n'}
+[4.388904] (-) TimerEvent: {}
+[4.489695] (-) TimerEvent: {}
+[4.590443] (-) TimerEvent: {}
+[4.691151] (-) TimerEvent: {}
+[4.791818] (-) TimerEvent: {}
+[4.892536] (-) TimerEvent: {}
+[4.993193] (-) TimerEvent: {}
+[5.093868] (-) TimerEvent: {}
+[5.194548] (-) TimerEvent: {}
+[5.295321] (-) TimerEvent: {}
+[5.299919] (ros_gz_sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.376861] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.395479] (-) TimerEvent: {}
+[5.496241] (-) TimerEvent: {}
+[5.530008] (ros_gz_sim) StdoutLine: {'line': b'-- Found rclcpp: 21.0.7 (/opt/ros/iron/share/rclcpp/cmake)\n'}
+[5.584612] (esp32_cam_stream) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/esp32_cam_stream', 'build', '--build-base', '/home/dia/ros2_ws/src/build/esp32_cam_stream/build', 'install', '--record', '/home/dia/ros2_ws/src/build/esp32_cam_stream/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dia/ros2_ws/src/esp32_cam_stream', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dia', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/dia', 'OLDPWD': '/home/dia/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ar_TN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3861', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/iron/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dia/ros2_ws/install', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dia', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421124269098', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': 'workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dia-desktop:@/tmp/.ICE-unix/3861,unix/dia-desktop:/tmp/.ICE-unix/3861', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/785c3948_41f7_4262_a656_13c3bee556af', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/dia/ros2_ws/src/build/esp32_cam_stream', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dia/ros2_ws/src/build/esp32_cam_stream/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages:/home/dia/ros2_ws/install/yolo_detection/lib/python3.10/site-packages:/home/dia/ros2_ws/build/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[5.596433] (-) TimerEvent: {}
+[5.620169] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.6.0 (/opt/ros/iron/share/builtin_interfaces/cmake)\n'}
+[5.623061] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[5.637649] (result_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/result_publisher', 'build', '--build-base', '/home/dia/ros2_ws/src/build/result_publisher/build', 'install', '--record', '/home/dia/ros2_ws/src/build/result_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dia/ros2_ws/src/result_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dia', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/dia', 'OLDPWD': '/home/dia/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ar_TN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3861', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/iron/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dia/ros2_ws/install', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dia', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421124269098', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': 'workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dia-desktop:@/tmp/.ICE-unix/3861,unix/dia-desktop:/tmp/.ICE-unix/3861', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/785c3948_41f7_4262_a656_13c3bee556af', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/dia/ros2_ws/src/build/result_publisher', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dia/ros2_ws/src/build/result_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/yolo_detection/lib/python3.10/site-packages:/home/dia/ros2_ws/build/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[5.644127] (structureURDF) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/structureURDF', 'build', '--build-base', '/home/dia/ros2_ws/src/build/structureURDF/build', 'install', '--record', '/home/dia/ros2_ws/src/build/structureURDF/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dia/ros2_ws/src/structureURDF', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dia', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/dia', 'OLDPWD': '/home/dia/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ar_TN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3861', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/iron/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dia/ros2_ws/install', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dia', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421124269098', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': 'workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dia-desktop:@/tmp/.ICE-unix/3861,unix/dia-desktop:/tmp/.ICE-unix/3861', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/785c3948_41f7_4262_a656_13c3bee556af', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/dia/ros2_ws/src/build/structureURDF', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dia/ros2_ws/src/build/structureURDF/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages:/home/dia/ros2_ws/install/yolo_detection/lib/python3.10/site-packages:/home/dia/ros2_ws/build/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[5.648375] (ros_gz_sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[5.650942] (service_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/service_pkg', 'build', '--build-base', '/home/dia/ros2_ws/src/build/service_pkg/build', 'install', '--record', '/home/dia/ros2_ws/src/build/service_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/dia/ros2_ws/src/service_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'dia', 'LC_TIME': 'ar_TN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/aarch64-linux-gnu:/opt/ros/iron/lib:/usr/local/cuda-12.2/lib64:', 'HOME': '/home/dia', 'OLDPWD': '/home/dia/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'JETSON_L4T': '36.3.0', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'JETSON_MODEL': 'NVIDIA Jetson Orin Nano Developer Kit', 'LC_MONETARY': 'ar_TN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3861', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/opt/ros/iron/', 'IM_CONFIG_PHASE': '1', 'COLCON_PREFIX_PATH': '/home/dia/ros2_ws/install', 'ROS_DISTRO': 'iron', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'dia', 'JETSON_MODULE': 'NVIDIA Jetson Orin Nano (Developer kit)', 'JETSON_SERIAL_NUMBER': '1421124269098', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'dia', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ISAAC_ROS_WS': 'workspaces/isaac_ros-dev/', 'WINDOWPATH': '2', 'PATH': '/opt/ros/iron/bin:/usr/local/cuda-12.2/bin:/home/dia/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/dia-desktop:@/tmp/.ICE-unix/3861,unix/dia-desktop:/tmp/.ICE-unix/3861', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_TN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/785c3948_41f7_4262_a656_13c3bee556af', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'ar_TN.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'JETSON_SOC': 'tegra234', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_TN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_TN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'ar_TN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'JETSON_CUDA_ARCH_BIN': '8.7', 'PWD': '/home/dia/ros2_ws/src/build/service_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=749989f199cc5939b8b2054c66fd6164', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/dia/ros2_ws/src/build/service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/yolo_detection/lib/python3.10/site-packages:/home/dia/ros2_ws/build/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:/home/dia/ros2_ws/install/topic_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/service_pkg/lib/python3.10/site-packages:/home/dia/ros2_ws/install/result_publisher/lib/python3.10/site-packages:/home/dia/ros2_ws/install/esp32_cam_stream/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages', 'LC_NUMERIC': 'ar_TN.UTF-8', 'LC_PAPER': 'ar_TN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'JETSON_JETPACK': '6.0', 'JETSON_P_NUMBER': 'p3767-0005'}, 'shell': False}
+[5.682165] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.690600] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)\n'}
+[5.696585] (-) TimerEvent: {}
+[5.715489] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)\n'}
+[5.721647] (ros_gz_sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.747858] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.786526] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.796743] (-) TimerEvent: {}
+[5.822916] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rcl_interfaces: 1.6.0 (/opt/ros/iron/share/rcl_interfaces/cmake)\n'}
+[5.896898] (-) TimerEvent: {}
+[5.997548] (-) TimerEvent: {}
+[6.010384] (esp32_cam_stream) StderrLine: {'line': b"/home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.010912] (esp32_cam_stream) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.040408] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)\n'}
+[6.045951] (ros_gz_sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 7.1.4 (/opt/ros/iron/share/rmw_fastrtps_cpp/cmake)\n'}
+[6.054093] (structureURDF) StderrLine: {'line': b"/home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.054539] (structureURDF) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.055512] (result_publisher) StderrLine: {'line': b"/home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[6.055815] (result_publisher) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[6.061057] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[6.097694] (-) TimerEvent: {}
+[6.136841] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 5.0.1 (/opt/ros/iron/share/geometry_msgs/cmake)\n'}
+[6.197863] (-) TimerEvent: {}
+[6.262173] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.5.0 (/opt/ros/iron/share/rosidl_default_generators/cmake)\n'}
+[6.298026] (-) TimerEvent: {}
+[6.303593] (ros_gz_sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.305584] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.0.1 (/opt/ros/iron/share/rosidl_adapter/cmake)\n'}
+[6.364420] (ros_gz_sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/iron/include  \n'}
+[6.364976] (esp32_cam_stream) StdoutLine: {'line': b'running egg_info\n'}
+[6.365735] (esp32_cam_stream) StdoutLine: {'line': b'creating ../build/esp32_cam_stream/esp32_cam_stream.egg-info\n'}
+[6.376504] (result_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[6.377352] (result_publisher) StdoutLine: {'line': b'creating ../build/result_publisher/result_publisher.egg-info\n'}
+[6.395960] (structureURDF) StdoutLine: {'line': b'running egg_info\n'}
+[6.397816] (structureURDF) StdoutLine: {'line': b'creating ../build/structureURDF/structureURDF.egg-info\n'}
+[6.398118] (-) TimerEvent: {}
+[6.422913] (esp32_cam_stream) StdoutLine: {'line': b'writing ../build/esp32_cam_stream/esp32_cam_stream.egg-info/PKG-INFO\n'}
+[6.424119] (esp32_cam_stream) StdoutLine: {'line': b'writing dependency_links to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/dependency_links.txt\n'}
+[6.424611] (esp32_cam_stream) StdoutLine: {'line': b'writing entry points to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/entry_points.txt\n'}
+[6.425020] (esp32_cam_stream) StdoutLine: {'line': b'writing requirements to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/requires.txt\n'}
+[6.425358] (esp32_cam_stream) StdoutLine: {'line': b'writing top-level names to ../build/esp32_cam_stream/esp32_cam_stream.egg-info/top_level.txt\n'}
+[6.429239] (result_publisher) StdoutLine: {'line': b'writing ../build/result_publisher/result_publisher.egg-info/PKG-INFO\n'}
+[6.430369] (result_publisher) StdoutLine: {'line': b'writing dependency_links to ../build/result_publisher/result_publisher.egg-info/dependency_links.txt\n'}
+[6.430733] (result_publisher) StdoutLine: {'line': b'writing entry points to ../build/result_publisher/result_publisher.egg-info/entry_points.txt\n'}
+[6.431114] (result_publisher) StdoutLine: {'line': b'writing requirements to ../build/result_publisher/result_publisher.egg-info/requires.txt\n'}
+[6.431414] (result_publisher) StdoutLine: {'line': b'writing top-level names to ../build/result_publisher/result_publisher.egg-info/top_level.txt\n'}
+[6.462337] (ros_gz_sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.466172] (structureURDF) StdoutLine: {'line': b'writing ../build/structureURDF/structureURDF.egg-info/PKG-INFO\n'}
+[6.468634] (structureURDF) StdoutLine: {'line': b'writing dependency_links to ../build/structureURDF/structureURDF.egg-info/dependency_links.txt\n'}
+[6.469948] (structureURDF) StdoutLine: {'line': b'writing requirements to ../build/structureURDF/structureURDF.egg-info/requires.txt\n'}
+[6.470757] (structureURDF) StdoutLine: {'line': b'writing top-level names to ../build/structureURDF/structureURDF.egg-info/top_level.txt\n'}
+[6.498305] (-) TimerEvent: {}
+[6.599245] (-) TimerEvent: {}
+[6.700130] (-) TimerEvent: {}
+[6.722212] (result_publisher) StdoutLine: {'line': b"writing manifest file '../build/result_publisher/result_publisher.egg-info/SOURCES.txt'\n"}
+[6.772705] (esp32_cam_stream) StdoutLine: {'line': b"writing manifest file '../build/esp32_cam_stream/esp32_cam_stream.egg-info/SOURCES.txt'\n"}
+[6.797523] (ros_gz_sim) StdoutLine: {'line': b'-- Found rclcpp_components: 21.0.7 (/opt/ros/iron/share/rclcpp_components/cmake)\n'}
+[6.800243] (-) TimerEvent: {}
+[6.815981] (structureURDF) StdoutLine: {'line': b"writing manifest file '../build/structureURDF/structureURDF.egg-info/SOURCES.txt'\n"}
+[6.828950] (result_publisher) StdoutLine: {'line': b"reading manifest file '../build/result_publisher/result_publisher.egg-info/SOURCES.txt'\n"}
+[6.831372] (result_publisher) StdoutLine: {'line': b"writing manifest file '../build/result_publisher/result_publisher.egg-info/SOURCES.txt'\n"}
+[6.831853] (result_publisher) StdoutLine: {'line': b'running build\n'}
+[6.832049] (result_publisher) StdoutLine: {'line': b'running build_py\n'}
+[6.832329] (result_publisher) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/result_publisher/build\n'}
+[6.832592] (result_publisher) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/result_publisher/build/lib\n'}
+[6.832903] (result_publisher) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/result_publisher/build/lib/result_publisher\n'}
+[6.833154] (result_publisher) StdoutLine: {'line': b'copying result_publisher/__init__.py -> /home/dia/ros2_ws/src/build/result_publisher/build/lib/result_publisher\n'}
+[6.833384] (result_publisher) StdoutLine: {'line': b'copying result_publisher/publisher_node.py -> /home/dia/ros2_ws/src/build/result_publisher/build/lib/result_publisher\n'}
+[6.836104] (result_publisher) StdoutLine: {'line': b'running install\n'}
+[6.846156] (result_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[6.900433] (-) TimerEvent: {}
+[6.901009] (esp32_cam_stream) StdoutLine: {'line': b"reading manifest file '../build/esp32_cam_stream/esp32_cam_stream.egg-info/SOURCES.txt'\n"}
+[6.926871] (result_publisher) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher\n'}
+[6.927111] (result_publisher) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/result_publisher/build/lib/result_publisher/__init__.py -> /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher\n'}
+[6.927266] (result_publisher) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/result_publisher/build/lib/result_publisher/publisher_node.py -> /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher\n'}
+[6.927402] (result_publisher) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[6.927526] (result_publisher) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher/publisher_node.py to publisher_node.cpython-310.pyc\n'}
+[6.927647] (result_publisher) StdoutLine: {'line': b'running install_data\n'}
+[6.927763] (result_publisher) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/result_publisher/share/ament_index\n'}
+[6.927880] (result_publisher) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/result_publisher/share/ament_index/resource_index\n'}
+[6.927993] (result_publisher) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/result_publisher/share/ament_index/resource_index/packages\n'}
+[6.928106] (result_publisher) StdoutLine: {'line': b'copying resource/result_publisher -> /home/dia/ros2_ws/src/install/result_publisher/share/ament_index/resource_index/packages\n'}
+[6.933513] (structureURDF) StdoutLine: {'line': b"reading manifest file '../build/structureURDF/structureURDF.egg-info/SOURCES.txt'\n"}
+[6.938158] (structureURDF) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[6.938567] (result_publisher) StdoutLine: {'line': b'copying package.xml -> /home/dia/ros2_ws/src/install/result_publisher/share/result_publisher\n'}
+[6.939681] (structureURDF) StdoutLine: {'line': b"writing manifest file '../build/structureURDF/structureURDF.egg-info/SOURCES.txt'\n"}
+[6.940106] (structureURDF) StdoutLine: {'line': b'running build\n'}
+[6.940403] (result_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.940681] (structureURDF) StdoutLine: {'line': b'running build_py\n'}
+[6.940968] (esp32_cam_stream) StdoutLine: {'line': b"writing manifest file '../build/esp32_cam_stream/esp32_cam_stream.egg-info/SOURCES.txt'\n"}
+[6.941252] (esp32_cam_stream) StdoutLine: {'line': b'running build\n'}
+[6.941583] (structureURDF) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/structureURDF/build\n'}
+[6.941778] (esp32_cam_stream) StdoutLine: {'line': b'running build_py\n'}
+[6.941914] (structureURDF) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/structureURDF/build/lib\n'}
+[6.942064] (structureURDF) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/structureURDF/build/lib/structureURDF\n'}
+[6.942235] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/esp32_cam_stream/build\n'}
+[6.942361] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib\n'}
+[6.942482] (structureURDF) StdoutLine: {'line': b'copying structureURDF/__init__.py -> /home/dia/ros2_ws/src/build/structureURDF/build/lib/structureURDF\n'}
+[6.942604] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream\n'}
+[6.942721] (esp32_cam_stream) StdoutLine: {'line': b'copying esp32_cam_stream/__init__.py -> /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream\n'}
+[6.942909] (esp32_cam_stream) StdoutLine: {'line': b'copying esp32_cam_stream/esp32_cam_node.py -> /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream\n'}
+[6.943038] (structureURDF) StdoutLine: {'line': b'running install\n'}
+[6.948342] (esp32_cam_stream) StdoutLine: {'line': b'running install\n'}
+[6.953260] (structureURDF) StdoutLine: {'line': b'running install_lib\n'}
+[6.959862] (esp32_cam_stream) StdoutLine: {'line': b'running install_lib\n'}
+[6.994789] (result_publisher) StdoutLine: {'line': b'Copying ../build/result_publisher/result_publisher.egg-info to /home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages/result_publisher-0.0.0-py3.10.egg-info\n'}
+[6.996466] (ros_gz_sim) StdoutLine: {'line': b'-- Found std_msgs: 5.0.1 (/opt/ros/iron/share/std_msgs/cmake)\n'}
+[6.997135] (result_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[7.000519] (-) TimerEvent: {}
+[7.007219] (structureURDF) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF\n'}
+[7.007567] (structureURDF) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/structureURDF/build/lib/structureURDF/__init__.py -> /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF\n'}
+[7.009066] (structureURDF) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF/__init__.py to __init__.cpython-310.pyc\n'}
+[7.009822] (structureURDF) StdoutLine: {'line': b'running install_data\n'}
+[7.010427] (structureURDF) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/structureURDF/share/ament_index\n'}
+[7.010733] (structureURDF) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index\n'}
+[7.011009] (structureURDF) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index/packages\n'}
+[7.012745] (structureURDF) StdoutLine: {'line': b'copying resource/structureURDF -> /home/dia/ros2_ws/src/install/structureURDF/share/ament_index/resource_index/packages\n'}
+[7.013027] (structureURDF) StdoutLine: {'line': b'copying package.xml -> /home/dia/ros2_ws/src/install/structureURDF/share/structureURDF\n'}
+[7.013178] (structureURDF) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.022379] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream\n'}
+[7.023424] (esp32_cam_stream) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream/__init__.py -> /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream\n'}
+[7.025477] (esp32_cam_stream) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/esp32_cam_stream/build/lib/esp32_cam_stream/esp32_cam_node.py -> /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream\n'}
+[7.031405] (esp32_cam_stream) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream/__init__.py to __init__.cpython-310.pyc\n'}
+[7.034404] (esp32_cam_stream) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream/esp32_cam_node.py to esp32_cam_node.cpython-310.pyc\n'}
+[7.039401] (esp32_cam_stream) StdoutLine: {'line': b'running install_data\n'}
+[7.072596] (structureURDF) StdoutLine: {'line': b'Copying ../build/structureURDF/structureURDF.egg-info to /home/dia/ros2_ws/src/install/structureURDF/lib/python3.10/site-packages/structureURDF-0.0.0-py3.10.egg-info\n'}
+[7.074608] (structureURDF) StdoutLine: {'line': b'running install_scripts\n'}
+[7.076773] (ros_gz_sim) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:18 (find_package):\n'}
+[7.077033] (ros_gz_sim) StderrLine: {'line': b'  By not providing "Findgz_math_vendor.cmake" in CMAKE_MODULE_PATH this\n'}
+[7.077178] (ros_gz_sim) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[7.077307] (ros_gz_sim) StderrLine: {'line': b'  "gz_math_vendor", but CMake did not find one.\n'}
+[7.077430] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[7.077548] (ros_gz_sim) StderrLine: {'line': b'  Could not find a package configuration file provided by "gz_math_vendor"\n'}
+[7.077665] (ros_gz_sim) StderrLine: {'line': b'  with any of the following names:\n'}
+[7.077781] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[7.077892] (ros_gz_sim) StderrLine: {'line': b'    gz_math_vendorConfig.cmake\n'}
+[7.078005] (ros_gz_sim) StderrLine: {'line': b'    gz_math_vendor-config.cmake\n'}
+[7.078116] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[7.078227] (ros_gz_sim) StderrLine: {'line': b'  Add the installation prefix of "gz_math_vendor" to CMAKE_PREFIX_PATH or set\n'}
+[7.078339] (ros_gz_sim) StderrLine: {'line': b'  "gz_math_vendor_DIR" to a directory containing one of the above files.  If\n'}
+[7.078450] (ros_gz_sim) StderrLine: {'line': b'  "gz_math_vendor" provides a separate development package or SDK, be sure it\n'}
+[7.078561] (ros_gz_sim) StderrLine: {'line': b'  has been installed.\n'}
+[7.078671] (ros_gz_sim) StderrLine: {'line': b'\n'}
+[7.078780] (ros_gz_sim) StderrLine: {'line': b'\x1b[0m\n'}
+[7.100662] (-) TimerEvent: {}
+[7.120030] (result_publisher) StdoutLine: {'line': b'Installing publisher_node script to /home/dia/ros2_ws/src/install/result_publisher/lib/result_publisher\n'}
+[7.197466] (structureURDF) StdoutLine: {'line': b"writing list of installed files to '/home/dia/ros2_ws/src/build/structureURDF/install.log'\n"}
+[7.200757] (-) TimerEvent: {}
+[7.224078] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index\n'}
+[7.224519] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index/resource_index\n'}
+[7.224760] (esp32_cam_stream) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index/resource_index/packages\n'}
+[7.224921] (esp32_cam_stream) StdoutLine: {'line': b'copying resource/esp32_cam_stream -> /home/dia/ros2_ws/src/install/esp32_cam_stream/share/ament_index/resource_index/packages\n'}
+[7.225218] (esp32_cam_stream) StdoutLine: {'line': b'copying package.xml -> /home/dia/ros2_ws/src/install/esp32_cam_stream/share/esp32_cam_stream\n'}
+[7.225517] (esp32_cam_stream) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.237720] (ros_gz_sim) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.238022] (ros_gz_sim) StdoutLine: {'line': b'See also "/home/dia/ros2_ws/src/build/ros_gz_sim/CMakeFiles/CMakeOutput.log".\n'}
+[7.240839] (result_publisher) StdoutLine: {'line': b"writing list of installed files to '/home/dia/ros2_ws/src/build/result_publisher/install.log'\n"}
+[7.265411] (service_pkg) StderrLine: {'line': b"/home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[7.269171] (service_pkg) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[7.269445] (service_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.269671] (service_pkg) StdoutLine: {'line': b'creating ../build/service_pkg/service_pkg.egg-info\n'}
+[7.269822] (service_pkg) StdoutLine: {'line': b'writing ../build/service_pkg/service_pkg.egg-info/PKG-INFO\n'}
+[7.269956] (service_pkg) StdoutLine: {'line': b'writing dependency_links to ../build/service_pkg/service_pkg.egg-info/dependency_links.txt\n'}
+[7.270087] (service_pkg) StdoutLine: {'line': b'writing entry points to ../build/service_pkg/service_pkg.egg-info/entry_points.txt\n'}
+[7.270324] (service_pkg) StdoutLine: {'line': b'writing requirements to ../build/service_pkg/service_pkg.egg-info/requires.txt\n'}
+[7.270503] (service_pkg) StdoutLine: {'line': b'writing top-level names to ../build/service_pkg/service_pkg.egg-info/top_level.txt\n'}
+[7.270636] (service_pkg) StdoutLine: {'line': b"writing manifest file '../build/service_pkg/service_pkg.egg-info/SOURCES.txt'\n"}
+[7.270758] (service_pkg) StdoutLine: {'line': b"reading manifest file '../build/service_pkg/service_pkg.egg-info/SOURCES.txt'\n"}
+[7.270877] (service_pkg) StdoutLine: {'line': b"writing manifest file '../build/service_pkg/service_pkg.egg-info/SOURCES.txt'\n"}
+[7.270992] (service_pkg) StdoutLine: {'line': b'running build\n'}
+[7.271107] (service_pkg) StdoutLine: {'line': b'running build_py\n'}
+[7.271221] (service_pkg) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/service_pkg/build\n'}
+[7.271336] (service_pkg) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/service_pkg/build/lib\n'}
+[7.271448] (service_pkg) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg\n'}
+[7.271563] (service_pkg) StdoutLine: {'line': b'copying service_pkg/__init__.py -> /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg\n'}
+[7.271678] (service_pkg) StdoutLine: {'line': b'copying service_pkg/server_demo.py -> /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg\n'}
+[7.271798] (ros_gz_sim) CommandEnded: {'returncode': 1}
+[7.276703] (structureURDF) CommandEnded: {'returncode': 0}
+[7.284064] (esp32_cam_stream) StdoutLine: {'line': b'Copying ../build/esp32_cam_stream/esp32_cam_stream.egg-info to /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/python3.10/site-packages/esp32_cam_stream-0.0.0-py3.10.egg-info\n'}
+[7.286399] (esp32_cam_stream) StdoutLine: {'line': b'running install_scripts\n'}
+[7.300930] (-) TimerEvent: {}
+[7.370802] (service_pkg) StdoutLine: {'line': b'copying service_pkg/client_demo.py -> /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg\n'}
+[7.373001] (service_pkg) StdoutLine: {'line': b'running install\n'}
+[7.386289] (service_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[7.401640] (-) TimerEvent: {}
+[7.408840] (structureURDF) JobEnded: {'identifier': 'structureURDF', 'rc': 0}
+[7.412446] (topic_pkg) JobStarted: {'identifier': 'topic_pkg'}
+[7.412623] (esp32_cam_stream) StdoutLine: {'line': b'Installing esp32_cam_node script to /home/dia/ros2_ws/src/install/esp32_cam_stream/lib/esp32_cam_stream\n'}
+[7.412890] (esp32_cam_stream) StdoutLine: {'line': b"writing list of installed files to '/home/dia/ros2_ws/src/build/esp32_cam_stream/install.log'\n"}
+[7.426803] (result_publisher) CommandEnded: {'returncode': 0}
+[7.442517] (result_publisher) JobEnded: {'identifier': 'result_publisher', 'rc': 0}
+[7.451759] (service_pkg) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg\n'}
+[7.452187] (service_pkg) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg/__init__.py -> /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg\n'}
+[7.452857] (service_pkg) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg/server_demo.py -> /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg\n'}
+[7.453060] (service_pkg) StdoutLine: {'line': b'copying /home/dia/ros2_ws/src/build/service_pkg/build/lib/service_pkg/client_demo.py -> /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg\n'}
+[7.453582] (ros_gz_sim) JobEnded: {'identifier': 'ros_gz_sim', 'rc': 1}
+[7.454403] (service_pkg) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg/__init__.py to __init__.cpython-310.pyc\n'}
+[7.454693] (service_pkg) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg/server_demo.py to server_demo.cpython-310.pyc\n'}
+[7.455515] (service_pkg) StdoutLine: {'line': b'byte-compiling /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg/client_demo.py to client_demo.cpython-310.pyc\n'}
+[7.456507] (topic_pkg) JobEnded: {'identifier': 'topic_pkg', 'rc': 'SIGINT'}
+[7.457227] (service_pkg) StdoutLine: {'line': b'running install_data\n'}
+[7.457522] (service_pkg) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/service_pkg/share/ament_index\n'}
+[7.457732] (service_pkg) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/service_pkg/share/ament_index/resource_index\n'}
+[7.457886] (service_pkg) StdoutLine: {'line': b'creating /home/dia/ros2_ws/src/install/service_pkg/share/ament_index/resource_index/packages\n'}
+[7.458076] (service_pkg) StdoutLine: {'line': b'copying resource/service_pkg -> /home/dia/ros2_ws/src/install/service_pkg/share/ament_index/resource_index/packages\n'}
+[7.458251] (service_pkg) StdoutLine: {'line': b'copying package.xml -> /home/dia/ros2_ws/src/install/service_pkg/share/service_pkg\n'}
+[7.458397] (service_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.501316] (esp32_cam_stream) JobEnded: {'identifier': 'esp32_cam_stream', 'rc': 'SIGINT'}
+[7.502234] (-) TimerEvent: {}
+[7.513096] (service_pkg) StdoutLine: {'line': b'Copying ../build/service_pkg/service_pkg.egg-info to /home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages/service_pkg-0.0.0-py3.10.egg-info\n'}
+[7.515173] (service_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[7.602388] (-) TimerEvent: {}
+[7.636028] (service_pkg) StdoutLine: {'line': b'Installing client_demo script to /home/dia/ros2_ws/src/install/service_pkg/lib/service_pkg\n'}
+[7.636557] (service_pkg) StdoutLine: {'line': b'Installing server_demo script to /home/dia/ros2_ws/src/install/service_pkg/lib/service_pkg\n'}
+[7.637252] (service_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/dia/ros2_ws/src/build/service_pkg/install.log'\n"}
+[7.702552] (-) TimerEvent: {}
+[7.711553] (service_pkg) JobEnded: {'identifier': 'service_pkg', 'rc': 'SIGINT'}
+[7.802649] (-) TimerEvent: {}
+[7.903167] (-) TimerEvent: {}
+[7.938920] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.14.4 (/opt/ros/iron/share/ament_cmake_cppcheck/cmake)\n'}
+[7.946261] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.14.4 (/opt/ros/iron/share/ament_cmake_cpplint/cmake)\n'}
+[7.956835] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.14.4 (/opt/ros/iron/share/ament_cmake_uncrustify/cmake)\n'}
+[7.970891] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.11.2 (/opt/ros/iron/share/ament_cmake_ros/cmake)\n'}
+[8.003253] (-) TimerEvent: {}
+[8.103659] (-) TimerEvent: {}
+[8.204130] (-) TimerEvent: {}
+[8.304636] (-) TimerEvent: {}
+[8.405091] (-) TimerEvent: {}
+[8.505532] (-) TimerEvent: {}
+[8.606023] (-) TimerEvent: {}
+[8.706485] (-) TimerEvent: {}
+[8.806882] (-) TimerEvent: {}
+[8.907248] (-) TimerEvent: {}
+[9.007664] (-) TimerEvent: {}
+[9.108170] (-) TimerEvent: {}
+[9.179513] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.208287] (-) TimerEvent: {}
+[9.309020] (-) TimerEvent: {}
+[9.409552] (-) TimerEvent: {}
+[9.510017] (-) TimerEvent: {}
+[9.610431] (-) TimerEvent: {}
+[9.653089] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.710549] (-) TimerEvent: {}
+[9.728422] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[9.736640] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.2 (/opt/ros/iron/share/python_cmake_module/cmake)\n'}
+[9.810650] (-) TimerEvent: {}
+[9.828622] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[9.829192] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[9.829474] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[9.829730] (ros_gz_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[9.894806] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[9.910774] (-) TimerEvent: {}
+[10.011383] (-) TimerEvent: {}
+[10.103852] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.14.4 (/opt/ros/iron/share/ament_cmake_flake8/cmake)\n'}
+[10.111487] (-) TimerEvent: {}
+[10.112409] (ros_gz_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.14.4 (/opt/ros/iron/share/ament_cmake_pep257/cmake)\n'}
+[10.153904] (ros_gz_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.211592] (-) TimerEvent: {}
+[10.312008] (-) TimerEvent: {}
+[10.324083] (ros_gz_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[10.329847] (ros_gz_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/dia/ros2_ws/src/build/ros_gz_interfaces\n'}
+[10.362877] (ros_gz_interfaces) JobEnded: {'identifier': 'ros_gz_interfaces', 'rc': 'SIGINT'}
+[10.375492] (urdf_tutorial_r2d2) JobSkipped: {'identifier': 'urdf_tutorial_r2d2'}
+[10.375783] (yolo_detection) JobSkipped: {'identifier': 'yolo_detection'}
+[10.375997] (ros_gz_bridge) JobSkipped: {'identifier': 'ros_gz_bridge'}
+[10.376181] (ros_gz_image) JobSkipped: {'identifier': 'ros_gz_image'}
+[10.376368] (test_ros_gz_bridge) JobSkipped: {'identifier': 'test_ros_gz_bridge'}
+[10.376451] (ros_gz_sim_demos) JobSkipped: {'identifier': 'ros_gz_sim_demos'}
+[10.376581] (ros_gz) JobSkipped: {'identifier': 'ros_gz'}
+[10.376730] (-) EventReactorShutdown: {}

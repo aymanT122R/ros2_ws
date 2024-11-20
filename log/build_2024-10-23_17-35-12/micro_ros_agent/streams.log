@@ -1,0 +1,73 @@
+[0.038s] Invoking command in '/home/dia/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dia/ros2_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/micro_ros_agent
+[0.580s] -- The C compiler identification is GNU 11.4.0
+[0.580s] -- Detecting C compiler ABI info
+[0.580s] -- Detecting C compiler ABI info - done
+[0.581s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.581s] -- Detecting C compile features
+[0.581s] -- Detecting C compile features - done
+[0.581s] -- The CXX compiler identification is GNU 11.4.0
+[0.581s] -- Detecting CXX compiler ABI info
+[0.692s] -- Detecting CXX compiler ABI info - done
+[0.715s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.715s] -- Detecting CXX compile features
+[0.717s] -- Detecting CXX compile features - done
+[0.783s] -- Configuring done
+[0.790s] -- Generating done
+[0.792s] -- Build files have been written to: /home/dia/ros2_ws/build/micro_ros_agent
+[0.803s] Invoked command in '/home/dia/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dia/ros2_ws/src/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/home/dia/ros2_ws/install/micro_ros_agent
+[0.809s] Invoking command in '/home/dia/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dia/ros2_ws/build/micro_ros_agent -- -j6 -l6
+[0.908s] [  6%] [34m[1mCreating directories for 'xrceagent'[0m
+[1.064s] [ 12%] [34m[1mPerforming download step (git clone) for 'xrceagent'[0m
+[1.124s] Cloning into 'xrceagent'...
+[7.312s] HEAD is now at 7362281 Release v2.4.3
+[7.444s] [ 18%] [34m[1mPerforming update step for 'xrceagent'[0m
+[7.504s] [ 25%] [34m[1mNo patch step for 'xrceagent'[0m
+[7.562s] [ 31%] [34m[1mPerforming configure step for 'xrceagent'[0m
+[7.582s] loading initial cache file /home/dia/ros2_ws/build/micro_ros_agent/agent/tmp/xrceagent-cache-.cmake
+[7.696s] -- The C compiler identification is GNU 11.4.0
+[7.715s] -- Detecting C compiler ABI info
+[7.886s] -- Detecting C compiler ABI info - done
+[7.912s] -- Check for working C compiler: /usr/bin/cc - skipped
+[7.913s] -- Detecting C compile features
+[7.914s] -- Detecting C compile features - done
+[8.046s] -- The CXX compiler identification is GNU 11.4.0
+[8.068s] -- Detecting CXX compiler ABI info
+[8.265s] -- Detecting CXX compiler ABI info - done
+[8.291s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.292s] -- Detecting CXX compile features
+[8.294s] -- Detecting CXX compile features - done
+[8.309s] -- Looking for pthread.h
+[8.501s] -- Looking for pthread.h - found
+[8.502s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.702s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.705s] -- Found Threads: TRUE  
+[8.742s] -- Configuring done
+[8.748s] -- Generating done
+[8.750s] -- Build files have been written to: /home/dia/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build
+[8.813s] [ 37%] [34m[1mPerforming build step for 'xrceagent'[0m
+[8.915s] [ 12%] [34m[1mCreating directories for 'uagent'[0m
+[9.104s] [ 25%] [34m[1mNo download step for 'uagent'[0m
+[9.167s] [ 37%] [34m[1mNo update step for 'uagent'[0m
+[9.235s] [ 50%] [34m[1mNo patch step for 'uagent'[0m
+[9.303s] [ 62%] [34m[1mPerforming configure step for 'uagent'[0m
+[9.419s] loading initial cache file /home/dia/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/uagent-prefix/tmp/uagent-cache-.cmake
+[9.432s] -- Setting build type to 'Release' as none was specified.
+[9.463s] [31mCMake Error at CMakeLists.txt:153 (find_package):
+[9.463s]   Could not find a configuration file for package "fastcdr" that is
+[9.463s]   compatible with requested version "2".
+[9.463s] 
+[9.463s]   The following configuration files were considered but not accepted:
+[9.464s] 
+[9.464s]     /opt/ros/humble/lib/cmake/fastcdr/fastcdr-config.cmake, version: 1.0.24
+[9.464s] 
+[9.464s] 
+[9.464s] [0m
+[9.464s] -- Configuring incomplete, errors occurred!
+[9.465s] See also "/home/dia/ros2_ws/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/CMakeOutput.log".
+[9.468s] gmake[5]: *** [CMakeFiles/uagent.dir/build.make:93: uagent-prefix/src/uagent-stamp/uagent-configure] Error 1
+[9.469s] gmake[4]: *** [CMakeFiles/Makefile2:83: CMakeFiles/uagent.dir/all] Error 2
+[9.469s] gmake[3]: *** [Makefile:91: all] Error 2
+[9.470s] gmake[2]: *** [CMakeFiles/xrceagent.dir/build.make:86: agent/src/xrceagent-stamp/xrceagent-build] Error 2
+[9.471s] gmake[1]: *** [CMakeFiles/Makefile2:85: CMakeFiles/xrceagent.dir/all] Error 2
+[9.471s] gmake: *** [Makefile:91: all] Error 2
+[9.479s] Invoked command in '/home/dia/ros2_ws/build/micro_ros_agent' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dia/ros2_ws/build/micro_ros_agent -- -j6 -l6

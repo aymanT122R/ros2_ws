@@ -1,0 +1,29 @@
+[2.884s] Invoking command in '/home/dia/ros2_ws/src/urdf_tutorial_r2d2': PYTHONPATH=/home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/urdf_tutorial_r2d2 build --build-base /home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/build install --record /home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/install.log --single-version-externally-managed install_data
+[3.452s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[3.452s]   warnings.warn(msg)
+[3.763s] running egg_info
+[3.812s] writing ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/PKG-INFO
+[3.813s] writing dependency_links to ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/dependency_links.txt
+[3.813s] writing entry points to ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/entry_points.txt
+[3.814s] writing requirements to ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/requires.txt
+[3.814s] writing top-level names to ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/top_level.txt
+[4.206s] reading manifest file '../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[4.207s] adding license file 'LICENSE'
+[4.209s] writing manifest file '../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info/SOURCES.txt'
+[4.210s] running build
+[4.210s] running build_py
+[4.210s] copying urdf_tutorial_r2d2/state_publisher.py -> /home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2
+[4.210s] copying urdf_tutorial_r2d2/__init__.py -> /home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/build/lib/urdf_tutorial_r2d2
+[4.211s] running install
+[4.221s] running install_lib
+[4.273s] running install_data
+[4.273s] copying resource/urdf_tutorial_r2d2 -> /home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/ament_index/resource_index/packages
+[4.274s] copying package.xml -> /home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2
+[4.274s] copying launch/launch_urdf_into_gazebo.launch.py -> /home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/launch
+[4.274s] running install_egg_info
+[4.327s] removing '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2-0.0.0-py3.10.egg-info' (and everything under it)
+[4.327s] Copying ../build/urdf_tutorial_r2d2/urdf_tutorial_r2d2.egg-info to /home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/lib/python3.10/site-packages/urdf_tutorial_r2d2-0.0.0-py3.10.egg-info
+[4.329s] running install_scripts
+[4.449s] Installing state_publisher script to /home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/lib/urdf_tutorial_r2d2
+[4.449s] writing list of installed files to '/home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/install.log'
+[4.528s] Invoked command in '/home/dia/ros2_ws/src/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/urdf_tutorial_r2d2 build --build-base /home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/build install --record /home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/install.log --single-version-externally-managed install_data

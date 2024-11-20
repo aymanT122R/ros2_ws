@@ -1,0 +1,40 @@
+[2.229s] Invoking command in '/home/dia/ros2_ws/src/servo_control_node': PYTHONPATH=/home/dia/ros2_ws/build/servo_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/servo_control_node build --build-base /home/dia/ros2_ws/build/servo_control_node/build install --record /home/dia/ros2_ws/build/servo_control_node/install.log --single-version-externally-managed install_data
+[2.604s] /home/dia/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:261: UserWarning: Unknown distribution option: 'tests_require'
+[2.604s]   warnings.warn(msg)
+[2.904s] running egg_info
+[2.905s] creating ../../build/servo_control_node/servo_control_node.egg-info
+[2.954s] writing ../../build/servo_control_node/servo_control_node.egg-info/PKG-INFO
+[2.955s] writing dependency_links to ../../build/servo_control_node/servo_control_node.egg-info/dependency_links.txt
+[2.955s] writing entry points to ../../build/servo_control_node/servo_control_node.egg-info/entry_points.txt
+[2.955s] writing requirements to ../../build/servo_control_node/servo_control_node.egg-info/requires.txt
+[2.955s] writing top-level names to ../../build/servo_control_node/servo_control_node.egg-info/top_level.txt
+[3.245s] writing manifest file '../../build/servo_control_node/servo_control_node.egg-info/SOURCES.txt'
+[3.348s] reading manifest file '../../build/servo_control_node/servo_control_node.egg-info/SOURCES.txt'
+[3.348s] adding license file 'LICENSE'
+[3.350s] writing manifest file '../../build/servo_control_node/servo_control_node.egg-info/SOURCES.txt'
+[3.350s] running build
+[3.351s] running build_py
+[3.351s] creating /home/dia/ros2_ws/build/servo_control_node/build
+[3.351s] creating /home/dia/ros2_ws/build/servo_control_node/build/lib
+[3.351s] creating /home/dia/ros2_ws/build/servo_control_node/build/lib/servo_control_node
+[3.351s] copying servo_control_node/__init__.py -> /home/dia/ros2_ws/build/servo_control_node/build/lib/servo_control_node
+[3.352s] copying servo_control_node/servo_control.py -> /home/dia/ros2_ws/build/servo_control_node/build/lib/servo_control_node
+[3.353s] running install
+[3.362s] running install_lib
+[3.412s] creating /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node
+[3.413s] copying /home/dia/ros2_ws/build/servo_control_node/build/lib/servo_control_node/__init__.py -> /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node
+[3.413s] copying /home/dia/ros2_ws/build/servo_control_node/build/lib/servo_control_node/servo_control.py -> /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node
+[3.414s] byte-compiling /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node/__init__.py to __init__.cpython-310.pyc
+[3.414s] byte-compiling /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node/servo_control.py to servo_control.cpython-310.pyc
+[3.415s] running install_data
+[3.415s] creating /home/dia/ros2_ws/install/servo_control_node/share/ament_index
+[3.416s] creating /home/dia/ros2_ws/install/servo_control_node/share/ament_index/resource_index
+[3.416s] creating /home/dia/ros2_ws/install/servo_control_node/share/ament_index/resource_index/packages
+[3.416s] copying resource/servo_control_node -> /home/dia/ros2_ws/install/servo_control_node/share/ament_index/resource_index/packages
+[3.416s] copying package.xml -> /home/dia/ros2_ws/install/servo_control_node/share/servo_control_node
+[3.417s] running install_egg_info
+[3.470s] Copying ../../build/servo_control_node/servo_control_node.egg-info to /home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages/servo_control_node-0.0.0-py3.10.egg-info
+[3.671s] running install_scripts
+[3.790s] Installing servo_control script to /home/dia/ros2_ws/install/servo_control_node/lib/servo_control_node
+[3.791s] writing list of installed files to '/home/dia/ros2_ws/build/servo_control_node/install.log'
+[3.872s] Invoked command in '/home/dia/ros2_ws/src/servo_control_node' returned '0': PYTHONPATH=/home/dia/ros2_ws/build/servo_control_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/install/servo_control_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/servo_control_node build --build-base /home/dia/ros2_ws/build/servo_control_node/build install --record /home/dia/ros2_ws/build/servo_control_node/install.log --single-version-externally-managed install_data

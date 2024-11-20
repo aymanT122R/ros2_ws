@@ -1,0 +1,378 @@
+[0.270s] [34mcolcon[0m [1;30mDEBUG[0m [32mCommand line arguments: ['/usr/bin/colcon', 'build'][0m
+[0.270s] [34mcolcon[0m [1;30mDEBUG[0m [32mParsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff8e714460>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8e8552d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8e8552d0>>, mixin_verb=('build',))[0m
+[0.350s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) check parameters
+[0.351s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) check parameters
+[0.351s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) check parameters
+[0.351s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) check parameters
+[0.351s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(colcon_meta) discover
+[0.351s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) discover
+[0.351s] [34mcolcon.colcon_core.package_discovery[0m [1;30mINFO[0m Crawling recursively for packages in '/home/dia/ros2_ws/src'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ignore_ament_install'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_pkg']
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_pkg'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['colcon_meta']
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'colcon_meta'
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['ros']
+[0.352s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'ros'
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['cmake', 'python']
+[0.382s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'cmake'
+[0.383s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python'
+[0.383s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extensions ['python_setup_py']
+[0.383s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(.) by extension 'python_setup_py'
+[0.383s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.383s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) by extension 'ignore'
+[0.383s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(build) ignored
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cam_yolo) by extensions ['ignore', 'ignore_ament_install']
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cam_yolo) by extension 'ignore'
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cam_yolo) by extension 'ignore_ament_install'
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cam_yolo) by extensions ['colcon_pkg']
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cam_yolo) by extension 'colcon_pkg'
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cam_yolo) by extensions ['colcon_meta']
+[0.384s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cam_yolo) by extension 'colcon_meta'
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cam_yolo) by extensions ['ros']
+[0.385s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(cam_yolo) by extension 'ros'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'cam_yolo' with type 'ros.ament_python' and name 'cam_yolo'[0m
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) by extension 'ignore'
+[0.390s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(install) ignored
+[0.391s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) by extension 'ignore'
+[0.391s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(log) ignored
+[0.391s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_box_bot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_box_bot_gazebo) by extension 'ignore'
+[0.391s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_box_bot_gazebo) by extension 'ignore_ament_install'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_box_bot_gazebo) by extensions ['colcon_pkg']
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_box_bot_gazebo) by extension 'colcon_pkg'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_box_bot_gazebo) by extensions ['colcon_meta']
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_box_bot_gazebo) by extension 'colcon_meta'
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_box_bot_gazebo) by extensions ['ros']
+[0.392s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(my_box_bot_gazebo) by extension 'ros'
+[0.393s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'my_box_bot_gazebo' with type 'ros.ament_cmake' and name 'my_box_bot_gazebo'[0m
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(result_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(result_publisher) by extension 'ignore'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(result_publisher) by extension 'ignore_ament_install'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(result_publisher) by extensions ['colcon_pkg']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(result_publisher) by extension 'colcon_pkg'
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(result_publisher) by extensions ['colcon_meta']
+[0.394s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(result_publisher) by extension 'colcon_meta'
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(result_publisher) by extensions ['ros']
+[0.395s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(result_publisher) by extension 'ros'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'result_publisher' with type 'ros.ament_python' and name 'result_publisher'[0m
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(service_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(service_pkg) by extension 'ignore'
+[0.396s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(service_pkg) by extension 'ignore_ament_install'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(service_pkg) by extensions ['colcon_pkg']
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(service_pkg) by extension 'colcon_pkg'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(service_pkg) by extensions ['colcon_meta']
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(service_pkg) by extension 'colcon_meta'
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(service_pkg) by extensions ['ros']
+[0.397s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(service_pkg) by extension 'ros'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'service_pkg' with type 'ros.ament_python' and name 'service_pkg'[0m
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(topic_pkg) by extension 'ignore'
+[0.398s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(topic_pkg) by extension 'ignore_ament_install'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(topic_pkg) by extensions ['colcon_pkg']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(topic_pkg) by extension 'colcon_pkg'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(topic_pkg) by extensions ['colcon_meta']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(topic_pkg) by extension 'colcon_meta'
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(topic_pkg) by extensions ['ros']
+[0.399s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(topic_pkg) by extension 'ros'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'topic_pkg' with type 'ros.ament_python' and name 'topic_pkg'[0m
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(urdf_tutorial_r2d2) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(urdf_tutorial_r2d2) by extension 'ignore'
+[0.400s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(urdf_tutorial_r2d2) by extension 'ignore_ament_install'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(urdf_tutorial_r2d2) by extensions ['colcon_pkg']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(urdf_tutorial_r2d2) by extension 'colcon_pkg'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(urdf_tutorial_r2d2) by extensions ['colcon_meta']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(urdf_tutorial_r2d2) by extension 'colcon_meta'
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(urdf_tutorial_r2d2) by extensions ['ros']
+[0.401s] [34mcolcon.colcon_core.package_identification[0m [1;30mLevel 1[0m _identify(urdf_tutorial_r2d2) by extension 'ros'
+[0.402s] [34mcolcon.colcon_core.package_identification[0m [1;30mDEBUG[0m [32mPackage 'urdf_tutorial_r2d2' with type 'ros.ament_python' and name 'urdf_tutorial_r2d2'[0m
+[0.402s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(recursive) using defaults
+[0.402s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) discover
+[0.402s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(ignore) using defaults
+[0.403s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) discover
+[0.403s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(path) using defaults
+[0.447s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) check parameters
+[0.448s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) discover
+[0.451s] [34mcolcon.colcon_core.prefix_path.colcon[0m [1;30mWARNING[0m [33mThe path '/home/dia/arm_robot/install' in the environment variable COLCON_PREFIX_PATH doesn't exist[0m
+[0.451s] [34mcolcon.colcon_ros.prefix_path.ament[0m [1;30mWARNING[0m [33mThe path '/home/dia/arm_robot/install/cam_yolo' in the environment variable AMENT_PREFIX_PATH doesn't exist[0m
+[0.453s] [34mcolcon.colcon_ros.prefix_path.catkin[0m [1;30mWARNING[0m [33mThe path '/home/dia/arm_robot/install/cam_yolo' in the environment variable CMAKE_PREFIX_PATH doesn't exist[0m
+[0.455s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 11 installed packages in /home/dia/ros2_ws/install[0m
+[0.458s] [34mcolcon.colcon_installed_package_information.package_discovery[0m [1;30mDEBUG[0m [32mFound 316 installed packages in /opt/ros/iron[0m
+[0.461s] [34mcolcon.colcon_core.package_discovery[0m [1;30mLevel 1[0m discover_packages(prefix_path) using defaults
+[0.564s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cam_yolo' build argument 'cmake_args' from command line to 'None'
+[0.564s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cam_yolo' build argument 'cmake_target' from command line to 'None'
+[0.564s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cam_yolo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.564s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cam_yolo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.564s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cam_yolo' build argument 'cmake_clean_first' from command line to 'False'
+[0.564s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cam_yolo' build argument 'cmake_force_configure' from command line to 'False'
+[0.565s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cam_yolo' build argument 'ament_cmake_args' from command line to 'None'
+[0.565s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cam_yolo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.565s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'cam_yolo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.565s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'cam_yolo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dia/ros2_ws/src/build/cam_yolo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dia/ros2_ws/src/install/cam_yolo', 'merge_install': False, 'path': '/home/dia/ros2_ws/src/cam_yolo', 'symlink_install': False, 'test_result_base': None}[0m
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_box_bot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_box_bot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_box_bot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_box_bot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_box_bot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_box_bot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_box_bot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_box_bot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'my_box_bot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'my_box_bot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dia/ros2_ws/src/build/my_box_bot_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dia/ros2_ws/src/install/my_box_bot_gazebo', 'merge_install': False, 'path': '/home/dia/ros2_ws/src/my_box_bot_gazebo', 'symlink_install': False, 'test_result_base': None}[0m
+[0.567s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'result_publisher' build argument 'cmake_args' from command line to 'None'
+[0.567s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'result_publisher' build argument 'cmake_target' from command line to 'None'
+[0.567s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'result_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.567s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'result_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.567s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'result_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.567s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'result_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.567s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'result_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.567s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'result_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.567s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'result_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.567s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'result_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dia/ros2_ws/src/build/result_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dia/ros2_ws/src/install/result_publisher', 'merge_install': False, 'path': '/home/dia/ros2_ws/src/result_publisher', 'symlink_install': False, 'test_result_base': None}[0m
+[0.568s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'service_pkg' build argument 'cmake_args' from command line to 'None'
+[0.568s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'service_pkg' build argument 'cmake_target' from command line to 'None'
+[0.568s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'service_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.568s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'service_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.568s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'service_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.568s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'service_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.568s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'service_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.568s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'service_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.568s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'service_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.568s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'service_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dia/ros2_ws/src/build/service_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dia/ros2_ws/src/install/service_pkg', 'merge_install': False, 'path': '/home/dia/ros2_ws/src/service_pkg', 'symlink_install': False, 'test_result_base': None}[0m
+[0.569s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'topic_pkg' build argument 'cmake_args' from command line to 'None'
+[0.569s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'topic_pkg' build argument 'cmake_target' from command line to 'None'
+[0.569s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'topic_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.569s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'topic_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.569s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'topic_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.569s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'topic_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.569s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'topic_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.569s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'topic_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.570s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'topic_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.570s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'topic_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dia/ros2_ws/src/build/topic_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dia/ros2_ws/src/install/topic_pkg', 'merge_install': False, 'path': '/home/dia/ros2_ws/src/topic_pkg', 'symlink_install': False, 'test_result_base': None}[0m
+[0.570s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urdf_tutorial_r2d2' build argument 'cmake_args' from command line to 'None'
+[0.570s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urdf_tutorial_r2d2' build argument 'cmake_target' from command line to 'None'
+[0.570s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urdf_tutorial_r2d2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.570s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urdf_tutorial_r2d2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.570s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urdf_tutorial_r2d2' build argument 'cmake_clean_first' from command line to 'False'
+[0.571s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urdf_tutorial_r2d2' build argument 'cmake_force_configure' from command line to 'False'
+[0.571s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urdf_tutorial_r2d2' build argument 'ament_cmake_args' from command line to 'None'
+[0.571s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urdf_tutorial_r2d2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.571s] [34mcolcon.colcon_core.verb[0m [1;30mLevel 5[0m set package 'urdf_tutorial_r2d2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.571s] [34mcolcon.colcon_core.verb[0m [1;30mDEBUG[0m [32mBuilding package 'urdf_tutorial_r2d2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dia/ros2_ws/src/build/urdf_tutorial_r2d2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2', 'merge_install': False, 'path': '/home/dia/ros2_ws/src/urdf_tutorial_r2d2', 'symlink_install': False, 'test_result_base': None}[0m
+[0.571s] [34mcolcon.colcon_core.executor[0m [1;30mINFO[0m Executing jobs using 'parallel' executor
+[0.573s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete[0m
+[0.574s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/dia/ros2_ws/src/cam_yolo' with build type 'ament_python'
+[0.574s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cam_yolo', 'ament_prefix_path')
+[0.579s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.579s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/hook/ament_prefix_path.ps1'
+[0.581s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/hook/ament_prefix_path.dsv'
+[0.581s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/hook/ament_prefix_path.sh'
+[0.583s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.583s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.593s] [34mcolcon.colcon_ros.task.ament_cmake.build[0m [1;30mINFO[0m Building ROS package in '/home/dia/ros2_ws/src/my_box_bot_gazebo' with build type 'ament_cmake'
+[0.593s] [34mcolcon.colcon_cmake.task.cmake.build[0m [1;30mINFO[0m Building CMake package in '/home/dia/ros2_ws/src/my_box_bot_gazebo'
+[0.594s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.594s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.602s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/dia/ros2_ws/src/result_publisher' with build type 'ament_python'
+[0.602s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('result_publisher', 'ament_prefix_path')
+[0.603s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/hook/ament_prefix_path.ps1'
+[0.604s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/hook/ament_prefix_path.dsv'
+[0.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/hook/ament_prefix_path.sh'
+[0.606s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.607s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.617s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/dia/ros2_ws/src/service_pkg' with build type 'ament_python'
+[0.617s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('service_pkg', 'ament_prefix_path')
+[0.618s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/hook/ament_prefix_path.ps1'
+[0.619s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/hook/ament_prefix_path.dsv'
+[0.620s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/hook/ament_prefix_path.sh'
+[0.621s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.621s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.628s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/dia/ros2_ws/src/topic_pkg' with build type 'ament_python'
+[0.628s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('topic_pkg', 'ament_prefix_path')
+[0.629s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/hook/ament_prefix_path.ps1'
+[0.630s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/hook/ament_prefix_path.dsv'
+[0.631s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/hook/ament_prefix_path.sh'
+[0.632s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.632s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[0.641s] [34mcolcon.colcon_ros.task.ament_python.build[0m [1;30mINFO[0m Building ROS package in '/home/dia/ros2_ws/src/urdf_tutorial_r2d2' with build type 'ament_python'
+[0.642s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urdf_tutorial_r2d2', 'ament_prefix_path')
+[0.643s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.ps1'
+[0.645s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.dsv'
+[0.646s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/ament_prefix_path.sh'
+[0.647s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.647s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.176s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/dia/ros2_ws/src/cam_yolo'
+[1.177s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.178s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[1.200s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dia/ros2_ws/src/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/structureURDF:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron /usr/bin/cmake --build /home/dia/ros2_ws/src/build/my_box_bot_gazebo -- -j6 -l6[0m
+[1.728s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/dia/ros2_ws/src/result_publisher'
+[1.729s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.729s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.258s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/dia/ros2_ws/src/service_pkg'
+[2.259s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.260s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[2.801s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/dia/ros2_ws/src/topic_pkg'
+[2.802s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.802s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.345s] [34mcolcon.colcon_core.task.python.build[0m [1;30mINFO[0m Building Python package in '/home/dia/ros2_ws/src/urdf_tutorial_r2d2'
+[3.346s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.346s] [34mcolcon.colcon_core.shell[0m [1;30mDEBUG[0m [32mSkip shell extension 'dsv' for command environment[0m
+[3.369s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dia/ros2_ws/src/build/my_box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/structureURDF:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron /usr/bin/cmake --build /home/dia/ros2_ws/src/build/my_box_bot_gazebo -- -j6 -l6[0m
+[3.483s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dia/ros2_ws/src/build/my_box_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/structureURDF:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron /usr/bin/cmake --install /home/dia/ros2_ws/src/build/my_box_bot_gazebo[0m
+[3.509s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_box_bot_gazebo)
+[3.510s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dia/ros2_ws/src/build/my_box_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dia/ros2_ws/install/yolo_detection:/home/dia/ros2_ws/install/urdf_tutorial_r2d2:/home/dia/ros2_ws/install/topic_pkg:/home/dia/ros2_ws/install/structureURDF:/home/dia/ros2_ws/install/service_pkg:/home/dia/ros2_ws/install/result_publisher:/home/dia/ros2_ws/install/esp32_cam_stream:/opt/ros/iron /usr/bin/cmake --install /home/dia/ros2_ws/src/build/my_box_bot_gazebo[0m
+[3.515s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo' for CMake module files
+[3.516s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo' for CMake config files
+[3.521s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_box_bot_gazebo', 'cmake_prefix_path')
+[3.522s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.ps1'
+[3.525s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.dsv'
+[3.527s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.sh'
+[3.530s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/bin'
+[3.531s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/lib/pkgconfig/my_box_bot_gazebo.pc'
+[3.531s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/lib/python3.10/site-packages'
+[3.532s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/bin'
+[3.532s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.ps1'
+[3.534s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv'
+[3.536s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.sh'
+[3.538s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.bash'
+[3.539s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.zsh'
+[3.541s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/colcon-core/packages/my_box_bot_gazebo)
+[3.597s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(my_box_bot_gazebo)
+[3.598s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo' for CMake module files
+[3.599s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo' for CMake config files
+[3.599s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('my_box_bot_gazebo', 'cmake_prefix_path')
+[3.600s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.ps1'
+[3.601s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.dsv'
+[3.602s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/hook/cmake_prefix_path.sh'
+[3.603s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/bin'
+[3.603s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/lib/pkgconfig/my_box_bot_gazebo.pc'
+[3.604s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/lib/python3.10/site-packages'
+[3.604s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/bin'
+[3.605s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.ps1'
+[3.606s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.dsv'
+[3.607s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.sh'
+[3.608s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.bash'
+[3.609s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/my_box_bot_gazebo/package.zsh'
+[3.610s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dia/ros2_ws/src/install/my_box_bot_gazebo/share/colcon-core/packages/my_box_bot_gazebo)
+[5.109s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dia/ros2_ws/src/result_publisher': PYTHONPATH=/home/dia/ros2_ws/src/build/result_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/result_publisher build --build-base /home/dia/ros2_ws/src/build/result_publisher/build install --record /home/dia/ros2_ws/src/build/result_publisher/install.log --single-version-externally-managed install_data[0m
+[5.140s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dia/ros2_ws/src/topic_pkg': PYTHONPATH=/home/dia/ros2_ws/src/build/topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/topic_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/topic_pkg build --build-base /home/dia/ros2_ws/src/build/topic_pkg/build install --record /home/dia/ros2_ws/src/build/topic_pkg/install.log --single-version-externally-managed install_data[0m
+[5.147s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dia/ros2_ws/src/service_pkg': PYTHONPATH=/home/dia/ros2_ws/src/build/service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/service_pkg build --build-base /home/dia/ros2_ws/src/build/service_pkg/build install --record /home/dia/ros2_ws/src/build/service_pkg/install.log --single-version-externally-managed install_data[0m
+[5.186s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dia/ros2_ws/src/urdf_tutorial_r2d2': PYTHONPATH=/home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/urdf_tutorial_r2d2 build --build-base /home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/build install --record /home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/install.log --single-version-externally-managed install_data[0m
+[5.270s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoking command in '/home/dia/ros2_ws/src/cam_yolo': PYTHONPATH=/home/dia/ros2_ws/src/build/cam_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cam_yolo build --build-base /home/dia/ros2_ws/src/build/cam_yolo/build install --record /home/dia/ros2_ws/src/build/cam_yolo/install.log --single-version-externally-managed install_data[0m
+[6.664s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/result_publisher' for CMake module files
+[6.666s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/result_publisher' for CMake config files
+[6.668s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/result_publisher/lib'
+[6.668s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/result_publisher/bin'
+[6.669s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/result_publisher/lib/pkgconfig/result_publisher.pc'
+[6.669s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages'
+[6.669s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('result_publisher', 'pythonpath')
+[6.670s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/hook/pythonpath.ps1'
+[6.672s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/hook/pythonpath.dsv'
+[6.673s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/hook/pythonpath.sh'
+[6.674s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/result_publisher/bin'
+[6.674s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(result_publisher)
+[6.675s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/package.ps1'
+[6.677s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dia/ros2_ws/src/result_publisher' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/result_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/result_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/result_publisher build --build-base /home/dia/ros2_ws/src/build/result_publisher/build install --record /home/dia/ros2_ws/src/build/result_publisher/install.log --single-version-externally-managed install_data[0m
+[6.679s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/package.dsv'
+[6.681s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/package.sh'
+[6.682s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/package.bash'
+[6.683s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/result_publisher/share/result_publisher/package.zsh'
+[6.684s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dia/ros2_ws/src/install/result_publisher/share/colcon-core/packages/result_publisher)
+[6.686s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/topic_pkg' for CMake module files
+[6.688s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dia/ros2_ws/src/topic_pkg' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/topic_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/topic_pkg build --build-base /home/dia/ros2_ws/src/build/topic_pkg/build install --record /home/dia/ros2_ws/src/build/topic_pkg/install.log --single-version-externally-managed install_data[0m
+[6.689s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/topic_pkg' for CMake config files
+[6.690s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/topic_pkg/lib'
+[6.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/topic_pkg/bin'
+[6.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/topic_pkg/lib/pkgconfig/topic_pkg.pc'
+[6.691s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/topic_pkg/lib/python3.10/site-packages'
+[6.691s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('topic_pkg', 'pythonpath')
+[6.692s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/hook/pythonpath.ps1'
+[6.693s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/hook/pythonpath.dsv'
+[6.694s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/hook/pythonpath.sh'
+[6.696s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/topic_pkg/bin'
+[6.696s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(topic_pkg)
+[6.697s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/package.ps1'
+[6.698s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/package.dsv'
+[6.700s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/package.sh'
+[6.701s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/package.bash'
+[6.702s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/topic_pkg/share/topic_pkg/package.zsh'
+[6.703s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dia/ros2_ws/src/install/topic_pkg/share/colcon-core/packages/topic_pkg)
+[6.738s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2' for CMake module files
+[6.740s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dia/ros2_ws/src/urdf_tutorial_r2d2' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/urdf_tutorial_r2d2 build --build-base /home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/build install --record /home/dia/ros2_ws/src/build/urdf_tutorial_r2d2/install.log --single-version-externally-managed install_data[0m
+[6.741s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2' for CMake config files
+[6.743s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/lib'
+[6.743s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/bin'
+[6.744s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/lib/pkgconfig/urdf_tutorial_r2d2.pc'
+[6.744s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/lib/python3.10/site-packages'
+[6.745s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('urdf_tutorial_r2d2', 'pythonpath')
+[6.746s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.ps1'
+[6.747s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.dsv'
+[6.749s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/hook/pythonpath.sh'
+[6.751s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/bin'
+[6.751s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(urdf_tutorial_r2d2)
+[6.752s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.ps1'
+[6.754s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.dsv'
+[6.756s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.sh'
+[6.757s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.bash'
+[6.758s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/urdf_tutorial_r2d2/package.zsh'
+[6.760s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dia/ros2_ws/src/install/urdf_tutorial_r2d2/share/colcon-core/packages/urdf_tutorial_r2d2)
+[6.765s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/cam_yolo' for CMake module files
+[6.767s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dia/ros2_ws/src/cam_yolo' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/cam_yolo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/cam_yolo build --build-base /home/dia/ros2_ws/src/build/cam_yolo/build install --record /home/dia/ros2_ws/src/build/cam_yolo/install.log --single-version-externally-managed install_data[0m
+[6.768s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/cam_yolo' for CMake config files
+[6.770s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/cam_yolo/lib'
+[6.771s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/cam_yolo/bin'
+[6.771s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/cam_yolo/lib/pkgconfig/cam_yolo.pc'
+[6.772s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/cam_yolo/lib/python3.10/site-packages'
+[6.772s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('cam_yolo', 'pythonpath')
+[6.773s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/hook/pythonpath.ps1'
+[6.775s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/hook/pythonpath.dsv'
+[6.776s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/hook/pythonpath.sh'
+[6.778s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/cam_yolo/bin'
+[6.778s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(cam_yolo)
+[6.779s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/package.ps1'
+[6.780s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/package.dsv'
+[6.781s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/package.sh'
+[6.782s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/package.bash'
+[6.783s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/cam_yolo/share/cam_yolo/package.zsh'
+[6.784s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dia/ros2_ws/src/install/cam_yolo/share/colcon-core/packages/cam_yolo)
+[6.785s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/service_pkg' for CMake module files
+[6.789s] [34mcolcon.colcon_core.event_handler.log_command[0m [1;30mDEBUG[0m [32mInvoked command in '/home/dia/ros2_ws/src/service_pkg' returned '0': PYTHONPATH=/home/dia/ros2_ws/src/build/service_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/service_pkg build --build-base /home/dia/ros2_ws/src/build/service_pkg/build install --record /home/dia/ros2_ws/src/build/service_pkg/install.log --single-version-externally-managed install_data[0m
+[6.789s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/service_pkg' for CMake config files
+[6.791s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/service_pkg/lib'
+[6.792s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/service_pkg/bin'
+[6.792s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/service_pkg/lib/pkgconfig/service_pkg.pc'
+[6.794s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/service_pkg/lib/python3.10/site-packages'
+[6.794s] [34mcolcon.colcon_core.shell[0m [1;30mLevel 1[0m create_environment_hook('service_pkg', 'pythonpath')
+[6.795s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/hook/pythonpath.ps1'
+[6.796s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment descriptor '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/hook/pythonpath.dsv'
+[6.798s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating environment hook '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/hook/pythonpath.sh'
+[6.800s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m checking '/home/dia/ros2_ws/src/install/service_pkg/bin'
+[6.800s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_environment_scripts_only(service_pkg)
+[6.802s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/package.ps1'
+[6.803s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package descriptor '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/package.dsv'
+[6.804s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/package.sh'
+[6.805s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/package.bash'
+[6.806s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating package script '/home/dia/ros2_ws/src/install/service_pkg/share/service_pkg/package.zsh'
+[6.806s] [34mcolcon.colcon_core.environment[0m [1;30mLevel 1[0m create_file_with_runtime_dependencies(/home/dia/ros2_ws/src/install/service_pkg/share/colcon-core/packages/service_pkg)
+[6.807s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mclosing loop[0m
+[6.808s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mloop closed[0m
+[6.808s] [34mcolcon.colcon_parallel_executor.executor.parallel[0m [1;30mDEBUG[0m [32mrun_until_complete finished with '0'[0m
+[6.808s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoining thread[0m
+[6.828s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.828s] [34mcolcon.colcon_core.plugin_system[0m [1;30mINFO[0m Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.829s] [34mcolcon.colcon_notification.desktop_notification[0m [1;30mINFO[0m Sending desktop notification using 'notify2'
+[6.877s] [34mcolcon.colcon_core.event_reactor[0m [1;30mDEBUG[0m [32mjoined thread[0m
+[6.879s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dia/ros2_ws/src/install/local_setup.ps1'
+[6.883s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/dia/ros2_ws/src/install/_local_setup_util_ps1.py'
+[6.887s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dia/ros2_ws/src/install/setup.ps1'
+[6.891s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dia/ros2_ws/src/install/local_setup.sh'
+[6.892s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix util module '/home/dia/ros2_ws/src/install/_local_setup_util_sh.py'
+[6.893s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dia/ros2_ws/src/install/setup.sh'
+[6.897s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dia/ros2_ws/src/install/local_setup.bash'
+[6.899s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dia/ros2_ws/src/install/setup.bash'
+[6.903s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix script '/home/dia/ros2_ws/src/install/local_setup.zsh'
+[6.904s] [34mcolcon.colcon_core.shell[0m [1;30mINFO[0m Creating prefix chain script '/home/dia/ros2_ws/src/install/setup.zsh'
